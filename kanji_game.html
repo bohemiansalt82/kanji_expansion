@@ -413,9 +413,6 @@ function renderKanji() {
 
 function renderMetaHtml() {
   const k = state.current;
-  if (state.phase !== 'graded') {
-    return `<span class="km-hidden">— 채점 후 정보가 표시됩니다 —</span>`;
-  }
   const huneum = state.huneum[k.ch] || '';
   return `
     <span class="km-reading">${k.reading || '—'}</span>
@@ -444,8 +441,7 @@ function renderOptions() {
   let html = '<div class="options" id="options">';
   state.options.forEach((elem, idx) => {
     const cls = classifyOption(idx);
-    const lockedExtra = (state.phase === 'select' && state.selected.size >= state.maxSelect && !state.selected.has(idx))
-      ? 'full-locked' : '';
+    const lockedExtra = '';
     const emoji = EMOJI[elem];
     const inner = emoji
       ? `<img class="opt-img" src="${emojiImgUrl(emoji)}"
@@ -476,15 +472,11 @@ function renderOptions() {
 }
 
 function renderStats() {
-  const pickInfo = (state.phase === 'select')
-    ? `<span class="stat-pick">선택 ${state.selected.size} / ${state.maxSelect}</span>`
-    : '';
   return `
     <div class="stats">
       <span class="stat-correct">정답 ${state.correct}</span>
       <span class="stat-missed">누락 ${state.missed}</span>
       <span class="stat-wrong">오답 ${state.wrong}</span>
-      ${pickInfo}
       <span class="stat-progress">${state.idx + 1} / ${state.pool.length} · ${state.level}</span>
     </div>
   `;
@@ -522,15 +514,12 @@ function onOptionClick(e) {
   if (!btn) return;
   const idx = parseInt(btn.dataset.idx);
 
+  // Toggle freely, no max limit. Extra picks just count as wrong on 확인.
   if (state.selected.has(idx)) {
-    // Toggle off
     state.selected.delete(idx);
   } else {
-    // Toggle on, if under limit
-    if (state.selected.size >= state.maxSelect) return;
     state.selected.add(idx);
   }
-  // Re-render options + stats (no kanji change yet)
   rerenderPartial();
 }
 
