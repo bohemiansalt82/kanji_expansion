@@ -5,52 +5,59 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>한자 확장술 — Kanji Expansion Workbooks</title>
 <style>
-  @font-face {
-    font-family: 'Noto Sans Mono CJK JP';
-    src: url('https://cdn.jsdelivr.net/gh/notofonts/noto-cjk@main/Sans/Mono/NotoSansMonoCJKjp-Regular.otf') format('opentype');
-    font-weight: 400; font-display: swap;
-  }
+  @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&display=swap');
+  :root {
+    --tds-blue: #3182F6;
+    --tds-blue-pressed: #1B64DA;
+    --tds-blue-bg: #E8F3FF;
+    --tds-bg: #F9FAFB;
+    --tds-surface: #FFFFFF;
+    --tds-strong: #191F28;
+    --tds-medium: #4E5968;
+    --tds-weak: #8B95A1;
+    --tds-divider: #E5E8EB;
+    --tds-divider-soft: #F2F4F6;
+  }
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; }
   body {
-    font-family: 'Noto Sans Mono CJK JP', 'Noto Sans JP', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
-    color: #1a1a1a;
-    background: #f4f4f6;
+    font-family: 'Pretendard', 'Noto Sans JP', -apple-system, BlinkMacSystemFont,
+                 'Apple SD Gothic Neo', sans-serif;
+    color: var(--tds-strong);
+    background: var(--tds-bg);
     line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
   }
-  .wrap { max-width: 880px; margin: 0 auto; padding: 48px 24px 80px; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 56px 24px 80px; }
   header {
     text-align: center;
-    padding: 32px 0 40px;
-    border-bottom: 1px solid #d8d8dc;
-    margin-bottom: 40px;
+    padding: 24px 0 40px;
+    margin-bottom: 32px;
   }
   .root-char {
     font-size: 96pt;
     font-weight: 800;
-    color: #b00020;
+    color: var(--tds-blue);
     line-height: 1;
     margin: 0;
     letter-spacing: -4px;
   }
-  h1 { font-size: 22pt; margin: 10px 0 4px; font-weight: 700; }
-  .tagline { color: #666; font-size: 12pt; margin: 0; }
-  .cards { display: grid; gap: 18px; }
+  h1 { font-size: 24pt; margin: 16px 0 6px; font-weight: 800; letter-spacing: -0.8px; }
+  .tagline { color: var(--tds-weak); font-size: 12pt; margin: 0; font-weight: 500; }
+  .cards { display: grid; gap: 12px; }
   .card {
     display: block;
     padding: 24px 26px;
-    background: #fff;
-    border: 1px solid #d8d8dc;
-    border-radius: 10px;
+    background: var(--tds-surface);
+    border-radius: 16px;
     text-decoration: none;
     color: inherit;
-    transition: transform .15s, box-shadow .15s, border-color .15s;
+    transition: transform .15s, box-shadow .15s;
   }
   .card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-    border-color: #b00020;
+    box-shadow: 0 8px 24px rgba(25, 31, 40, 0.08);
   }
   .card-head {
     display: flex;
@@ -59,35 +66,40 @@
     gap: 12px;
     margin-bottom: 6px;
   }
-  .card-title { font-size: 14pt; font-weight: 700; margin: 0; }
-  .card-meta { font-size: 9.5pt; color: #888; white-space: nowrap; }
-  .card-desc { color: #555; font-size: 11pt; margin: 0; }
+  .card-title { font-size: 15pt; font-weight: 700; margin: 0; letter-spacing: -0.3px; }
+  .card-meta {
+    font-size: 9.5pt; color: var(--tds-blue); font-weight: 700;
+    background: var(--tds-blue-bg); padding: 3px 10px; border-radius: 8px;
+    white-space: nowrap;
+  }
+  .card-desc { color: var(--tds-medium); font-size: 11pt; margin: 0; line-height: 1.6; }
   .card-kanji {
-    margin-top: 12px;
-    font-size: 18pt;
-    letter-spacing: 6px;
-    color: #b00020;
+    margin-top: 14px;
+    font-size: 17pt;
+    letter-spacing: 5px;
+    color: var(--tds-blue);
     font-weight: 700;
   }
   footer {
     margin-top: 56px;
-    padding-top: 20px;
-    border-top: 1px solid #d8d8dc;
+    padding-top: 24px;
+    border-top: 1px solid var(--tds-divider);
     font-size: 9.5pt;
-    color: #888;
+    color: var(--tds-weak);
     text-align: center;
   }
-  footer a { color: #555; }
+  footer a { color: var(--tds-medium); text-decoration: none; }
+  footer a:hover { color: var(--tds-blue); }
   .legend {
-    background: #fff;
-    border: 1px solid #d8d8dc;
-    border-radius: 10px;
-    padding: 20px 24px;
-    margin-bottom: 32px;
+    background: var(--tds-surface);
+    border-radius: 16px;
+    padding: 22px 26px;
+    margin-bottom: 24px;
     font-size: 11pt;
-    color: #444;
+    color: var(--tds-medium);
+    line-height: 1.7;
   }
-  .legend b { color: #111; }
+  .legend b { color: var(--tds-strong); }
   .legend-swatch {
     display: inline-block;
     width: 24pt;
@@ -96,8 +108,8 @@
     margin-right: 6pt;
     border-radius: 2pt;
   }
-  .legend-swatch.dark { background: #000; }
-  .legend-swatch.light { background: #c4c4c4; }
+  .legend-swatch.dark { background: var(--tds-strong); }
+  .legend-swatch.light { background: #C9CFD6; }
 </style>
 </head>
 <body>
@@ -117,7 +129,7 @@
 
   <div class="cards">
 
-    <a class="card" href="kanji_game.html" style="border-color:#b00020">
+    <a class="card" href="kanji_game.html" style="background: var(--tds-blue-bg); box-shadow: inset 0 0 0 2px var(--tds-blue)">
       <div class="card-head">
         <h2 class="card-title">🎮 한자 부수 게임</h2>
         <span class="card-meta">N5 → N1 · 2,136 kanji</span>

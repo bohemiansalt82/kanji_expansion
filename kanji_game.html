@@ -5,98 +5,116 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>한자 부수 게임 — Kanji Radical Game</title>
 <style>
-  @font-face {
-    font-family: 'Noto Sans Mono CJK JP';
-    src: url('https://cdn.jsdelivr.net/gh/notofonts/noto-cjk@main/Sans/Mono/NotoSansMonoCJKjp-Regular.otf') format('opentype');
-    font-weight: 400; font-display: swap;
-  }
+  /* Toss Design System tokens */
+  @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&display=swap');
+  :root {
+    --tds-blue: #3182F6;
+    --tds-blue-pressed: #1B64DA;
+    --tds-blue-bg: #E8F3FF;
+    --tds-green: #15B981;
+    --tds-orange: #FF9500;
+    --tds-red: #F04452;
+    --tds-purple: #8B5CF6;
+    --tds-bg: #F9FAFB;
+    --tds-surface: #FFFFFF;
+    --tds-strong: #191F28;
+    --tds-medium: #4E5968;
+    --tds-weak: #8B95A1;
+    --tds-divider: #E5E8EB;
+    --tds-divider-soft: #F2F4F6;
+  }
 
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; height: 100%; }
   body {
-    font-family: 'Noto Sans Mono CJK JP', 'Noto Sans JP', 'Apple SD Gothic Neo',
-                 'Malgun Gothic', sans-serif;
-    color: #1a1a1a;
-    background: linear-gradient(180deg, #faf9f7 0%, #efeee9 100%);
+    font-family: 'Pretendard', 'Noto Sans JP', -apple-system, BlinkMacSystemFont,
+                 'Apple SD Gothic Neo', sans-serif;
+    color: var(--tds-strong);
+    background: var(--tds-bg);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 24px 16px;
+    -webkit-font-smoothing: antialiased;
   }
 
   .app { width: 100%; max-width: 720px; }
 
   header {
     display: flex; align-items: center; justify-content: space-between;
-    gap: 12px; margin-bottom: 18px;
+    gap: 12px; margin-bottom: 20px;
   }
-  .title { font-size: 16pt; font-weight: 800; margin: 0; }
-  .title a { color: #888; font-size: 9pt; font-weight: 400; text-decoration: none; }
-  .title a:hover { color: #b00020; }
+  .title { font-size: 18pt; font-weight: 800; margin: 0; letter-spacing: -0.5px; }
+  .title a { color: var(--tds-weak); font-size: 10pt; font-weight: 500;
+             text-decoration: none; margin-left: 8px; }
+  .title a:hover { color: var(--tds-blue); }
 
   /* Level selector */
-  .levels { display: flex; gap: 6px; margin-bottom: 18px; }
+  .levels { display: flex; gap: 8px; margin-bottom: 16px; }
   .level-btn {
-    flex: 1; padding: 10px 0;
-    border: 2px solid #ccc; background: #fff; border-radius: 8px;
+    flex: 1; padding: 12px 0;
+    border: none; background: var(--tds-surface);
+    border-radius: 12px;
     font-size: 12pt; font-weight: 700; cursor: pointer;
-    font-family: inherit; color: #555; transition: all .12s;
+    font-family: inherit; color: var(--tds-medium);
+    transition: all .15s;
   }
-  .level-btn:hover { border-color: #888; }
-  .level-btn.active { color: #fff; }
-  .level-btn.n5.active { background: #2e7d32; border-color: #2e7d32; }
-  .level-btn.n4.active { background: #558b2f; border-color: #558b2f; }
-  .level-btn.n3.active { background: #ef6c00; border-color: #ef6c00; }
-  .level-btn.n2.active { background: #c62828; border-color: #c62828; }
-  .level-btn.n1.active { background: #6a1b9a; border-color: #6a1b9a; }
+  .level-btn:hover { background: var(--tds-divider-soft); }
+  .level-btn.active { color: #fff; background: var(--tds-blue); }
+  .level-btn.n5.active { background: var(--tds-green); }
+  .level-btn.n4.active { background: #20C997; }
+  .level-btn.n3.active { background: var(--tds-orange); }
+  .level-btn.n2.active { background: var(--tds-red); }
+  .level-btn.n1.active { background: var(--tds-purple); }
 
   /* Stats bar */
   .stats {
     display: flex; align-items: center; justify-content: space-between;
-    background: #fff; border: 1px solid #ddd; border-radius: 8px;
-    padding: 8px 14px; margin-bottom: 14px; font-size: 11pt;
+    background: var(--tds-surface); border-radius: 14px;
+    padding: 14px 18px; margin-bottom: 14px; font-size: 11pt;
     flex-wrap: wrap; gap: 6px;
   }
-  .stat-correct { color: #2e7d32; font-weight: 700; }
-  .stat-missed  { color: #f57c00; font-weight: 700; }
-  .stat-wrong   { color: #c62828; font-weight: 700; }
-  .stat-progress { color: #555; font-weight: 600; }
+  .stat-correct { color: var(--tds-green); font-weight: 700; }
+  .stat-missed  { color: var(--tds-orange); font-weight: 700; }
+  .stat-wrong   { color: var(--tds-red); font-weight: 700; }
+  .stat-progress { color: var(--tds-medium); font-weight: 600; }
   .stat-pick {
-    color: #1565c0; font-weight: 700;
-    background: #e3f2fd; padding: 2px 8px; border-radius: 6px;
+    color: var(--tds-blue); font-weight: 700;
+    background: var(--tds-blue-bg); padding: 3px 10px; border-radius: 8px;
   }
 
   /* Kanji card */
   .kanji-card {
-    background: #fff; border: 1px solid #ddd; border-radius: 12px;
-    padding: 18px 18px 12px; text-align: center; margin-bottom: 14px;
+    background: var(--tds-surface); border-radius: 16px;
+    padding: 24px 20px 16px; text-align: center; margin-bottom: 14px;
   }
   .kanji-wrap {
-    width: 200px; height: 200px; margin: 0 auto 8px;
-    background: #fafafa; border: 1.5px solid #444;
+    width: 200px; height: 200px; margin: 0 auto 10px;
+    background: var(--tds-divider-soft);
+    border-radius: 12px;
     display: flex; align-items: center; justify-content: center; overflow: hidden;
   }
   .kanji-svg { width: 100%; height: 100%; display: block; }
-  .cross { stroke: #ccc; stroke-width: 0.5; stroke-dasharray: 2,2; fill: none; }
+  .cross { stroke: var(--tds-divider); stroke-width: 0.5; stroke-dasharray: 2,2; fill: none; }
   .stroke {
-    stroke: #c4c4c4; stroke-width: 4; fill: none;
+    stroke: #C9CFD6; stroke-width: 4; fill: none;
     stroke-linecap: round; stroke-linejoin: round;
     transition: stroke .25s, stroke-width .25s;
   }
-  .stroke.revealed-correct { stroke: #000;    stroke-width: 4.2; }
-  .stroke.revealed-missed  { stroke: #f57c00; stroke-width: 4.2; }
+  .stroke.revealed-correct { stroke: var(--tds-strong); stroke-width: 4.2; }
+  .stroke.revealed-missed  { stroke: var(--tds-orange);  stroke-width: 4.2; }
 
   .kanji-meta {
-    font-size: 10pt; color: #555; margin: 6px 0 0 0;
+    font-size: 10.5pt; color: var(--tds-medium); margin: 8px 0 0 0;
     min-height: 18px; line-height: 1.5; padding: 0 8px;
   }
-  .km-hidden { color: #bbb; }
-  .km-reading { font-weight: 700; color: #222; }
+  .km-hidden { color: var(--tds-weak); }
+  .km-reading { font-weight: 700; color: var(--tds-strong); }
   .km-meaning { text-transform: capitalize; }
-  .km-korean { color: #b00020; font-weight: 600; }
-  .km-sep { color: #ccc; margin: 0 5px; }
+  .km-korean { color: var(--tds-blue); font-weight: 700; }
+  .km-sep { color: var(--tds-weak); margin: 0 6px; opacity: 0.5; }
 
   /* Options grid */
   .options {
@@ -105,27 +123,26 @@
   }
   .opt {
     position: relative; aspect-ratio: 1 / 1;
-    background: #fff; border: 2px solid #ddd; border-radius: 12px;
+    background: var(--tds-surface); border: 2px solid transparent;
+    border-radius: 14px;
     cursor: pointer;
     display: flex; align-items: center; justify-content: center;
-    transition: all .12s;
+    transition: all .15s;
     -webkit-tap-highlight-color: transparent;
     font-family: inherit;
     padding: 0;
   }
-  .opt:hover { border-color: #999; }
+  .opt:hover { background: #F4F6F8; }
   .opt.selected {
-    border-color: #1565c0; border-width: 3px;
-    background: #e3f2fd; transform: translateY(-2px);
-    box-shadow: 0 4px 10px rgba(21,101,192,0.2);
+    border-color: var(--tds-blue);
+    background: var(--tds-blue-bg);
+    transform: translateY(-2px);
   }
-  .opt.full-locked:not(.selected) { opacity: 0.45; cursor: not-allowed; }
-  .opt.full-locked:not(.selected):hover { border-color: #ddd; }
 
   /* After-grade states */
-  .opt.correct { border-color: #2e7d32; background: #e8f5e9; }
-  .opt.wrong   { border-color: #c62828; background: #ffebee; }
-  .opt.missed  { border-color: #f57c00; background: #fff3e0;
+  .opt.correct { border-color: var(--tds-green); background: #E6F7F0; }
+  .opt.wrong   { border-color: var(--tds-red);   background: #FEEBED; }
+  .opt.missed  { border-color: var(--tds-orange); background: #FFF4E1;
                  border-style: dashed; }
   .opt.distractor:not(.selected) { opacity: 0.4; }
 
@@ -134,87 +151,86 @@
     pointer-events: none;
   }
   .opt-text {
-    font-size: 24px; font-weight: 700; color: #333;
-    font-family: 'Noto Sans Mono CJK JP', 'Noto Sans JP', sans-serif;
+    font-size: 26px; font-weight: 700; color: var(--tds-strong);
+    font-family: 'Pretendard', 'Noto Sans JP', sans-serif;
   }
 
   /* Bubble — multi-line: hanja + huneum + english */
   .bubble {
     position: absolute; bottom: calc(100% + 8px); left: 50%;
     transform: translateX(-50%);
-    background: #fff; border: 1.5px solid #333;
-    border-radius: 8px; padding: 6px 10px;
+    background: var(--tds-strong); color: #fff;
+    border-radius: 10px; padding: 8px 12px;
     min-width: 90px; max-width: 200px;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 16px rgba(25, 31, 40, 0.15);
     pointer-events: none; z-index: 20;
     text-align: center;
   }
   .bubble::after {
-    content: ''; position: absolute; bottom: -7px; left: 50%;
+    content: ''; position: absolute; bottom: -6px; left: 50%;
     transform: translateX(-50%); width: 0; height: 0;
     border-left: 6px solid transparent; border-right: 6px solid transparent;
-    border-top: 7px solid #333;
-  }
-  .bubble::before {
-    content: ''; position: absolute; bottom: -5px; left: 50%;
-    transform: translateX(-50%); width: 0; height: 0;
-    border-left: 5px solid transparent; border-right: 5px solid transparent;
-    border-top: 6px solid #fff; z-index: 1;
+    border-top: 6px solid var(--tds-strong);
   }
   .bub-hanja {
-    display: block; font-size: 22px; font-weight: 800; color: #b00020;
+    display: block; font-size: 22px; font-weight: 800; color: #fff;
     line-height: 1; margin-bottom: 4px;
-    font-family: 'Noto Sans Mono CJK JP', 'Noto Sans JP', sans-serif;
+    font-family: 'Pretendard', 'Noto Sans JP', sans-serif;
   }
   .bub-huneum {
-    display: block; font-size: 10pt; color: #222; font-weight: 600;
+    display: block; font-size: 10pt; color: #E5E8EB; font-weight: 600;
     line-height: 1.2;
   }
   .bub-meaning {
-    display: block; font-size: 9pt; color: #777;
+    display: block; font-size: 9pt; color: #B0B8C1;
     text-transform: capitalize; margin-top: 2px; line-height: 1.2;
   }
 
   /* Controls — single full-width action button that morphs between 확인 ↔ 다음 */
   .action-btn {
     width: 100%;
-    border: none; border-radius: 10px; padding: 16px 0;
-    font-size: 14pt; font-weight: 800; cursor: pointer; font-family: inherit;
+    border: none; border-radius: 14px; padding: 18px 0;
+    font-size: 14pt; font-weight: 700; cursor: pointer; font-family: inherit;
     color: #fff; transition: background .15s, transform .08s;
-    letter-spacing: 0.5px;
+    letter-spacing: -0.3px;
   }
-  .action-btn.check { background: #2e7d32; }
-  .action-btn.check:hover { background: #1b5e20; }
-  .action-btn.next  { background: #1a1a1a; }
+  .action-btn.check { background: var(--tds-blue); }
+  .action-btn.check:hover { background: var(--tds-blue-pressed); }
+  .action-btn.next  { background: var(--tds-strong); }
   .action-btn.next:hover { background: #000; }
   .action-btn:active { transform: scale(0.98); }
 
   /* Loading / start */
   .loading, .start-msg {
-    text-align: center; padding: 40px 20px; color: #888; font-size: 11pt;
+    text-align: center; padding: 40px 20px; color: var(--tds-weak); font-size: 11pt;
+    background: var(--tds-surface); border-radius: 16px;
   }
-  .start-msg { font-size: 11.5pt; color: #555; line-height: 1.6; }
-  .start-msg b { color: #111; }
+  .start-msg { font-size: 12pt; color: var(--tds-medium); line-height: 1.7; }
+  .start-msg b { color: var(--tds-strong); }
 
   /* Level complete */
   .complete {
-    background: #fff; border: 2px solid #b00020; border-radius: 12px;
-    padding: 24px; text-align: center; margin: 16px 0;
+    background: var(--tds-surface); border-radius: 16px;
+    padding: 32px 24px; text-align: center; margin: 16px 0;
   }
-  .complete h2 { margin: 0 0 8px 0; color: #b00020; font-size: 18pt; }
-  .complete .pct { font-size: 32pt; font-weight: 800; color: #2e7d32; line-height: 1; margin: 8px 0; }
-  .complete .summary { font-size: 11.5pt; color: #333; margin-bottom: 16px; }
+  .complete h2 { margin: 0 0 8px 0; color: var(--tds-strong); font-size: 18pt;
+                 letter-spacing: -0.5px; }
+  .complete .pct { font-size: 36pt; font-weight: 800; color: var(--tds-blue);
+                   line-height: 1; margin: 12px 0; letter-spacing: -1px; }
+  .complete .summary { font-size: 11.5pt; color: var(--tds-medium); margin-bottom: 20px; }
   .complete .summary span { margin: 0 6px; font-weight: 700; }
   .restart-btn {
-    background: #555; color: #fff; border: none; border-radius: 8px;
-    padding: 10px 20px; font-size: 12pt; font-weight: 700;
+    background: var(--tds-blue); color: #fff; border: none; border-radius: 12px;
+    padding: 12px 24px; font-size: 12pt; font-weight: 700;
     cursor: pointer; font-family: inherit;
   }
+  .restart-btn:hover { background: var(--tds-blue-pressed); }
 
   footer {
-    margin-top: 20px; font-size: 9pt; color: #999; text-align: center;
+    margin-top: 24px; font-size: 9pt; color: var(--tds-weak); text-align: center;
   }
-  footer a { color: #888; }
+  footer a { color: var(--tds-medium); text-decoration: none; }
+  footer a:hover { color: var(--tds-blue); }
 </style>
 </head>
 <body>
