@@ -102,6 +102,29 @@ def parse_kanji(code):
             "strokes": sorted(s["id"] for s in strokes),
         })
 
+    # Re-attach orphan strokes (strokes not in any component) to the
+    # nearest preceding component by stroke order. This handles KanjiVG
+    # quirks like 今 where a stroke sits inside an unnamed wrapper but
+    # not in any kvg:element subgroup.
+    all_sids = [s["id"] for s in strokes]
+    assigned = set()
+    for c in components:
+        assigned.update(c["strokes"])
+    orphans = [sid for sid in all_sids if sid not in assigned]
+    for orphan_sid in orphans:
+        # Find component with max stroke id <= orphan_sid - 1 (i.e. preceding)
+        best, best_max = None, -1
+        for c in components:
+            if not c["strokes"]:
+                continue
+            cmax = max(c["strokes"])
+            if cmax < orphan_sid and cmax > best_max:
+                best, best_max = c, cmax
+        if best is None and components:
+            best = components[0]
+        if best is not None:
+            best["strokes"] = sorted(set(best["strokes"]) | {orphan_sid})
+
     return {"strokes": strokes, "components": components}
 
 
