@@ -344,12 +344,16 @@ const EMOJI = {
   "幺":"🐤",       // 작을 요
 };
 
-// Convert emoji string to OpenMoji filename (uppercase hex codepoints joined by '-')
+// Convert emoji string to OpenMoji filename:
+//  - codepoints uppercase hex, padded to 4 chars (e.g. "0038" not "38")
+//  - keep FE0F when it appears mid-sequence (keycaps, flags, ZWJ groups)
+//  - drop FE0F only when it's the trailing codepoint (just a variation selector)
 function emojiToOpenmojiHex(emoji) {
-  return [...emoji]
-    .map(c => c.codePointAt(0).toString(16).toUpperCase())
-    .filter(cp => cp !== 'FE0F')   // OpenMoji omits variation selector
-    .join('-');
+  const cps = [...emoji].map(c =>
+    c.codePointAt(0).toString(16).toUpperCase().padStart(4, '0')
+  );
+  while (cps.length > 1 && cps[cps.length - 1] === 'FE0F') cps.pop();
+  return cps.join('-');
 }
 
 function emojiImgUrl(emoji) {
