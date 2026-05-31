@@ -36,15 +36,20 @@ for (const lvl of ['n5','n4','n3','n2','n1']) {
     let korean = '';
     try {
       const h = hanja.translate(ch, 'SUBSTITUTION');
-      // If translation returned a hangul syllable (not original kanji), use it
       if (h && h !== ch) korean = h;
     } catch (e) {}
+    // Combined reading: kun + on (on converted to hiragana), comma-separated
+    const kunPart = kun.length ? cleanReading(kun[0]) : '';
+    const onPart  = on.length  ? toHiragana(on[0])     : '';
+    const readingFull = [kunPart, onPart].filter(Boolean).join('・');
+    // Multiple English meanings (top 3) joined by ', '
+    const meaningFull = (dic.meaning || []).slice(0, 5).join(', ');
     result.push({
       ch,
       code: unicodeHex(ch),
       jlpt: lvl.toUpperCase(),
-      reading,
-      meaning,
+      reading: readingFull || reading,   // kun・on (fallback to old single reading)
+      meaning: meaningFull || meaning,   // top-3 meanings
       korean,
     });
   }
