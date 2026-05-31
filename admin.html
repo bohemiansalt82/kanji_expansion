@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>부수 이모지 관리자</title>
+<style>
+  @font-face {
+    font-family: 'Noto Sans Mono CJK JP';
+    src: url('https://cdn.jsdelivr.net/gh/notofonts/noto-cjk@main/Sans/Mono/NotoSansMonoCJKjp-Regular.otf') format('opentype');
+    font-weight: 400; font-display: swap;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&display=swap');
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: 'Noto Sans Mono CJK JP', 'Noto Sans JP', 'Apple SD Gothic Neo',
+                 'Malgun Gothic', sans-serif;
+    color: #1a1a1a; background: #f4f4f6;
+    padding: 16px;
+  }
+  .wrap { max-width: 1280px; margin: 0 auto; }
+
+  header {
+    display: flex; align-items: baseline; justify-content: space-between;
+    margin-bottom: 14px; flex-wrap: wrap; gap: 8px;
+  }
+  h1 { font-size: 16pt; font-weight: 800; margin: 0; }
+  h1 a { color: #888; font-size: 9pt; font-weight: 400; text-decoration: none; margin-left: 8px; }
+  h1 a:hover { color: #b00020; }
+  .summary { font-size: 10pt; color: #666; }
+  .summary b { color: #111; }
+
+  .controls {
+    background: #fff; border: 1px solid #ddd; border-radius: 8px;
+    padding: 10px 12px; margin-bottom: 12px;
+    display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+    font-size: 10pt;
+  }
+  .controls > div { display: flex; align-items: center; gap: 4px; }
+  .controls label { color: #555; font-size: 10pt; font-weight: 600; }
+  .controls select, .controls input[type=text] {
+    font-family: inherit; font-size: 10pt;
+    padding: 4px 6px; border: 1px solid #ccc; border-radius: 5px;
+    background: #fff;
+  }
+  .controls input[type=text] { width: 140px; }
+  .btn {
+    padding: 6px 14px; border: none; border-radius: 6px; cursor: pointer;
+    font-family: inherit; font-size: 10pt; font-weight: 700; color: #fff;
+  }
+  .btn.export  { background: #1976d2; }
+  .btn.import  { background: #455a64; }
+  .btn.reset   { background: #c62828; }
+  .btn.copy    { background: #6a1b9a; }
+  .btn:hover { filter: brightness(0.92); }
+
+  .table-wrap {
+    background: #fff; border: 1px solid #ddd; border-radius: 8px;
+    overflow: hidden;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 10pt; }
+  thead th {
+    position: sticky; top: 0; z-index: 1;
+    background: #f0f1f3; color: #444; font-weight: 700;
+    padding: 8px 10px; text-align: left;
+    border-bottom: 1.5px solid #ccc;
+    cursor: pointer; user-select: none;
+  }
+  thead th.sort-asc::after  { content: ' ▲'; color: #666; }
+  thead th.sort-desc::after { content: ' ▼'; color: #666; }
+  tbody td {
+    padding: 6px 10px; border-bottom: 1px solid #eee;
+    vertical-align: middle;
+  }
+  tbody tr:hover td { background: #fafafa; }
+  tbody tr.modified td { background: #fff8e1; }
+  tbody tr.has-emoji td { }
+  tbody tr.no-emoji  td { }
+
+  .char {
+    font-size: 22px; font-weight: 700; color: #b00020;
+    font-family: 'Noto Sans Mono CJK JP', 'Noto Sans JP', sans-serif;
+    line-height: 1; min-width: 36px;
+  }
+  .var-arrow { color: #aaa; margin: 0 4px; font-size: 9pt; }
+  .canonical { font-size: 14px; color: #666; }
+
+  .jp { color: #1a3a8c; font-weight: 600; }
+  .jp .kun { font-weight: 700; }
+  .jp .sep { color: #ccc; margin: 0 4px; }
+  .jp .on { color: #666; font-weight: 400; }
+  .kr { color: #b00020; font-weight: 600; }
+  .en { color: #555; font-style: italic; text-transform: capitalize; }
+
+  .freq-total {
+    font-weight: 800; color: #222; min-width: 28px; text-align: right;
+  }
+  .freq-by {
+    font-size: 9pt; color: #888; display: flex; gap: 6px;
+  }
+  .freq-by span.lv { white-space: nowrap; }
+  .freq-by .l5 { color: #2e7d32; }
+  .freq-by .l4 { color: #558b2f; }
+  .freq-by .l3 { color: #ef6c00; }
+  .freq-by .l2 { color: #c62828; }
+  .freq-by .l1 { color: #6a1b9a; }
+  .freq-by .z  { color: #ccc; }
+
+  .emoji-cell {
+    width: 80px; text-align: center;
+  }
+  .emoji-cell img,
+  .emoji-cell .emoji-text {
+    width: 36px; height: 36px; display: inline-block;
+    vertical-align: middle;
+  }
+  .emoji-cell .emoji-text {
+    font-size: 28px; line-height: 36px;
+    font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji',
+                 'Noto Sans Mono CJK JP', sans-serif;
+  }
+  .emoji-cell .none { color: #ccc; font-size: 9pt; font-style: italic; }
+
+  .edit-cell {
+    display: flex; gap: 4px; align-items: center; flex-wrap: wrap;
+  }
+  .edit-cell input.emoji-input {
+    width: 56px; padding: 4px 6px; border: 1px solid #ccc; border-radius: 4px;
+    font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+    font-size: 18px; text-align: center;
+  }
+  .edit-cell label.upload {
+    background: #455a64; color: #fff; padding: 4px 8px; border-radius: 4px;
+    cursor: pointer; font-size: 9pt; font-weight: 600;
+  }
+  .edit-cell label.upload:hover { background: #37474f; }
+  .edit-cell label.upload input { display: none; }
+  .edit-cell button.clear {
+    background: #c62828; color: #fff; border: none; border-radius: 4px;
+    padding: 4px 8px; font-size: 9pt; font-weight: 600;
+    cursor: pointer; font-family: inherit;
+  }
+  .edit-cell button.clear:hover { background: #a01b1b; }
+
+  .src-default { color: #888; font-size: 9pt; }
+  .src-override { color: #1976d2; font-weight: 700; font-size: 9pt; }
+  .src-custom   { color: #6a1b9a; font-weight: 700; font-size: 9pt; }
+
+  .toast {
+    position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%);
+    background: #2e7d32; color: #fff; padding: 10px 18px; border-radius: 8px;
+    font-weight: 700; font-size: 11pt; z-index: 100;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    opacity: 0; pointer-events: none; transition: opacity .2s;
+  }
+  .toast.show { opacity: 1; }
+
+  .loading { text-align: center; padding: 60px; color: #888; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>🛠 부수 이모지 관리자
+      <a href="./">← 워크북 목록</a>
+      <a href="kanji_game.html">→ 게임</a>
+    </h1>
+    <div class="summary" id="summary">로딩 중…</div>
+  </header>
+
+  <div class="controls">
+    <div><label>레벨:</label>
+      <select id="filterLevel">
+        <option value="">전체</option>
+        <option value="N5">N5</option>
+        <option value="N4">N4</option>
+        <option value="N3">N3</option>
+        <option value="N2">N2</option>
+        <option value="N1">N1</option>
+      </select>
+    </div>
+    <div><label>상태:</label>
+      <select id="filterMapped">
+        <option value="">전체</option>
+        <option value="mapped">이모지 있음</option>
+        <option value="unmapped">없음 (텍스트 표시)</option>
+        <option value="modified">내가 수정함</option>
+        <option value="image">이미지 등록</option>
+      </select>
+    </div>
+    <div><label>검색:</label>
+      <input type="text" id="search" placeholder="부수·훈음·뜻" />
+    </div>
+    <div style="flex:1"></div>
+    <button class="btn copy"   id="btnCopy">JS 매핑 복사</button>
+    <button class="btn export" id="btnExport">JSON 다운로드</button>
+    <label class="btn import" style="cursor:pointer">
+      JSON 불러오기
+      <input type="file" id="importFile" accept="application/json" style="display:none" />
+    </label>
+    <button class="btn reset"  id="btnReset">변경 초기화</button>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th data-sort="total" class="sort-desc">총 등장</th>
+          <th data-sort="char">부수</th>
+          <th data-sort="canonical">기본형</th>
+          <th>일본어 (훈・음)</th>
+          <th data-sort="huneum">한국 훈음</th>
+          <th>영어 뜻</th>
+          <th>레벨별 빈도 (N5/N4/N3/N2/N1)</th>
+          <th>현재</th>
+          <th>편집</th>
+        </tr>
+      </thead>
+      <tbody id="rows">
+        <tr><td colspan="9" class="loading">컴포넌트 데이터 로딩 중…</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const LS_KEY = 'kanji-game-emoji-overrides-v1';
+
+const state = {
+  components: {},   // char → metadata from component-info.json
+  defaults: {},     // char → default emoji from emoji-defaults.json
+  overrides: {},    // char → user emoji (or data URL for image)
+  sortKey: 'total',
+  sortDir: 'desc',
+  filterLevel: '',
+  filterMapped: '',
+  search: '',
+};
+
+function emojiToOpenmojiHex(emoji) {
+  const cps = [...emoji].map(c =>
+    c.codePointAt(0).toString(16).toUpperCase().padStart(4, '0')
+  );
+  while (cps.length > 1 && cps[cps.length - 1] === 'FE0F') cps.pop();
+  return cps.join('-');
+}
+function openmojiUrl(emoji) {
+  return `https://cdn.jsdelivr.net/npm/openmoji@latest/color/svg/${emojiToOpenmojiHex(emoji)}.svg`;
+}
+
+// True if value is a data URL (uploaded image) or http(s) URL
+function isImageValue(v) {
+  return typeof v === 'string' && (v.startsWith('data:image/') || v.startsWith('http'));
+}
+
+function showToast(msg, color) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  if (color) t.style.background = color;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 1800);
+}
+
+function saveOverrides() {
+  localStorage.setItem(LS_KEY, JSON.stringify(state.overrides));
+}
+function loadOverrides() {
+  try {
+    state.overrides = JSON.parse(localStorage.getItem(LS_KEY) || '{}');
+  } catch (e) { state.overrides = {}; }
+}
+
+// Effective emoji for a char (overrides > defaults)
+function effective(char) {
+  if (Object.prototype.hasOwnProperty.call(state.overrides, char)) {
+    return { value: state.overrides[char], source: 'override' };
+  }
+  if (state.defaults[char]) return { value: state.defaults[char], source: 'default' };
+  return { value: '', source: 'none' };
+}
+
+function renderEmojiCell(value) {
+  if (!value) return '<span class="none">없음</span>';
+  if (isImageValue(value)) {
+    return `<img src="${value}" alt="custom"/>`;
+  }
+  return `<img src="${openmojiUrl(value)}" alt="${value}" onerror="this.outerHTML='<span class=\\'emoji-text\\'>${value}</span>'"/>`;
+}
+
+function renderRows() {
+  const tbody = document.getElementById('rows');
+  let list = Object.keys(state.components).map(ch => {
+    const info = state.components[ch];
+    const eff  = effective(ch);
+    return { ch, info, eff };
+  });
+
+  // Filter
+  if (state.filterLevel) {
+    list = list.filter(r => (r.info.freq[state.filterLevel] || 0) > 0);
+  }
+  if (state.filterMapped === 'mapped') {
+    list = list.filter(r => r.eff.value);
+  } else if (state.filterMapped === 'unmapped') {
+    list = list.filter(r => !r.eff.value);
+  } else if (state.filterMapped === 'modified') {
+    list = list.filter(r => Object.prototype.hasOwnProperty.call(state.overrides, r.ch));
+  } else if (state.filterMapped === 'image') {
+    list = list.filter(r => isImageValue(r.eff.value));
+  }
+  if (state.search) {
+    const q = state.search.toLowerCase();
+    list = list.filter(r =>
+      r.ch.includes(q) ||
+      (r.info.canonical || '').includes(q) ||
+      (r.info.huneum || '').toLowerCase().includes(q) ||
+      (r.info.meanings || []).join(' ').toLowerCase().includes(q) ||
+      (r.info.kun || []).join(' ').includes(q) ||
+      (r.info.on  || []).join(' ').includes(q)
+    );
+  }
+
+  // Sort
+  const k = state.sortKey;
+  const d = state.sortDir === 'asc' ? 1 : -1;
+  list.sort((a, b) => {
+    let av, bv;
+    if (k === 'total') { av = a.info.total; bv = b.info.total; }
+    else if (k === 'char')      { av = a.ch; bv = b.ch; }
+    else if (k === 'canonical') { av = a.info.canonical || a.ch; bv = b.info.canonical || b.ch; }
+    else if (k === 'huneum')    { av = a.info.huneum || ''; bv = b.info.huneum || ''; }
+    else { av = 0; bv = 0; }
+    if (typeof av === 'number') return (av - bv) * d;
+    return av.localeCompare(bv) * d;
+  });
+
+  // Render
+  tbody.innerHTML = list.map(r => {
+    const { ch, info, eff } = r;
+    const isModified = Object.prototype.hasOwnProperty.call(state.overrides, ch);
+    const rowCls = (isModified ? 'modified ' : '') + (eff.value ? 'has-emoji' : 'no-emoji');
+    const srcCls = eff.source === 'override' ? 'src-override' : (eff.source === 'default' ? 'src-default' : '');
+    const srcLabel = isImageValue(eff.value) ? '이미지' : (eff.source === 'override' ? '수정' : (eff.source === 'default' ? '기본' : ''));
+    const kunStr = (info.kun || []).slice(0, 2).join('・');
+    const onStr  = (info.on  || []).slice(0, 2).join('・');
+    const meanings = (info.meanings || []).slice(0, 2).join(', ');
+    const fbl = info.freq;
+    const f = (lv, cls) => fbl[lv] > 0
+      ? `<span class="lv ${cls}">${lv.charAt(1)}:${fbl[lv]}</span>`
+      : `<span class="lv z">${lv.charAt(1)}:0</span>`;
+    return `
+      <tr class="${rowCls}" data-ch="${ch}">
+        <td class="freq-total">${info.total}</td>
+        <td><span class="char">${ch}</span></td>
+        <td>${info.canonical ? `<span class="var-arrow">→</span><span class="canonical">${info.canonical}</span>` : ''}</td>
+        <td class="jp">
+          ${kunStr ? `<span class="kun">${kunStr}</span>` : ''}
+          ${kunStr && onStr ? `<span class="sep">・</span>` : ''}
+          ${onStr ? `<span class="on">${onStr}</span>` : ''}
+        </td>
+        <td class="kr">${info.huneum || ''}</td>
+        <td class="en">${meanings}</td>
+        <td><div class="freq-by">${f('N5','l5')}${f('N4','l4')}${f('N3','l3')}${f('N2','l2')}${f('N1','l1')}</div></td>
+        <td class="emoji-cell">
+          ${renderEmojiCell(eff.value)}
+          <div class="${srcCls}">${srcLabel}</div>
+        </td>
+        <td class="edit-cell">
+          <input type="text" class="emoji-input" data-ch="${ch}"
+                 value="${isImageValue(eff.value) ? '' : (eff.value || '')}"
+                 placeholder="🟦" />
+          <label class="upload">📷
+            <input type="file" data-ch="${ch}" accept="image/*" />
+          </label>
+          ${isModified ? `<button class="clear" data-ch="${ch}">초기화</button>` : ''}
+        </td>
+      </tr>
+    `;
+  }).join('');
+
+  // Update summary
+  const total = Object.keys(state.components).length;
+  const mapped = Object.keys(state.components).filter(c => effective(c).value).length;
+  const modified = Object.keys(state.overrides).length;
+  document.getElementById('summary').innerHTML =
+    `전체 <b>${total}</b>종 · 이모지 매핑 <b>${mapped}</b>종 (${Math.round(mapped*100/total)}%) · 내 수정 <b>${modified}</b>종 · 표시중 <b>${list.length}</b>종`;
+}
+
+function setEmoji(ch, value) {
+  if (!value) {
+    delete state.overrides[ch];
+  } else {
+    state.overrides[ch] = value;
+  }
+  saveOverrides();
+  renderRows();
+}
+
+function bindEvents() {
+  document.getElementById('rows').addEventListener('change', e => {
+    const ch = e.target.dataset.ch;
+    if (!ch) return;
+    if (e.target.matches('input.emoji-input')) {
+      setEmoji(ch, e.target.value.trim());
+      showToast(e.target.value ? `${ch} ← ${e.target.value} 저장됨` : `${ch} 초기화됨`);
+    } else if (e.target.matches('input[type=file]')) {
+      const file = e.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = () => {
+        setEmoji(ch, reader.result);
+        showToast(`${ch} 이미지 업로드됨`);
+      };
+      reader.readAsDataURL(file);
+    }
+  });
+  document.getElementById('rows').addEventListener('click', e => {
+    if (e.target.matches('button.clear')) {
+      const ch = e.target.dataset.ch;
+      setEmoji(ch, '');
+      showToast(`${ch} 변경 취소됨`);
+    }
+  });
+
+  document.querySelectorAll('thead th[data-sort]').forEach(th => {
+    th.addEventListener('click', () => {
+      const k = th.dataset.sort;
+      if (state.sortKey === k) {
+        state.sortDir = state.sortDir === 'asc' ? 'desc' : 'asc';
+      } else {
+        state.sortKey = k;
+        state.sortDir = (k === 'total') ? 'desc' : 'asc';
+      }
+      document.querySelectorAll('thead th').forEach(t => {
+        t.classList.remove('sort-asc','sort-desc');
+      });
+      th.classList.add(state.sortDir === 'asc' ? 'sort-asc' : 'sort-desc');
+      renderRows();
+    });
+  });
+
+  document.getElementById('filterLevel').addEventListener('change', e => {
+    state.filterLevel = e.target.value; renderRows();
+  });
+  document.getElementById('filterMapped').addEventListener('change', e => {
+    state.filterMapped = e.target.value; renderRows();
+  });
+  document.getElementById('search').addEventListener('input', e => {
+    state.search = e.target.value; renderRows();
+  });
+
+  document.getElementById('btnExport').addEventListener('click', () => {
+    // Merge defaults + overrides into a complete map
+    const merged = { ...state.defaults, ...state.overrides };
+    const blob = new Blob([JSON.stringify(merged, null, 2)], { type: 'application/json' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'emoji-map.json';
+    a.click();
+    showToast(`emoji-map.json 다운로드됨 (${Object.keys(merged).length}개)`);
+  });
+
+  document.getElementById('btnCopy').addEventListener('click', async () => {
+    // Generate JS const for pasting back into kanji_game.html
+    const merged = { ...state.defaults, ...state.overrides };
+    const lines = Object.entries(merged).map(([k, v]) => `  "${k}":"${v}"`);
+    const js = `const EMOJI = {\n${lines.join(',\n')}\n};`;
+    await navigator.clipboard.writeText(js);
+    showToast(`JS 매핑 클립보드에 복사됨 (${Object.keys(merged).length}개)`);
+  });
+
+  document.getElementById('importFile').addEventListener('change', e => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = () => {
+      try {
+        const data = JSON.parse(reader.result);
+        // Treat imported as overrides relative to defaults
+        const newOverrides = {};
+        for (const [k, v] of Object.entries(data)) {
+          if (state.defaults[k] !== v) newOverrides[k] = v;
+        }
+        state.overrides = newOverrides;
+        saveOverrides();
+        renderRows();
+        showToast(`불러오기 완료 (${Object.keys(data).length}개 → 변경분 ${Object.keys(newOverrides).length}개)`);
+      } catch (err) {
+        showToast('JSON 파싱 실패', '#c62828');
+      }
+    };
+    reader.readAsText(file);
+  });
+
+  document.getElementById('btnReset').addEventListener('click', () => {
+    if (!confirm('내가 추가/변경한 모든 매핑을 초기화하시겠습니까?')) return;
+    state.overrides = {};
+    saveOverrides();
+    renderRows();
+    showToast('변경분 초기화됨', '#c62828');
+  });
+}
+
+async function init() {
+  const [compRes, defRes] = await Promise.all([
+    fetch('./component-info.json'),
+    fetch('./emoji-defaults.json'),
+  ]);
+  state.components = await compRes.json();
+  state.defaults   = await defRes.json();
+  loadOverrides();
+  bindEvents();
+  renderRows();
+}
+
+init();
+</script>
+</body>
+</html>

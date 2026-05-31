@@ -361,6 +361,8 @@ function emojiToOpenmojiHex(emoji) {
 }
 
 function emojiImgUrl(emoji) {
+  // Allow data URLs (custom uploaded images) and full http(s) URLs as-is
+  if (/^data:image\//.test(emoji) || /^https?:/.test(emoji)) return emoji;
   return `https://cdn.jsdelivr.net/npm/openmoji@latest/color/svg/${emojiToOpenmojiHex(emoji)}.svg`;
 }
 
@@ -674,6 +676,24 @@ async function loadData() {
   ]);
   state.data = await gameRes.json();
   state.huneum = await huneumRes.json();
+
+  // Merge any committed emoji-map.json overrides on top of inline EMOJI
+  try {
+    const r = await fetch('./emoji-map.json');
+    if (r.ok) {
+      const map = await r.json();
+      for (const [k, v] of Object.entries(map)) EMOJI[k] = v;
+    }
+  } catch (e) { /* optional file */ }
+
+  // Apply admin localStorage overrides (highest priority for this browser)
+  try {
+    const lo = JSON.parse(localStorage.getItem('kanji-game-emoji-overrides-v1') || '{}');
+    for (const [k, v] of Object.entries(lo)) {
+      if (v) EMOJI[k] = v; else delete EMOJI[k];
+    }
+  } catch (e) {}
+
   buildDistractorPool();
   document.getElementById('board').innerHTML = `
     <div class="start-msg">
