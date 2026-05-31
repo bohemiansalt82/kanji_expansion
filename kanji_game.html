@@ -26,44 +26,23 @@
     padding: 24px 16px;
   }
 
-  .app {
-    width: 100%;
-    max-width: 720px;
-  }
+  .app { width: 100%; max-width: 720px; }
 
   header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    margin-bottom: 18px;
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 12px; margin-bottom: 18px;
   }
-  .title {
-    font-size: 16pt;
-    font-weight: 800;
-    margin: 0;
-  }
+  .title { font-size: 16pt; font-weight: 800; margin: 0; }
   .title a { color: #888; font-size: 9pt; font-weight: 400; text-decoration: none; }
   .title a:hover { color: #b00020; }
 
   /* Level selector */
-  .levels {
-    display: flex;
-    gap: 6px;
-    margin-bottom: 18px;
-  }
+  .levels { display: flex; gap: 6px; margin-bottom: 18px; }
   .level-btn {
-    flex: 1;
-    padding: 10px 0;
-    border: 2px solid #ccc;
-    background: #fff;
-    border-radius: 8px;
-    font-size: 12pt;
-    font-weight: 700;
-    cursor: pointer;
-    font-family: inherit;
-    color: #555;
-    transition: all .12s;
+    flex: 1; padding: 10px 0;
+    border: 2px solid #ccc; background: #fff; border-radius: 8px;
+    font-size: 12pt; font-weight: 700; cursor: pointer;
+    font-family: inherit; color: #555; transition: all .12s;
   }
   .level-btn:hover { border-color: #888; }
   .level-btn.active { color: #fff; }
@@ -75,221 +54,171 @@
 
   /* Stats bar */
   .stats {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 8px 14px;
-    margin-bottom: 16px;
-    font-size: 11pt;
+    display: flex; align-items: center; justify-content: space-between;
+    background: #fff; border: 1px solid #ddd; border-radius: 8px;
+    padding: 8px 14px; margin-bottom: 14px; font-size: 11pt;
+    flex-wrap: wrap; gap: 6px;
   }
   .stat-correct { color: #2e7d32; font-weight: 700; }
+  .stat-missed  { color: #f57c00; font-weight: 700; }
   .stat-wrong   { color: #c62828; font-weight: 700; }
-  .stat-progress { color: #555; }
+  .stat-progress { color: #555; font-weight: 600; }
+  .stat-pick {
+    color: #1565c0; font-weight: 700;
+    background: #e3f2fd; padding: 2px 8px; border-radius: 6px;
+  }
 
-  /* Kanji display card */
+  /* Kanji card */
   .kanji-card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    padding: 18px 18px 12px;
-    text-align: center;
-    margin-bottom: 14px;
+    background: #fff; border: 1px solid #ddd; border-radius: 12px;
+    padding: 18px 18px 12px; text-align: center; margin-bottom: 14px;
   }
   .kanji-wrap {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto 8px;
-    background: #fafafa;
-    border: 1.5px solid #444;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+    width: 200px; height: 200px; margin: 0 auto 8px;
+    background: #fafafa; border: 1.5px solid #444;
+    display: flex; align-items: center; justify-content: center; overflow: hidden;
   }
   .kanji-svg { width: 100%; height: 100%; display: block; }
-
   .cross { stroke: #ccc; stroke-width: 0.5; stroke-dasharray: 2,2; fill: none; }
   .stroke {
-    stroke: #c4c4c4;
-    stroke-width: 4;
-    fill: none;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    transition: stroke .25s, opacity .25s;
+    stroke: #c4c4c4; stroke-width: 4; fill: none;
+    stroke-linecap: round; stroke-linejoin: round;
+    transition: stroke .25s, stroke-width .25s;
   }
-  .stroke.revealed {
-    stroke: #000;
-    stroke-width: 4.2;
-  }
-  .kanji-meta {
-    font-size: 10.5pt;
-    color: #555;
-    margin: 6px 0 0 0;
-  }
+  .stroke.revealed { stroke: #000; stroke-width: 4.2; }
+
+  .kanji-meta { font-size: 10.5pt; color: #555; margin: 6px 0 0 0; min-height: 18px; }
   .km-hidden { color: #bbb; }
   .km-reading { font-weight: 700; color: #222; }
   .km-meaning { text-transform: capitalize; }
-  .km-korean { color: #b00020; }
+  .km-korean { color: #b00020; font-weight: 600; }
   .km-sep { color: #ccc; margin: 0 4px; }
 
-  /* Emoji buttons */
+  /* Options grid */
   .options {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 8px;
-    margin-bottom: 16px;
+    display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px;
+    margin-bottom: 14px;
   }
   .opt {
-    position: relative;
-    aspect-ratio: 1 / 1;
-    background: #fff;
-    border: 2px solid #ddd;
-    border-radius: 12px;
-    font-size: 30px;
-    font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji',
-                 'Noto Sans Mono CJK JP', sans-serif;
+    position: relative; aspect-ratio: 1 / 1;
+    background: #fff; border: 2px solid #ddd; border-radius: 12px;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex; align-items: center; justify-content: center;
     transition: all .12s;
     -webkit-tap-highlight-color: transparent;
+    font-family: inherit;
+    padding: 0;
   }
-  .opt:hover { border-color: #999; transform: translateY(-1px); }
-  .opt.correct {
-    border-color: #2e7d32;
-    background: #e8f5e9;
+  .opt:hover { border-color: #999; }
+  .opt.selected {
+    border-color: #1565c0; border-width: 3px;
+    background: #e3f2fd; transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(21,101,192,0.2);
   }
-  .opt.wrong {
-    border-color: #c62828;
-    background: #ffebee;
-  }
-  .opt:disabled { cursor: default; transform: none; }
-  /* Speech bubble */
-  .bubble {
-    position: absolute;
-    bottom: calc(100% + 6px);
-    left: 50%;
-    transform: translateX(-50%);
-    background: #fff;
-    color: #111;
-    border: 1.5px solid #333;
-    border-radius: 6px;
-    padding: 3px 8px;
-    font-size: 15px;
-    font-weight: 700;
-    font-family: 'Noto Sans Mono CJK JP', 'Noto Sans JP', sans-serif;
-    white-space: nowrap;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  .opt.full-locked:not(.selected) { opacity: 0.45; cursor: not-allowed; }
+  .opt.full-locked:not(.selected):hover { border-color: #ddd; }
+
+  /* After-grade states */
+  .opt.correct { border-color: #2e7d32; background: #e8f5e9; }
+  .opt.wrong   { border-color: #c62828; background: #ffebee; }
+  .opt.missed  { border-color: #f57c00; background: #fff3e0;
+                 border-style: dashed; }
+  .opt.distractor:not(.selected) { opacity: 0.4; }
+
+  .opt-img {
+    width: 60%; height: 60%; object-fit: contain;
     pointer-events: none;
-    z-index: 10;
+  }
+  .opt-text {
+    font-size: 24px; font-weight: 700; color: #333;
+    font-family: 'Noto Sans Mono CJK JP', 'Noto Sans JP', sans-serif;
+  }
+
+  /* Bubble — multi-line: hanja + huneum + english */
+  .bubble {
+    position: absolute; bottom: calc(100% + 8px); left: 50%;
+    transform: translateX(-50%);
+    background: #fff; border: 1.5px solid #333;
+    border-radius: 8px; padding: 6px 10px;
+    min-width: 90px; max-width: 200px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    pointer-events: none; z-index: 20;
+    text-align: center;
   }
   .bubble::after {
-    content: '';
-    position: absolute;
-    bottom: -7px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 0;
-    height: 0;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
+    content: ''; position: absolute; bottom: -7px; left: 50%;
+    transform: translateX(-50%); width: 0; height: 0;
+    border-left: 6px solid transparent; border-right: 6px solid transparent;
     border-top: 7px solid #333;
   }
   .bubble::before {
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 6px solid #fff;
-    z-index: 1;
+    content: ''; position: absolute; bottom: -5px; left: 50%;
+    transform: translateX(-50%); width: 0; height: 0;
+    border-left: 5px solid transparent; border-right: 5px solid transparent;
+    border-top: 6px solid #fff; z-index: 1;
   }
-  /* Text-only option (no emoji) */
-  .opt.text-only { font-size: 22px; font-weight: 700; }
+  .bub-hanja {
+    display: block; font-size: 22px; font-weight: 800; color: #b00020;
+    line-height: 1; margin-bottom: 4px;
+    font-family: 'Noto Sans Mono CJK JP', 'Noto Sans JP', sans-serif;
+  }
+  .bub-huneum {
+    display: block; font-size: 10pt; color: #222; font-weight: 600;
+    line-height: 1.2;
+  }
+  .bub-meaning {
+    display: block; font-size: 9pt; color: #777;
+    text-transform: capitalize; margin-top: 2px; line-height: 1.2;
+  }
 
   /* Controls */
   .controls {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 10px 14px;
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 8px; background: #fff; border: 1px solid #ddd; border-radius: 10px;
+    padding: 10px 12px;
   }
-  .next-btn {
-    background: #1976d2;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    padding: 10px 20px;
-    font-size: 12pt;
-    font-weight: 700;
-    cursor: pointer;
-    font-family: inherit;
+  .btn-row { display: flex; gap: 8px; }
+  .check-btn, .next-btn {
+    border: none; border-radius: 8px; padding: 10px 18px;
+    font-size: 12pt; font-weight: 700; cursor: pointer; font-family: inherit;
+    color: #fff; transition: background .12s;
   }
+  .check-btn { background: #2e7d32; }
+  .check-btn:hover { background: #1b5e20; }
+  .check-btn:disabled { background: #ccc; cursor: not-allowed; }
+  .next-btn { background: #1976d2; }
   .next-btn:hover { background: #1565c0; }
   .next-btn:disabled { background: #ccc; cursor: not-allowed; }
   .auto-label {
-    font-size: 10.5pt;
-    color: #555;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    cursor: pointer;
-    user-select: none;
+    font-size: 10pt; color: #555;
+    display: flex; align-items: center; gap: 5px;
+    cursor: pointer; user-select: none;
   }
-  .auto-label input { transform: scale(1.15); }
 
   /* Loading / start */
   .loading, .start-msg {
-    text-align: center;
-    padding: 40px 20px;
-    color: #888;
-    font-size: 11pt;
+    text-align: center; padding: 40px 20px; color: #888; font-size: 11pt;
   }
-  .start-msg { font-size: 12pt; color: #555; }
+  .start-msg { font-size: 11.5pt; color: #555; line-height: 1.6; }
   .start-msg b { color: #111; }
 
-  /* Level complete dialog */
+  /* Level complete */
   .complete {
-    background: #fff;
-    border: 2px solid #b00020;
-    border-radius: 12px;
-    padding: 24px;
-    text-align: center;
-    margin: 16px 0;
+    background: #fff; border: 2px solid #b00020; border-radius: 12px;
+    padding: 24px; text-align: center; margin: 16px 0;
   }
-  .complete h2 { margin: 0 0 12px 0; color: #b00020; font-size: 18pt; }
-  .complete .summary { font-size: 13pt; color: #333; margin-bottom: 16px; }
-  .complete .pct { font-size: 32pt; font-weight: 800; color: #2e7d32; }
+  .complete h2 { margin: 0 0 8px 0; color: #b00020; font-size: 18pt; }
+  .complete .pct { font-size: 32pt; font-weight: 800; color: #2e7d32; line-height: 1; margin: 8px 0; }
+  .complete .summary { font-size: 11.5pt; color: #333; margin-bottom: 16px; }
+  .complete .summary span { margin: 0 6px; font-weight: 700; }
   .restart-btn {
-    background: #555;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    padding: 10px 20px;
-    font-size: 12pt;
-    font-weight: 700;
-    cursor: pointer;
-    font-family: inherit;
-    margin-top: 4px;
+    background: #555; color: #fff; border: none; border-radius: 8px;
+    padding: 10px 20px; font-size: 12pt; font-weight: 700;
+    cursor: pointer; font-family: inherit;
   }
 
   footer {
-    margin-top: 20px;
-    font-size: 9pt;
-    color: #999;
-    text-align: center;
+    margin-top: 20px; font-size: 9pt; color: #999; text-align: center;
   }
   footer a { color: #888; }
 </style>
@@ -312,154 +241,121 @@
   <div id="board">
     <div class="start-msg">
       위에서 <b>JLPT 레벨</b>을 선택해 시작하세요.<br><br>
-      한자를 보고 <b>구성 부수에 해당하는 이모티콘</b>을 클릭하세요.<br>
-      클릭하면 한자의 해당 부분이 진해지고, 그 이모티콘이 가리키는 부수가 말풍선으로 표시됩니다.
+      한자를 보고 <b>구성 부수 갯수만큼</b> 이모티콘을 클릭해 선택하세요.<br>
+      클릭한 걸 다시 누르면 취소. <b>확인</b>을 눌러 채점, <b>다음</b>으로 진행합니다.
     </div>
   </div>
 
   <footer>
-    획 데이터: <a href="https://kanjivg.tagaini.net/" target="_blank">KanjiVG</a> (CC BY-SA 3.0)
+    획 데이터: <a href="https://kanjivg.tagaini.net/" target="_blank">KanjiVG</a> (CC BY-SA 3.0) ·
+    이모티콘: <a href="https://openmoji.org/" target="_blank">OpenMoji</a> (CC BY-SA 4.0) ·
+    훈음: <a href="https://www.npmjs.com/package/@seyoungsong/hanjadict" target="_blank">hanjadict</a>
   </footer>
 
 </div>
 
 <script>
 // ============================================================
-// EMOJI MAP: kanji-element (radical/component) → emoji
+// EMOJI MAP: kvg:element char → emoji symbol
 // ============================================================
 const EMOJI = {
   // People & body
   "人":"🧍", "亻":"🧍", "⺅":"🧍",
-  "女":"👩",
-  "子":"👶",
-  "父":"👨",
+  "女":"👩", "子":"👶", "父":"👨",
   "心":"❤️", "忄":"❤️", "⺗":"❤️",
-  "目":"👁",
-  "口":"👄",
-  "耳":"👂",
-  "鼻":"👃",
+  "目":"👁", "口":"👄", "耳":"👂", "鼻":"👃",
   "手":"✋", "扌":"✋",
-  "足":"🦶",
-  "齒":"🦷", "歯":"🦷",
-  "骨":"🦴",
-  "髟":"💇",
-  "頁":"🗣",
-  "首":"🧠",
-  "舌":"👅",
-  "毛":"🪶",
+  "足":"🦶", "齒":"🦷", "歯":"🦷",
+  "骨":"🦴", "髟":"💇",
+  "頁":"🗣", "首":"🧠",
+  "舌":"👅", "毛":"🪶",
   "肉":"🍖", "⺝":"🍖",
-
   // Nature
-  "木":"🌳",
-  "竹":"🎋", "⺮":"🎋",
-  "米":"🍚",
-  "禾":"🌾",
+  "木":"🌳", "竹":"🎋", "⺮":"🎋",
+  "米":"🍚", "禾":"🌾",
   "麥":"🌾", "麦":"🌾",
   "艸":"🌿", "艹":"🌿", "⺾":"🌿",
   "水":"💧", "氵":"💧", "氺":"💧",
   "火":"🔥", "灬":"🔥",
-  "日":"☀️",
-  "月":"🌙",
-  "雨":"☔",
-  "風":"🌬️",
-  "山":"⛰️",
-  "巛":"🌊", "川":"🌊",
-  "石":"🪨",
-  "土":"🟫",
-  "田":"🟩",
-  "气":"💨",
+  "日":"☀️", "月":"🌙",
+  "雨":"☔", "風":"🌬️",
+  "山":"⛰️", "巛":"🌊", "川":"🌊",
+  "石":"🪨", "土":"🟫",
+  "田":"🟩", "气":"💨",
   "玉":"💎", "王":"👑",
   "金":"🪙", "釒":"🪙",
-  "夕":"🌆",
-  "花":"🌸",
-
+  "夕":"🌆", "花":"🌸",
   // Animals
-  "馬":"🐴",
-  "牛":"🐂",
-  "羊":"🐑",
+  "馬":"🐴", "牛":"🐂", "羊":"🐑",
   "犬":"🐶", "犭":"🐶",
   "虫":"🐛",
   "鳥":"🐦", "隹":"🐦",
-  "魚":"🐟",
-  "鹿":"🦌",
+  "魚":"🐟", "鹿":"🦌",
   "龍":"🐉", "竜":"🐉",
-  "龜":"🐢",
-  "豕":"🐷",
-  "羽":"🪶",
-  "貝":"🐚",
-
+  "龜":"🐢", "豕":"🐷",
+  "羽":"🪶", "貝":"🐚",
   // Actions / tools
   "言":"💬", "讠":"💬",
   "走":"🏃",
   "行":"🚶", "彳":"🚶",
   "食":"🍱", "飠":"🍱",
-  "見":"👀",
-  "立":"📏",
+  "見":"👀", "立":"📏",
   "力":"💪",
   "刀":"🔪", "刂":"🔪",
-  "弓":"🏹",
-  "矢":"🎯",
-  "戈":"⚔️",
-  "斤":"🪓",
-  "飛":"✈️",
-  "用":"🔧",
-
+  "弓":"🏹", "矢":"🎯",
+  "戈":"⚔️", "斤":"🪓",
+  "飛":"✈️", "用":"🔧",
   // Things / culture
-  "車":"🚗",
-  "舟":"⛵",
+  "車":"🚗", "舟":"⛵",
   "衣":"👕", "衤":"👕",
   "糸":"🧵", "纟":"🧵",
-  "巾":"🧣",
-  "皿":"🍽",
-  "酉":"🍶",
-  "缶":"🥫",
+  "巾":"🧣", "皿":"🍽",
+  "酉":"🍶", "缶":"🥫",
   "示":"⛩", "礻":"⛩",
-
-  // Places / buildings
-  "宀":"🏠",
-  "广":"🏛",
-  "門":"🚪",
-  "穴":"🕳",
-  "里":"🏘",
-  "阝":"🏘",
+  // Places
+  "宀":"🏠", "广":"🏛",
+  "門":"🚪", "穴":"🕳",
+  "里":"🏘", "阝":"🏘",
 };
+
+// Convert emoji string to OpenMoji filename (uppercase hex codepoints joined by '-')
+function emojiToOpenmojiHex(emoji) {
+  return [...emoji]
+    .map(c => c.codePointAt(0).toString(16).toUpperCase())
+    .filter(cp => cp !== 'FE0F')   // OpenMoji omits variation selector
+    .join('-');
+}
+
+function emojiImgUrl(emoji) {
+  return `https://cdn.jsdelivr.net/npm/openmoji@latest/color/svg/${emojiToOpenmojiHex(emoji)}.svg`;
+}
 
 // ============================================================
 // GAME STATE
 // ============================================================
 const state = {
-  data: null,                    // full data array
-  level: null,                   // current JLPT level
-  pool: [],                      // kanji array for level
-  order: [],                     // shuffled indices
-  idx: 0,                        // current index in order
-  current: null,                 // current kanji object
-  currentComponents: [],         // unique components (after dedup)
-  options: [],                   // 10 button options
-  optionState: [],               // 'unclicked' | 'correct' | 'wrong'
+  data: null,         // game data array
+  huneum: null,       // char → "뜻 음" map
+  level: null,
+  pool: [],           // kanji array for level
+  order: [],          // shuffled indices into pool
+  idx: 0,
+  current: null,
+  options: [],
+  componentSet: new Set(),  // unique component elements of current kanji
+  maxSelect: 0,
+  selected: new Set(),      // indices into options
+  phase: 'select',          // 'select' | 'graded'
   revealedStrokes: new Set(),
-  remainingCorrect: 0,
   correct: 0,
+  missed: 0,
   wrong: 0,
   autoSkip: false,
   autoSkipTimer: null,
 };
 
-// ============================================================
-// HELPERS
-// ============================================================
-function shuffle(arr) {
-  const a = arr.slice();
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
-function randomFrom(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
-
-// Build a distractor pool of all known elements that appear across kanji
 let DISTRACTOR_POOL = [];
+
 function buildDistractorPool() {
   const set = new Set();
   for (const k of state.data) {
@@ -471,16 +367,16 @@ function buildDistractorPool() {
   DISTRACTOR_POOL = [...set];
 }
 
-// Normalize an element string (so 人 and 亻 are treated as same answer)
-function normalizeElement(el) {
-  // If emoji map treats variants as same, we still need the visual char.
-  // For answer matching, we use the literal kvg:element string from the kanji.
-  return el;
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
 }
 
-// Pick 10 unique element strings: include the kanji's components + distractors
 function pickOptions(kanji) {
-  // De-dup kanji's components by element string
   const seen = new Set();
   const required = [];
   for (const c of kanji.components) {
@@ -490,11 +386,9 @@ function pickOptions(kanji) {
     }
   }
   const banned = new Set(required);
-  // Add distractors until 10
   const pool = DISTRACTOR_POOL.filter(e => !banned.has(e));
   const distractors = shuffle(pool).slice(0, Math.max(0, 10 - required.length));
-  const all = shuffle([...required, ...distractors]).slice(0, 10);
-  return all;
+  return shuffle([...required, ...distractors]).slice(0, 10);
 }
 
 // ============================================================
@@ -503,10 +397,10 @@ function pickOptions(kanji) {
 function renderKanji() {
   const k = state.current;
   const w = 109;
-  let svgPaths = '';
+  let paths = '';
   for (const s of k.strokes) {
     const cls = state.revealedStrokes.has(s.id) ? 'stroke revealed' : 'stroke';
-    svgPaths += `<path class="${cls}" data-sid="${s.id}" d="${s.d}"/>`;
+    paths += `<path class="${cls}" data-sid="${s.id}" d="${s.d}"/>`;
   }
   return `
     <div class="kanji-card">
@@ -514,49 +408,71 @@ function renderKanji() {
         <svg class="kanji-svg" viewBox="0 0 ${w} ${w}" preserveAspectRatio="xMidYMid meet">
           <line class="cross" x1="${w/2}" y1="2" x2="${w/2}" y2="${w-2}"/>
           <line class="cross" x1="2" y1="${w/2}" x2="${w-2}" y2="${w/2}"/>
-          ${svgPaths}
+          ${paths}
         </svg>
       </div>
-      <div class="kanji-meta" id="meta">
-        <span class="km-hidden">— 부수를 모두 맞추면 정보가 표시됩니다 —</span>
-      </div>
+      <div class="kanji-meta" id="meta">${renderMetaHtml()}</div>
     </div>
   `;
 }
 
-function renderMeta(revealed) {
+function renderMetaHtml() {
   const k = state.current;
-  const el = document.getElementById('meta');
-  if (!el) return;
-  if (!revealed) {
-    el.innerHTML = `<span class="km-hidden">— 부수를 모두 맞추면 정보가 표시됩니다 —</span>`;
-    return;
+  if (state.phase !== 'graded') {
+    return `<span class="km-hidden">— 채점 후 정보가 표시됩니다 —</span>`;
   }
-  el.innerHTML = `
+  const huneum = state.huneum[k.ch] || '';
+  return `
     <span class="km-reading">${k.reading || '—'}</span>
     <span class="km-sep">·</span>
     <span class="km-meaning">${k.meaning || ''}</span>
-    ${k.korean ? `<span class="km-sep">·</span><span class="km-korean">${k.korean}</span>` : ''}
+    ${huneum ? `<span class="km-sep">·</span><span class="km-korean">${huneum}</span>` : ''}
   `;
+}
+
+function classifyOption(idx) {
+  // Returns the visual class for the button at idx, based on phase + state
+  const elem = state.options[idx];
+  const isSelected = state.selected.has(idx);
+  const isComponent = state.componentSet.has(elem);
+  if (state.phase === 'select') {
+    return isSelected ? 'selected' : '';
+  }
+  // Graded
+  if (isSelected && isComponent)  return 'correct';
+  if (isSelected && !isComponent) return 'wrong';
+  if (!isSelected && isComponent) return 'missed';
+  return 'distractor';
 }
 
 function renderOptions() {
   let html = '<div class="options" id="options">';
-  state.options.forEach((el, i) => {
-    const emoji = EMOJI[el];
-    const cls = state.optionState[i];
-    const body = emoji
-      ? emoji
-      : `<span>${el}</span>`;
-    const isText = !emoji;
-    let bubbleHtml = '';
-    if (cls === 'correct' || cls === 'wrong') {
-      bubbleHtml = `<span class="bubble">${el}</span>`;
+  state.options.forEach((elem, idx) => {
+    const cls = classifyOption(idx);
+    const lockedExtra = (state.phase === 'select' && state.selected.size >= state.maxSelect && !state.selected.has(idx))
+      ? 'full-locked' : '';
+    const emoji = EMOJI[elem];
+    const inner = emoji
+      ? `<img class="opt-img" src="${emojiImgUrl(emoji)}"
+             onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'opt-text',textContent:'${elem}'}))" />`
+      : `<span class="opt-text">${elem}</span>`;
+    const showBubble = (state.phase === 'graded') && (cls === 'correct' || cls === 'wrong' || cls === 'missed');
+    let bubble = '';
+    if (showBubble) {
+      const huneum = state.huneum[elem] || '';
+      // English meaning for the radical: not always available; reuse huneum or fallback
+      bubble = `
+        <span class="bubble">
+          <span class="bub-hanja">${elem}</span>
+          ${huneum ? `<span class="bub-huneum">${huneum}</span>` : ''}
+        </span>
+      `;
     }
+    const disabled = (state.phase === 'graded') ? 'disabled' : '';
     html += `
-      <button class="opt ${cls} ${isText?'text-only':''}" data-idx="${i}" ${cls!=='unclicked'?'disabled':''}>
-        ${bubbleHtml}
-        ${body}
+      <button class="opt ${cls} ${lockedExtra}" data-idx="${idx}" ${disabled}>
+        ${bubble}
+        ${inner}
       </button>
     `;
   });
@@ -565,109 +481,109 @@ function renderOptions() {
 }
 
 function renderStats() {
+  const pickInfo = (state.phase === 'select')
+    ? `<span class="stat-pick">선택 ${state.selected.size} / ${state.maxSelect}</span>`
+    : '';
   return `
     <div class="stats">
       <span class="stat-correct">정답 ${state.correct}</span>
+      <span class="stat-missed">누락 ${state.missed}</span>
       <span class="stat-wrong">오답 ${state.wrong}</span>
-      <span class="stat-progress">${state.idx + 1} / ${state.pool.length} (${state.level})</span>
+      ${pickInfo}
+      <span class="stat-progress">${state.idx + 1} / ${state.pool.length} · ${state.level}</span>
     </div>
   `;
 }
 
 function renderControls() {
+  const checkDisabled = (state.phase === 'graded') ? 'disabled' : '';
+  const nextDisabled  = (state.phase === 'graded') ? '' : 'disabled';
   return `
     <div class="controls">
-      <button class="next-btn" id="nextBtn">다음 →</button>
+      <div class="btn-row">
+        <button class="check-btn" id="checkBtn" ${checkDisabled}>확인</button>
+        <button class="next-btn"  id="nextBtn"  ${nextDisabled}>다음 →</button>
+      </div>
       <label class="auto-label">
         <input type="checkbox" id="autoSkip" ${state.autoSkip ? 'checked' : ''}>
-        Auto-skip (정답 다 맞추면 자동 진행)
+        Auto-skip
       </label>
     </div>
   `;
 }
 
 function renderBoard() {
-  const board = document.getElementById('board');
-  board.innerHTML = renderStats() + renderKanji() + renderOptions() + renderControls();
+  document.getElementById('board').innerHTML =
+    renderStats() + renderKanji() + renderOptions() + renderControls();
   attachListeners();
 }
 
-// ============================================================
-// EVENT HANDLERS
-// ============================================================
 function attachListeners() {
   document.getElementById('options').addEventListener('click', onOptionClick);
+  document.getElementById('checkBtn').addEventListener('click', onCheckClick);
   document.getElementById('nextBtn').addEventListener('click', nextRound);
   document.getElementById('autoSkip').addEventListener('change', e => {
     state.autoSkip = e.target.checked;
   });
 }
 
+// ============================================================
+// CLICK HANDLERS
+// ============================================================
 function onOptionClick(e) {
+  if (state.phase !== 'select') return;
   const btn = e.target.closest('.opt');
   if (!btn) return;
   const idx = parseInt(btn.dataset.idx);
-  if (state.optionState[idx] !== 'unclicked') return;
-  const elementChar = state.options[idx];
 
-  // Find matching component(s) in current kanji
-  const matches = state.current.components.filter(c => c.element === elementChar);
-  if (matches.length > 0) {
-    // Correct!
-    state.optionState[idx] = 'correct';
-    state.correct++;
-    let anyNew = false;
-    for (const c of matches) {
-      for (const sid of c.strokes) {
-        if (!state.revealedStrokes.has(sid)) {
-          state.revealedStrokes.add(sid);
-          anyNew = true;
-        }
-      }
-    }
-    if (anyNew) state.remainingCorrect = Math.max(0, state.remainingCorrect - 1);
-    updateKanjiSvg();
+  if (state.selected.has(idx)) {
+    // Toggle off
+    state.selected.delete(idx);
   } else {
-    // Wrong
-    state.optionState[idx] = 'wrong';
-    state.wrong++;
+    // Toggle on, if under limit
+    if (state.selected.size >= state.maxSelect) return;
+    state.selected.add(idx);
   }
-  // Re-render options + stats
+  // Re-render options + stats (no kanji change yet)
+  rerenderPartial();
+}
+
+function rerenderPartial() {
   document.getElementById('options').outerHTML = renderOptions();
   document.querySelector('.stats').outerHTML = renderStats();
   document.getElementById('options').addEventListener('click', onOptionClick);
-
-  // Check round completion
-  if (allCorrectClicked()) {
-    renderMeta(true);
-    if (state.autoSkip) {
-      clearTimeout(state.autoSkipTimer);
-      state.autoSkipTimer = setTimeout(nextRound, 1500);
-    }
-  }
 }
 
-function allCorrectClicked() {
-  // Round is complete when all unique kanji components have been clicked correctly
-  const uniqueComponents = new Set();
-  for (const c of state.current.components) uniqueComponents.add(c.element);
-  // Count distinct correctly-clicked elements that are in the kanji
-  const clicked = new Set();
-  state.options.forEach((el, i) => {
-    if (state.optionState[i] === 'correct') clicked.add(el);
-  });
-  for (const el of uniqueComponents) {
-    if (!clicked.has(el)) return false;
-  }
-  return uniqueComponents.size > 0;
-}
+function onCheckClick() {
+  if (state.phase !== 'select') return;
+  state.phase = 'graded';
 
-function updateKanjiSvg() {
-  const paths = document.querySelectorAll('.kanji-svg path[data-sid]');
-  paths.forEach(p => {
-    const sid = parseInt(p.dataset.sid);
-    if (state.revealedStrokes.has(sid)) p.classList.add('revealed');
+  // Tally
+  let roundCorrect = 0, roundWrong = 0, roundMissed = 0;
+  // Walk options
+  state.options.forEach((elem, idx) => {
+    const isComp = state.componentSet.has(elem);
+    const isSel  = state.selected.has(idx);
+    if (isSel && isComp)  roundCorrect++;
+    else if (isSel)       roundWrong++;
+    else if (isComp)      roundMissed++;
   });
+  state.correct += roundCorrect;
+  state.wrong   += roundWrong;
+  state.missed  += roundMissed;
+
+  // Reveal correct-component strokes (even for missed ones, so user sees the answer)
+  for (const c of state.current.components) {
+    for (const sid of c.strokes) state.revealedStrokes.add(sid);
+  }
+
+  // Full re-render
+  renderBoard();
+
+  if (state.autoSkip) {
+    clearTimeout(state.autoSkipTimer);
+    state.autoSkipTimer = setTimeout(nextRound, 2000);
+  }
 }
 
 function nextRound() {
@@ -683,36 +599,34 @@ function nextRound() {
 function startRound() {
   state.current = state.pool[state.order[state.idx]];
   state.revealedStrokes = new Set();
-  const uniqueElems = new Set();
-  for (const c of state.current.components) uniqueElems.add(c.element);
-  state.remainingCorrect = uniqueElems.size;
+  state.componentSet = new Set(state.current.components.map(c => c.element));
+  state.maxSelect = state.componentSet.size;
   state.options = pickOptions(state.current);
-  state.optionState = state.options.map(() => 'unclicked');
+  state.selected = new Set();
+  state.phase = 'select';
   renderBoard();
 }
 
 function showComplete() {
   const board = document.getElementById('board');
-  const total = state.correct + state.wrong;
+  const total = state.correct + state.missed + state.wrong;
   const pct = total > 0 ? Math.round((state.correct / total) * 100) : 0;
   board.innerHTML = `
     <div class="complete">
       <h2>${state.level} 완료!</h2>
       <div class="pct">${pct}%</div>
       <div class="summary">
-        총 ${state.pool.length}자 · 정답 ${state.correct} · 오답 ${state.wrong}
+        <span class="stat-correct">정답 ${state.correct}</span>
+        <span class="stat-missed">누락 ${state.missed}</span>
+        <span class="stat-wrong">오답 ${state.wrong}</span>
+        <br>총 ${state.pool.length}자 / 부수 ${total}개 평가
       </div>
       <button class="restart-btn" onclick="restartLevel()">다시 도전</button>
     </div>
   `;
 }
-window.restartLevel = function() {
-  startLevel(state.level);
-};
+window.restartLevel = function() { startLevel(state.level); };
 
-// ============================================================
-// LEVEL SELECT
-// ============================================================
 function setActiveLevelBtn(level) {
   document.querySelectorAll('.level-btn').forEach(b => {
     b.classList.toggle('active', b.dataset.lv === level);
@@ -721,8 +635,7 @@ function setActiveLevelBtn(level) {
 
 async function startLevel(level) {
   state.level = level;
-  state.correct = 0;
-  state.wrong = 0;
+  state.correct = 0; state.missed = 0; state.wrong = 0;
   state.idx = 0;
   state.pool = state.data.filter(k => k.jlpt === level);
   state.order = shuffle(state.pool.map((_, i) => i));
@@ -738,12 +651,16 @@ async function startLevel(level) {
 async function loadData() {
   document.getElementById('board').innerHTML =
     '<div class="loading">데이터 로딩 중… (한 번만 받아옵니다)</div>';
-  const res = await fetch('./kanji-game-data.json');
-  state.data = await res.json();
+  const [gameRes, huneumRes] = await Promise.all([
+    fetch('./kanji-game-data.json'),
+    fetch('./char-huneum.json'),
+  ]);
+  state.data = await gameRes.json();
+  state.huneum = await huneumRes.json();
   buildDistractorPool();
   document.getElementById('board').innerHTML = `
     <div class="start-msg">
-      <b>준비 완료</b> · ${state.data.length}자 로드됨<br><br>
+      <b>준비 완료</b> · 한자 ${state.data.length}자, 훈음 ${Object.keys(state.huneum).length}개 로드<br><br>
       위에서 <b>JLPT 레벨</b>을 선택해 시작하세요.
     </div>
   `;
@@ -751,8 +668,7 @@ async function loadData() {
 
 document.getElementById('levels').addEventListener('click', e => {
   const btn = e.target.closest('.level-btn');
-  if (!btn) return;
-  if (!state.data) return;
+  if (!btn || !state.data) return;
   startLevel(btn.dataset.lv);
 });
 
