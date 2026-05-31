@@ -85,7 +85,8 @@
     stroke-linecap: round; stroke-linejoin: round;
     transition: stroke .25s, stroke-width .25s;
   }
-  .stroke.revealed { stroke: #000; stroke-width: 4.2; }
+  .stroke.revealed-correct { stroke: #000;    stroke-width: 4.2; }
+  .stroke.revealed-missed  { stroke: #f57c00; stroke-width: 4.2; }
 
   .kanji-meta {
     font-size: 10pt; color: #555; margin: 6px 0 0 0;
@@ -379,7 +380,7 @@ const state = {
   maxSelect: 0,
   selected: new Set(),      // indices into options
   phase: 'select',          // 'select' | 'graded'
-  revealedStrokes: new Set(),
+  revealedStrokes: new Map(),   // sid → 'correct' | 'missed'
   correct: 0,
   missed: 0,
   wrong: 0,
@@ -430,7 +431,10 @@ function renderKanji() {
   const w = 109;
   let paths = '';
   for (const s of k.strokes) {
-    const cls = state.revealedStrokes.has(s.id) ? 'stroke revealed' : 'stroke';
+    const status = state.revealedStrokes.get(s.id);
+    let cls = 'stroke';
+    if (status === 'correct') cls = 'stroke revealed-correct';
+    else if (status === 'missed') cls = 'stroke revealed-missed';
     paths += `<path class="${cls}" data-sid="${s.id}" d="${s.d}"/>`;
   }
   return `
@@ -581,9 +585,19 @@ function onCheckClick() {
   state.wrong   += roundWrong;
   state.missed  += roundMissed;
 
-  // Reveal correct-component strokes (even for missed ones, so user sees the answer)
+  // Mark each component's strokes by status:
+  //   'correct' if user clicked the matching emoji button,
+  //   'missed'  if not (so the user sees what they missed in orange).
+  //  'correct' wins if a stroke belongs to multiple components and any was clicked.
   for (const c of state.current.components) {
-    for (const sid of c.strokes) state.revealedStrokes.add(sid);
+    const wasClicked = state.options.some((elem, idx) =>
+      elem === c.element && state.selected.has(idx)
+    );
+    const status = wasClicked ? 'correct' : 'missed';
+    for (const sid of c.strokes) {
+      if (state.revealedStrokes.get(sid) === 'correct') continue;
+      state.revealedStrokes.set(sid, status);
+    }
   }
 
   // Full re-render
@@ -601,7 +615,7 @@ function nextRound() {
 
 function startRound() {
   state.current = state.pool[state.order[state.idx]];
-  state.revealedStrokes = new Set();
+  state.revealedStrokes = new Map();
   state.componentSet = new Set(state.current.components.map(c => c.element));
   state.maxSelect = state.componentSet.size;
   state.options = pickOptions(state.current);
