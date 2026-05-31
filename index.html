@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>한자 확장술 — Kanji Expansion Workbooks</title>
+<style>
+  @font-face {
+    font-family: 'Noto Sans Mono CJK JP';
+    src: url('https://cdn.jsdelivr.net/gh/notofonts/noto-cjk@main/Sans/Mono/NotoSansMonoCJKjp-Regular.otf') format('opentype');
+    font-weight: 400; font-display: swap;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&display=swap');
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: 'Noto Sans Mono CJK JP', 'Noto Sans JP', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+    color: #1a1a1a;
+    background: #f4f4f6;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 48px 24px 80px; }
+  header {
+    text-align: center;
+    padding: 32px 0 40px;
+    border-bottom: 1px solid #d8d8dc;
+    margin-bottom: 40px;
+  }
+  .root-char {
+    font-size: 96pt;
+    font-weight: 800;
+    color: #b00020;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: -4px;
+  }
+  h1 { font-size: 22pt; margin: 10px 0 4px; font-weight: 700; }
+  .tagline { color: #666; font-size: 12pt; margin: 0; }
+  .cards { display: grid; gap: 18px; }
+  .card {
+    display: block;
+    padding: 24px 26px;
+    background: #fff;
+    border: 1px solid #d8d8dc;
+    border-radius: 10px;
+    text-decoration: none;
+    color: inherit;
+    transition: transform .15s, box-shadow .15s, border-color .15s;
+  }
+  .card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    border-color: #b00020;
+  }
+  .card-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 6px;
+  }
+  .card-title { font-size: 14pt; font-weight: 700; margin: 0; }
+  .card-meta { font-size: 9.5pt; color: #888; white-space: nowrap; }
+  .card-desc { color: #555; font-size: 11pt; margin: 0; }
+  .card-kanji {
+    margin-top: 12px;
+    font-size: 18pt;
+    letter-spacing: 6px;
+    color: #b00020;
+    font-weight: 700;
+  }
+  footer {
+    margin-top: 56px;
+    padding-top: 20px;
+    border-top: 1px solid #d8d8dc;
+    font-size: 9.5pt;
+    color: #888;
+    text-align: center;
+  }
+  footer a { color: #555; }
+  .legend {
+    background: #fff;
+    border: 1px solid #d8d8dc;
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin-bottom: 32px;
+    font-size: 11pt;
+    color: #444;
+  }
+  .legend b { color: #111; }
+  .legend-swatch {
+    display: inline-block;
+    width: 24pt;
+    height: 4pt;
+    vertical-align: middle;
+    margin-right: 6pt;
+    border-radius: 2pt;
+  }
+  .legend-swatch.dark { background: #000; }
+  .legend-swatch.light { background: #c4c4c4; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <p class="root-char">人</p>
+    <h1>한자 확장술 워크북</h1>
+    <p class="tagline">Kanji Expansion Workbooks — built from KanjiVG stroke data</p>
+  </header>
+
+  <div class="legend">
+    각 셀에서 <b><span class="legend-swatch dark"></span>섹션 부수의 획은 진하게</b>,
+    <b><span class="legend-swatch light"></span>나머지 결합 획은 연하게</b> 표시되어 부수가 어떻게 확장되는지 한눈에 보입니다.
+    각 글자별로 히라가나 훈독 · JLPT 등급 · 영어 뜻이 함께 표시되며, A4 인쇄용으로 디자인되었습니다.
+  </div>
+
+  <div class="cards">
+
+    <a class="card" href="hanja_expansion_jin.html">
+      <div class="card-head">
+        <h2 class="card-title">人 / 亻 확장</h2>
+        <span class="card-meta">2 pages · 40 kanji</span>
+      </div>
+      <p class="card-desc">사람 인(人)을 기본으로 한 확장 한자 모음. 1페이지는 人 자체에서 파생되는 글자, 2페이지는 사람인변(亻) 글자.</p>
+      <div class="card-kanji">人 入 八 大 火 天 夫 太 犬 央 …</div>
+    </a>
+
+    <a class="card" href="kanji_expansion_workbook.html">
+      <div class="card-head">
+        <h2 class="card-title">교육한자 확장술 전집</h2>
+        <span class="card-meta">180 pages · 1,006 kanji · 166 radicals</span>
+      </div>
+      <p class="card-desc">초등 교육한자 1,006자 전체를 강희 부수(214 부수) 기준으로 그룹화. 각 글자에서 해당 섹션 부수의 획만 진하게 강조.</p>
+      <div class="card-kanji">一 丿 亅 亠 人 儿 入 八 冂 …</div>
+    </a>
+
+    <a class="card" href="kyoiku_kanji_workbook.html">
+      <div class="card-head">
+        <h2 class="card-title">교육한자 워크북 (학년별)</h2>
+        <span class="card-meta">52 pages · 1,006 kanji · grades 1–6</span>
+      </div>
+      <p class="card-desc">초등 1~6학년 교육한자를 학년별로 정리. 부수 강조 없이 모든 획을 동일하게 표시 (참고/연습용).</p>
+      <div class="card-kanji">小1 → 小6</div>
+    </a>
+
+  </div>
+
+  <footer>
+    획 데이터: <a href="https://kanjivg.tagaini.net/" target="_blank">KanjiVG</a> (CC BY-SA 3.0) ·
+    한자 데이터: <a href="https://www.npmjs.com/package/kanji" target="_blank">kanji</a>,
+    <a href="https://www.npmjs.com/package/kanjidic" target="_blank">kanjidic</a> ·
+    <a href="https://github.com/bohemiansalt82/kanji_expansion" target="_blank">GitHub</a>
+  </footer>
+
+</div>
+</body>
+</html>

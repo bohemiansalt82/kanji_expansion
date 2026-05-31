@@ -1,0 +1,10 @@
+# npm install output (huge — regenerate via README instructions)
+.kdata/
+.kvg/
+node_modules/
+package-lock.json
+package.json
+
+# python
+__pycache__/
+*.pyc

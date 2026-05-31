@@ -1,0 +1,10062 @@
+[
+  {
+    "ch": "日",
+    "code": "065e5",
+    "grade": 1,
+    "reading": "ひ",
+    "jlpt": "N5",
+    "meaning": "day",
+    "radical": 72,
+    "strokes": 4
+  },
+  {
+    "ch": "一",
+    "code": "04e00",
+    "grade": 1,
+    "reading": "ひと",
+    "jlpt": "N5",
+    "meaning": "one",
+    "radical": 1,
+    "strokes": 1
+  },
+  {
+    "ch": "人",
+    "code": "04eba",
+    "grade": 1,
+    "reading": "ひと",
+    "jlpt": "N5",
+    "meaning": "person",
+    "radical": 9,
+    "strokes": 2
+  },
+  {
+    "ch": "年",
+    "code": "05e74",
+    "grade": 1,
+    "reading": "とし",
+    "jlpt": "N5",
+    "meaning": "year",
+    "radical": 4,
+    "strokes": 6
+  },
+  {
+    "ch": "大",
+    "code": "05927",
+    "grade": 1,
+    "reading": "おお",
+    "jlpt": "N5",
+    "meaning": "large",
+    "radical": 37,
+    "strokes": 3
+  },
+  {
+    "ch": "十",
+    "code": "05341",
+    "grade": 1,
+    "reading": "とお",
+    "jlpt": "N5",
+    "meaning": "ten",
+    "radical": 24,
+    "strokes": 2
+  },
+  {
+    "ch": "二",
+    "code": "04e8c",
+    "grade": 1,
+    "reading": "ふた",
+    "jlpt": "N5",
+    "meaning": "two",
+    "radical": 7,
+    "strokes": 2
+  },
+  {
+    "ch": "本",
+    "code": "0672c",
+    "grade": 1,
+    "reading": "もと",
+    "jlpt": "N5",
+    "meaning": "book",
+    "radical": 2,
+    "strokes": 5
+  },
+  {
+    "ch": "中",
+    "code": "04e2d",
+    "grade": 1,
+    "reading": "なか",
+    "jlpt": "N5",
+    "meaning": "in",
+    "radical": 2,
+    "strokes": 4
+  },
+  {
+    "ch": "出",
+    "code": "051fa",
+    "grade": 1,
+    "reading": "でる",
+    "jlpt": "N5",
+    "meaning": "exit",
+    "radical": 2,
+    "strokes": 5
+  },
+  {
+    "ch": "三",
+    "code": "04e09",
+    "grade": 1,
+    "reading": "み",
+    "jlpt": "N5",
+    "meaning": "three",
+    "radical": 1,
+    "strokes": 3
+  },
+  {
+    "ch": "見",
+    "code": "0898b",
+    "grade": 1,
+    "reading": "みる",
+    "jlpt": "N5",
+    "meaning": "see",
+    "radical": 147,
+    "strokes": 7
+  },
+  {
+    "ch": "月",
+    "code": "06708",
+    "grade": 1,
+    "reading": "つき",
+    "jlpt": "N5",
+    "meaning": "month",
+    "radical": 74,
+    "strokes": 4
+  },
+  {
+    "ch": "生",
+    "code": "0751f",
+    "grade": 1,
+    "reading": "いきる",
+    "jlpt": "N5",
+    "meaning": "life",
+    "radical": 100,
+    "strokes": 5
+  },
+  {
+    "ch": "五",
+    "code": "04e94",
+    "grade": 1,
+    "reading": "いつ",
+    "jlpt": "N5",
+    "meaning": "five",
+    "radical": 1,
+    "strokes": 4
+  },
+  {
+    "ch": "上",
+    "code": "04e0a",
+    "grade": 1,
+    "reading": "うえ",
+    "jlpt": "N5",
+    "meaning": "above",
+    "radical": 25,
+    "strokes": 3
+  },
+  {
+    "ch": "四",
+    "code": "056db",
+    "grade": 1,
+    "reading": "よ",
+    "jlpt": "N5",
+    "meaning": "four",
+    "radical": 31,
+    "strokes": 5
+  },
+  {
+    "ch": "金",
+    "code": "091d1",
+    "grade": 1,
+    "reading": "かね",
+    "jlpt": "N5",
+    "meaning": "gold",
+    "radical": 167,
+    "strokes": 8
+  },
+  {
+    "ch": "九",
+    "code": "04e5d",
+    "grade": 1,
+    "reading": "ここの",
+    "jlpt": "N5",
+    "meaning": "nine",
+    "radical": 4,
+    "strokes": 2
+  },
+  {
+    "ch": "入",
+    "code": "05165",
+    "grade": 1,
+    "reading": "いる",
+    "jlpt": "N5",
+    "meaning": "enter",
+    "radical": 11,
+    "strokes": 2
+  },
+  {
+    "ch": "立",
+    "code": "07acb",
+    "grade": 1,
+    "reading": "たつ",
+    "jlpt": "N5",
+    "meaning": "stand up",
+    "radical": 117,
+    "strokes": 5
+  },
+  {
+    "ch": "手",
+    "code": "0624b",
+    "grade": 1,
+    "reading": "て",
+    "jlpt": "N5",
+    "meaning": "hand",
+    "radical": 64,
+    "strokes": 4
+  },
+  {
+    "ch": "力",
+    "code": "0529b",
+    "grade": 1,
+    "reading": "ちから",
+    "jlpt": "N4",
+    "meaning": "power",
+    "radical": 19,
+    "strokes": 2
+  },
+  {
+    "ch": "学",
+    "code": "05b66",
+    "grade": 1,
+    "reading": "まなぶ",
+    "jlpt": "N5",
+    "meaning": "study",
+    "radical": 39,
+    "strokes": 8
+  },
+  {
+    "ch": "円",
+    "code": "05186",
+    "grade": 1,
+    "reading": "まるい",
+    "jlpt": "N5",
+    "meaning": "circle",
+    "radical": 13,
+    "strokes": 4
+  },
+  {
+    "ch": "子",
+    "code": "05b50",
+    "grade": 1,
+    "reading": "こ",
+    "jlpt": "N5",
+    "meaning": "child",
+    "radical": 39,
+    "strokes": 3
+  },
+  {
+    "ch": "目",
+    "code": "076ee",
+    "grade": 1,
+    "reading": "め",
+    "jlpt": "N5",
+    "meaning": "eye",
+    "radical": 109,
+    "strokes": 5
+  },
+  {
+    "ch": "田",
+    "code": "07530",
+    "grade": 1,
+    "reading": "た",
+    "jlpt": "N4",
+    "meaning": "rice field",
+    "radical": 102,
+    "strokes": 5
+  },
+  {
+    "ch": "八",
+    "code": "0516b",
+    "grade": 1,
+    "reading": "や",
+    "jlpt": "N5",
+    "meaning": "eight",
+    "radical": 12,
+    "strokes": 2
+  },
+  {
+    "ch": "六",
+    "code": "0516d",
+    "grade": 1,
+    "reading": "む",
+    "jlpt": "N5",
+    "meaning": "six",
+    "radical": 8,
+    "strokes": 4
+  },
+  {
+    "ch": "下",
+    "code": "04e0b",
+    "grade": 1,
+    "reading": "した",
+    "jlpt": "N5",
+    "meaning": "below",
+    "radical": 1,
+    "strokes": 3
+  },
+  {
+    "ch": "気",
+    "code": "06c17",
+    "grade": 1,
+    "reading": "いき",
+    "jlpt": "N5",
+    "meaning": "spirit",
+    "radical": 84,
+    "strokes": 6
+  },
+  {
+    "ch": "小",
+    "code": "05c0f",
+    "grade": 1,
+    "reading": "ちいさい",
+    "jlpt": "N5",
+    "meaning": "little",
+    "radical": 42,
+    "strokes": 3
+  },
+  {
+    "ch": "七",
+    "code": "04e03",
+    "grade": 1,
+    "reading": "なな",
+    "jlpt": "N5",
+    "meaning": "seven",
+    "radical": 5,
+    "strokes": 2
+  },
+  {
+    "ch": "山",
+    "code": "05c71",
+    "grade": 1,
+    "reading": "やま",
+    "jlpt": "N5",
+    "meaning": "mountain",
+    "radical": 46,
+    "strokes": 3
+  },
+  {
+    "ch": "正",
+    "code": "06b63",
+    "grade": 1,
+    "reading": "ただしい",
+    "jlpt": "N4",
+    "meaning": "correct",
+    "radical": 1,
+    "strokes": 5
+  },
+  {
+    "ch": "女",
+    "code": "05973",
+    "grade": 1,
+    "reading": "おんな",
+    "jlpt": "N5",
+    "meaning": "woman",
+    "radical": 38,
+    "strokes": 3
+  },
+  {
+    "ch": "百",
+    "code": "0767e",
+    "grade": 1,
+    "reading": "もも",
+    "jlpt": "N5",
+    "meaning": "hundred",
+    "radical": 1,
+    "strokes": 6
+  },
+  {
+    "ch": "先",
+    "code": "05148",
+    "grade": 1,
+    "reading": "さき",
+    "jlpt": "N5",
+    "meaning": "before",
+    "radical": 10,
+    "strokes": 6
+  },
+  {
+    "ch": "名",
+    "code": "0540d",
+    "grade": 1,
+    "reading": "な",
+    "jlpt": "N5",
+    "meaning": "name",
+    "radical": 36,
+    "strokes": 6
+  },
+  {
+    "ch": "川",
+    "code": "05ddd",
+    "grade": 1,
+    "reading": "かわ",
+    "jlpt": "N5",
+    "meaning": "stream",
+    "radical": 47,
+    "strokes": 3
+  },
+  {
+    "ch": "文",
+    "code": "06587",
+    "grade": 1,
+    "reading": "ふみ",
+    "jlpt": "N4",
+    "meaning": "sentence",
+    "radical": 67,
+    "strokes": 4
+  },
+  {
+    "ch": "千",
+    "code": "05343",
+    "grade": 1,
+    "reading": "ち",
+    "jlpt": "N5",
+    "meaning": "thousand",
+    "radical": 4,
+    "strokes": 3
+  },
+  {
+    "ch": "水",
+    "code": "06c34",
+    "grade": 1,
+    "reading": "みず",
+    "jlpt": "N5",
+    "meaning": "water",
+    "radical": 85,
+    "strokes": 4
+  },
+  {
+    "ch": "男",
+    "code": "07537",
+    "grade": 1,
+    "reading": "おとこ",
+    "jlpt": "N5",
+    "meaning": "male",
+    "radical": 102,
+    "strokes": 7
+  },
+  {
+    "ch": "村",
+    "code": "06751",
+    "grade": 1,
+    "reading": "むら",
+    "jlpt": "N4",
+    "meaning": "village",
+    "radical": 75,
+    "strokes": 7
+  },
+  {
+    "ch": "口",
+    "code": "053e3",
+    "grade": 1,
+    "reading": "くち",
+    "jlpt": "N5",
+    "meaning": "mouth",
+    "radical": 30,
+    "strokes": 3
+  },
+  {
+    "ch": "町",
+    "code": "0753a",
+    "grade": 1,
+    "reading": "まち",
+    "jlpt": "N4",
+    "meaning": "town",
+    "radical": 102,
+    "strokes": 7
+  },
+  {
+    "ch": "校",
+    "code": "06821",
+    "grade": 1,
+    "reading": "こう",
+    "jlpt": "N5",
+    "meaning": "exam",
+    "radical": 75,
+    "strokes": 10
+  },
+  {
+    "ch": "空",
+    "code": "07a7a",
+    "grade": 1,
+    "reading": "そら",
+    "jlpt": "N5",
+    "meaning": "empty",
+    "radical": 116,
+    "strokes": 8
+  },
+  {
+    "ch": "土",
+    "code": "0571f",
+    "grade": 1,
+    "reading": "つち",
+    "jlpt": "N5",
+    "meaning": "soil",
+    "radical": 32,
+    "strokes": 3
+  },
+  {
+    "ch": "木",
+    "code": "06728",
+    "grade": 1,
+    "reading": "き",
+    "jlpt": "N5",
+    "meaning": "tree",
+    "radical": 75,
+    "strokes": 4
+  },
+  {
+    "ch": "車",
+    "code": "08eca",
+    "grade": 1,
+    "reading": "くるま",
+    "jlpt": "N5",
+    "meaning": "car",
+    "radical": 159,
+    "strokes": 7
+  },
+  {
+    "ch": "石",
+    "code": "077f3",
+    "grade": 1,
+    "reading": "いし",
+    "jlpt": "N3",
+    "meaning": "stone",
+    "radical": 112,
+    "strokes": 5
+  },
+  {
+    "ch": "足",
+    "code": "08db3",
+    "grade": 1,
+    "reading": "あし",
+    "jlpt": "N5",
+    "meaning": "leg",
+    "radical": 157,
+    "strokes": 7
+  },
+  {
+    "ch": "早",
+    "code": "065e9",
+    "grade": 1,
+    "reading": "はやい",
+    "jlpt": "N4",
+    "meaning": "early",
+    "radical": 72,
+    "strokes": 6
+  },
+  {
+    "ch": "白",
+    "code": "0767d",
+    "grade": 1,
+    "reading": "しろ",
+    "jlpt": "N5",
+    "meaning": "white",
+    "radical": 106,
+    "strokes": 5
+  },
+  {
+    "ch": "字",
+    "code": "05b57",
+    "grade": 1,
+    "reading": "あざ",
+    "jlpt": "N4",
+    "meaning": "character",
+    "radical": 40,
+    "strokes": 6
+  },
+  {
+    "ch": "音",
+    "code": "097f3",
+    "grade": 1,
+    "reading": "おと",
+    "jlpt": "N4",
+    "meaning": "sound",
+    "radical": 180,
+    "strokes": 9
+  },
+  {
+    "ch": "天",
+    "code": "05929",
+    "grade": 1,
+    "reading": "あまつ",
+    "jlpt": "N5",
+    "meaning": "heavens",
+    "radical": 1,
+    "strokes": 4
+  },
+  {
+    "ch": "火",
+    "code": "0706b",
+    "grade": 1,
+    "reading": "ひ",
+    "jlpt": "N5",
+    "meaning": "fire",
+    "radical": 86,
+    "strokes": 4
+  },
+  {
+    "ch": "花",
+    "code": "082b1",
+    "grade": 1,
+    "reading": "はな",
+    "jlpt": "N5",
+    "meaning": "flower",
+    "radical": 140,
+    "strokes": 7
+  },
+  {
+    "ch": "赤",
+    "code": "08d64",
+    "grade": 1,
+    "reading": "あか",
+    "jlpt": "N4",
+    "meaning": "red",
+    "radical": 155,
+    "strokes": 7
+  },
+  {
+    "ch": "青",
+    "code": "09752",
+    "grade": 1,
+    "reading": "あお",
+    "jlpt": "N4",
+    "meaning": "blue",
+    "radical": 174,
+    "strokes": 8
+  },
+  {
+    "ch": "竹",
+    "code": "07af9",
+    "grade": 1,
+    "reading": "たけ",
+    "jlpt": "N3",
+    "meaning": "bamboo",
+    "radical": 118,
+    "strokes": 6
+  },
+  {
+    "ch": "右",
+    "code": "053f3",
+    "grade": 1,
+    "reading": "みぎ",
+    "jlpt": "N5",
+    "meaning": "right",
+    "radical": 30,
+    "strokes": 5
+  },
+  {
+    "ch": "森",
+    "code": "068ee",
+    "grade": 1,
+    "reading": "もり",
+    "jlpt": "N4",
+    "meaning": "forest",
+    "radical": 75,
+    "strokes": 12
+  },
+  {
+    "ch": "左",
+    "code": "05de6",
+    "grade": 1,
+    "reading": "ひだり",
+    "jlpt": "N5",
+    "meaning": "left",
+    "radical": 48,
+    "strokes": 5
+  },
+  {
+    "ch": "休",
+    "code": "04f11",
+    "grade": 1,
+    "reading": "やすむ",
+    "jlpt": "N5",
+    "meaning": "rest",
+    "radical": 9,
+    "strokes": 6
+  },
+  {
+    "ch": "林",
+    "code": "06797",
+    "grade": 1,
+    "reading": "はやし",
+    "jlpt": "N4",
+    "meaning": "grove",
+    "radical": 75,
+    "strokes": 8
+  },
+  {
+    "ch": "王",
+    "code": "0738b",
+    "grade": 1,
+    "reading": "おう",
+    "jlpt": "N3",
+    "meaning": "king",
+    "radical": 96,
+    "strokes": 4
+  },
+  {
+    "ch": "玉",
+    "code": "07389",
+    "grade": 1,
+    "reading": "たま",
+    "jlpt": "N3",
+    "meaning": "jewel",
+    "radical": 96,
+    "strokes": 5
+  },
+  {
+    "ch": "夕",
+    "code": "05915",
+    "grade": 1,
+    "reading": "ゆう",
+    "jlpt": "N4",
+    "meaning": "evening",
+    "radical": 36,
+    "strokes": 3
+  },
+  {
+    "ch": "雨",
+    "code": "096e8",
+    "grade": 1,
+    "reading": "あめ",
+    "jlpt": "N5",
+    "meaning": "rain",
+    "radical": 173,
+    "strokes": 8
+  },
+  {
+    "ch": "草",
+    "code": "08349",
+    "grade": 1,
+    "reading": "くさ",
+    "jlpt": "N3",
+    "meaning": "grass",
+    "radical": 140,
+    "strokes": 9
+  },
+  {
+    "ch": "犬",
+    "code": "072ac",
+    "grade": 1,
+    "reading": "いぬ",
+    "jlpt": "N4",
+    "meaning": "dog",
+    "radical": 94,
+    "strokes": 4
+  },
+  {
+    "ch": "耳",
+    "code": "08033",
+    "grade": 1,
+    "reading": "みみ",
+    "jlpt": "N5",
+    "meaning": "ear",
+    "radical": 128,
+    "strokes": 6
+  },
+  {
+    "ch": "虫",
+    "code": "0866b",
+    "grade": 1,
+    "reading": "むし",
+    "jlpt": "N3",
+    "meaning": "insect",
+    "radical": 142,
+    "strokes": 6
+  },
+  {
+    "ch": "糸",
+    "code": "07cf8",
+    "grade": 1,
+    "reading": "いと",
+    "jlpt": "N3",
+    "meaning": "thread",
+    "radical": 120,
+    "strokes": 6
+  },
+  {
+    "ch": "貝",
+    "code": "08c9d",
+    "grade": 1,
+    "reading": "かい",
+    "jlpt": "N3",
+    "meaning": "shellfish",
+    "radical": 154,
+    "strokes": 7
+  },
+  {
+    "ch": "国",
+    "code": "056fd",
+    "grade": 2,
+    "reading": "くに",
+    "jlpt": "N5",
+    "meaning": "country",
+    "radical": 31,
+    "strokes": 8
+  },
+  {
+    "ch": "会",
+    "code": "04f1a",
+    "grade": 2,
+    "reading": "あう",
+    "jlpt": "N5",
+    "meaning": "meeting",
+    "radical": 9,
+    "strokes": 6
+  },
+  {
+    "ch": "長",
+    "code": "09577",
+    "grade": 2,
+    "reading": "ながい",
+    "jlpt": "N5",
+    "meaning": "long",
+    "radical": 168,
+    "strokes": 8
+  },
+  {
+    "ch": "同",
+    "code": "0540c",
+    "grade": 2,
+    "reading": "おなじ",
+    "jlpt": "N4",
+    "meaning": "same",
+    "radical": 13,
+    "strokes": 6
+  },
+  {
+    "ch": "時",
+    "code": "06642",
+    "grade": 2,
+    "reading": "とき",
+    "jlpt": "N5",
+    "meaning": "time",
+    "radical": 72,
+    "strokes": 10
+  },
+  {
+    "ch": "自",
+    "code": "081ea",
+    "grade": 2,
+    "reading": "みずから",
+    "jlpt": "N4",
+    "meaning": "oneself",
+    "radical": 132,
+    "strokes": 6
+  },
+  {
+    "ch": "行",
+    "code": "0884c",
+    "grade": 2,
+    "reading": "いく",
+    "jlpt": "N5",
+    "meaning": "going",
+    "radical": 144,
+    "strokes": 6
+  },
+  {
+    "ch": "社",
+    "code": "0793e",
+    "grade": 2,
+    "reading": "やしろ",
+    "jlpt": "N5",
+    "meaning": "company",
+    "radical": 113,
+    "strokes": 7
+  },
+  {
+    "ch": "分",
+    "code": "05206",
+    "grade": 2,
+    "reading": "わける",
+    "jlpt": "N5",
+    "meaning": "part",
+    "radical": 12,
+    "strokes": 4
+  },
+  {
+    "ch": "後",
+    "code": "05f8c",
+    "grade": 2,
+    "reading": "のち",
+    "jlpt": "N5",
+    "meaning": "behind",
+    "radical": 60,
+    "strokes": 9
+  },
+  {
+    "ch": "前",
+    "code": "0524d",
+    "grade": 2,
+    "reading": "まえ",
+    "jlpt": "N5",
+    "meaning": "in front",
+    "radical": 12,
+    "strokes": 9
+  },
+  {
+    "ch": "間",
+    "code": "09593",
+    "grade": 2,
+    "reading": "あいだ",
+    "jlpt": "N5",
+    "meaning": "interval",
+    "radical": 169,
+    "strokes": 12
+  },
+  {
+    "ch": "東",
+    "code": "06771",
+    "grade": 2,
+    "reading": "ひがし",
+    "jlpt": "N5",
+    "meaning": "east",
+    "radical": 4,
+    "strokes": 8
+  },
+  {
+    "ch": "地",
+    "code": "05730",
+    "grade": 2,
+    "reading": "ち",
+    "jlpt": "N4",
+    "meaning": "ground",
+    "radical": 32,
+    "strokes": 6
+  },
+  {
+    "ch": "合",
+    "code": "05408",
+    "grade": 2,
+    "reading": "あう",
+    "jlpt": "N4",
+    "meaning": "fit",
+    "radical": 9,
+    "strokes": 6
+  },
+  {
+    "ch": "市",
+    "code": "05e02",
+    "grade": 2,
+    "reading": "いち",
+    "jlpt": "N4",
+    "meaning": "market",
+    "radical": 8,
+    "strokes": 5
+  },
+  {
+    "ch": "内",
+    "code": "05185",
+    "grade": 2,
+    "reading": "うち",
+    "jlpt": "N3",
+    "meaning": "inside",
+    "radical": 2,
+    "strokes": 4
+  },
+  {
+    "ch": "方",
+    "code": "065b9",
+    "grade": 2,
+    "reading": "かた",
+    "jlpt": "N4",
+    "meaning": "direction",
+    "radical": 70,
+    "strokes": 4
+  },
+  {
+    "ch": "今",
+    "code": "04eca",
+    "grade": 2,
+    "reading": "いま",
+    "jlpt": "N5",
+    "meaning": "now",
+    "radical": 9,
+    "strokes": 4
+  },
+  {
+    "ch": "回",
+    "code": "056de",
+    "grade": 2,
+    "reading": "まわる",
+    "jlpt": "N4",
+    "meaning": "-times",
+    "radical": 31,
+    "strokes": 6
+  },
+  {
+    "ch": "新",
+    "code": "065b0",
+    "grade": 2,
+    "reading": "あたらしい",
+    "jlpt": "N5",
+    "meaning": "new",
+    "radical": 69,
+    "strokes": 13
+  },
+  {
+    "ch": "場",
+    "code": "05834",
+    "grade": 2,
+    "reading": "ば",
+    "jlpt": "N4",
+    "meaning": "location",
+    "radical": 32,
+    "strokes": 12
+  },
+  {
+    "ch": "米",
+    "code": "07c73",
+    "grade": 2,
+    "reading": "こめ",
+    "jlpt": "N3",
+    "meaning": "rice",
+    "radical": 119,
+    "strokes": 6
+  },
+  {
+    "ch": "高",
+    "code": "09ad8",
+    "grade": 2,
+    "reading": "たかい",
+    "jlpt": "N5",
+    "meaning": "tall",
+    "radical": 189,
+    "strokes": 10
+  },
+  {
+    "ch": "明",
+    "code": "0660e",
+    "grade": 2,
+    "reading": "あかり",
+    "jlpt": "N4",
+    "meaning": "bright",
+    "radical": 72,
+    "strokes": 8
+  },
+  {
+    "ch": "京",
+    "code": "04eac",
+    "grade": 2,
+    "reading": "みやこ",
+    "jlpt": "N4",
+    "meaning": "capital",
+    "radical": 8,
+    "strokes": 8
+  },
+  {
+    "ch": "通",
+    "code": "0901a",
+    "grade": 2,
+    "reading": "とおる",
+    "jlpt": "N4",
+    "meaning": "traffic",
+    "radical": 162,
+    "strokes": 10
+  },
+  {
+    "ch": "外",
+    "code": "05916",
+    "grade": 2,
+    "reading": "そと",
+    "jlpt": "N5",
+    "meaning": "outside",
+    "radical": 36,
+    "strokes": 5
+  },
+  {
+    "ch": "言",
+    "code": "08a00",
+    "grade": 2,
+    "reading": "いう",
+    "jlpt": "N5",
+    "meaning": "say",
+    "radical": 149,
+    "strokes": 7
+  },
+  {
+    "ch": "理",
+    "code": "07406",
+    "grade": 2,
+    "reading": "ことわり",
+    "jlpt": "N4",
+    "meaning": "logic",
+    "radical": 96,
+    "strokes": 11
+  },
+  {
+    "ch": "体",
+    "code": "04f53",
+    "grade": 2,
+    "reading": "からだ",
+    "jlpt": "N4",
+    "meaning": "body",
+    "radical": 9,
+    "strokes": 7
+  },
+  {
+    "ch": "当",
+    "code": "05f53",
+    "grade": 2,
+    "reading": "あたる",
+    "jlpt": "N3",
+    "meaning": "hit",
+    "radical": 42,
+    "strokes": 6
+  },
+  {
+    "ch": "首",
+    "code": "09996",
+    "grade": 2,
+    "reading": "くび",
+    "jlpt": "N4",
+    "meaning": "neck",
+    "radical": 185,
+    "strokes": 9
+  },
+  {
+    "ch": "来",
+    "code": "06765",
+    "grade": 2,
+    "reading": "くる",
+    "jlpt": "N5",
+    "meaning": "come",
+    "radical": 4,
+    "strokes": 7
+  },
+  {
+    "ch": "作",
+    "code": "04f5c",
+    "grade": 2,
+    "reading": "つくる",
+    "jlpt": "N4",
+    "meaning": "make",
+    "radical": 9,
+    "strokes": 7
+  },
+  {
+    "ch": "用",
+    "code": "07528",
+    "grade": 2,
+    "reading": "もちいる",
+    "jlpt": "N4",
+    "meaning": "utilize",
+    "radical": 101,
+    "strokes": 5
+  },
+  {
+    "ch": "強",
+    "code": "05f37",
+    "grade": 2,
+    "reading": "つよい",
+    "jlpt": "N4",
+    "meaning": "strong",
+    "radical": 57,
+    "strokes": 11
+  },
+  {
+    "ch": "公",
+    "code": "0516c",
+    "grade": 2,
+    "reading": "おおやけ",
+    "jlpt": "N4",
+    "meaning": "public",
+    "radical": 12,
+    "strokes": 4
+  },
+  {
+    "ch": "野",
+    "code": "091ce",
+    "grade": 2,
+    "reading": "の",
+    "jlpt": "N4",
+    "meaning": "plains",
+    "radical": 166,
+    "strokes": 11
+  },
+  {
+    "ch": "思",
+    "code": "0601d",
+    "grade": 2,
+    "reading": "おもう",
+    "jlpt": "N4",
+    "meaning": "think",
+    "radical": 102,
+    "strokes": 9
+  },
+  {
+    "ch": "家",
+    "code": "05bb6",
+    "grade": 2,
+    "reading": "いえ",
+    "jlpt": "N4",
+    "meaning": "house",
+    "radical": 40,
+    "strokes": 10
+  },
+  {
+    "ch": "話",
+    "code": "08a71",
+    "grade": 2,
+    "reading": "はなす",
+    "jlpt": "N5",
+    "meaning": "tale",
+    "radical": 149,
+    "strokes": 13
+  },
+  {
+    "ch": "多",
+    "code": "0591a",
+    "grade": 2,
+    "reading": "おおい",
+    "jlpt": "N5",
+    "meaning": "many",
+    "radical": 36,
+    "strokes": 6
+  },
+  {
+    "ch": "数",
+    "code": "06570",
+    "grade": 2,
+    "reading": "かず",
+    "jlpt": "N3",
+    "meaning": "number",
+    "radical": 66,
+    "strokes": 13
+  },
+  {
+    "ch": "記",
+    "code": "08a18",
+    "grade": 2,
+    "reading": "しるす",
+    "jlpt": "N3",
+    "meaning": "scribe",
+    "radical": 149,
+    "strokes": 10
+  },
+  {
+    "ch": "北",
+    "code": "05317",
+    "grade": 2,
+    "reading": "きた",
+    "jlpt": "N5",
+    "meaning": "north",
+    "radical": 21,
+    "strokes": 5
+  },
+  {
+    "ch": "午",
+    "code": "05348",
+    "grade": 2,
+    "reading": "うま",
+    "jlpt": "N5",
+    "meaning": "noon",
+    "radical": 4,
+    "strokes": 4
+  },
+  {
+    "ch": "心",
+    "code": "05fc3",
+    "grade": 2,
+    "reading": "こころ",
+    "jlpt": "N4",
+    "meaning": "heart",
+    "radical": 61,
+    "strokes": 4
+  },
+  {
+    "ch": "点",
+    "code": "070b9",
+    "grade": 2,
+    "reading": "つける",
+    "jlpt": "N3",
+    "meaning": "spot",
+    "radical": 25,
+    "strokes": 9
+  },
+  {
+    "ch": "教",
+    "code": "06559",
+    "grade": 2,
+    "reading": "おしえる",
+    "jlpt": "N4",
+    "meaning": "teach",
+    "radical": 66,
+    "strokes": 11
+  },
+  {
+    "ch": "書",
+    "code": "066f8",
+    "grade": 2,
+    "reading": "かく",
+    "jlpt": "N5",
+    "meaning": "write",
+    "radical": 129,
+    "strokes": 10
+  },
+  {
+    "ch": "活",
+    "code": "06d3b",
+    "grade": 2,
+    "reading": "いきる",
+    "jlpt": "N3",
+    "meaning": "lively",
+    "radical": 85,
+    "strokes": 9
+  },
+  {
+    "ch": "原",
+    "code": "0539f",
+    "grade": 2,
+    "reading": "はら",
+    "jlpt": "N3",
+    "meaning": "meadow",
+    "radical": 27,
+    "strokes": 10
+  },
+  {
+    "ch": "交",
+    "code": "04ea4",
+    "grade": 2,
+    "reading": "まじわる",
+    "jlpt": "N3",
+    "meaning": "mingle",
+    "radical": 8,
+    "strokes": 6
+  },
+  {
+    "ch": "元",
+    "code": "05143",
+    "grade": 2,
+    "reading": "もと",
+    "jlpt": "N4",
+    "meaning": "beginning",
+    "radical": 7,
+    "strokes": 4
+  },
+  {
+    "ch": "近",
+    "code": "08fd1",
+    "grade": 2,
+    "reading": "ちかい",
+    "jlpt": "N4",
+    "meaning": "near",
+    "radical": 162,
+    "strokes": 7
+  },
+  {
+    "ch": "考",
+    "code": "08003",
+    "grade": 2,
+    "reading": "かんがえる",
+    "jlpt": "N4",
+    "meaning": "consider",
+    "radical": 125,
+    "strokes": 6
+  },
+  {
+    "ch": "画",
+    "code": "0753b",
+    "grade": 2,
+    "reading": "えがく",
+    "jlpt": "N4",
+    "meaning": "brush-stroke",
+    "radical": 1,
+    "strokes": 8
+  },
+  {
+    "ch": "海",
+    "code": "06d77",
+    "grade": 2,
+    "reading": "うみ",
+    "jlpt": "N4",
+    "meaning": "sea",
+    "radical": 85,
+    "strokes": 9
+  },
+  {
+    "ch": "売",
+    "code": "058f2",
+    "grade": 2,
+    "reading": "うる",
+    "jlpt": "N4",
+    "meaning": "sell",
+    "radical": 32,
+    "strokes": 7
+  },
+  {
+    "ch": "組",
+    "code": "07d44",
+    "grade": 2,
+    "reading": "くむ",
+    "jlpt": "N3",
+    "meaning": "association",
+    "radical": 120,
+    "strokes": 11
+  },
+  {
+    "ch": "知",
+    "code": "077e5",
+    "grade": 2,
+    "reading": "しる",
+    "jlpt": "N4",
+    "meaning": "know",
+    "radical": 111,
+    "strokes": 8
+  },
+  {
+    "ch": "道",
+    "code": "09053",
+    "grade": 2,
+    "reading": "みち",
+    "jlpt": "N5",
+    "meaning": "road-way",
+    "radical": 162,
+    "strokes": 12
+  },
+  {
+    "ch": "引",
+    "code": "05f15",
+    "grade": 2,
+    "reading": "ひく",
+    "jlpt": "N4",
+    "meaning": "pull",
+    "radical": 57,
+    "strokes": 4
+  },
+  {
+    "ch": "半",
+    "code": "0534a",
+    "grade": 2,
+    "reading": "なかば",
+    "jlpt": "N5",
+    "meaning": "half",
+    "radical": 3,
+    "strokes": 5
+  },
+  {
+    "ch": "計",
+    "code": "08a08",
+    "grade": 2,
+    "reading": "はかる",
+    "jlpt": "N4",
+    "meaning": "plot",
+    "radical": 149,
+    "strokes": 9
+  },
+  {
+    "ch": "直",
+    "code": "076f4",
+    "grade": 2,
+    "reading": "ただちに",
+    "jlpt": "N3",
+    "meaning": "straightaway",
+    "radical": 24,
+    "strokes": 8
+  },
+  {
+    "ch": "朝",
+    "code": "0671d",
+    "grade": 2,
+    "reading": "あさ",
+    "jlpt": "N4",
+    "meaning": "morning",
+    "radical": 130,
+    "strokes": 12
+  },
+  {
+    "ch": "西",
+    "code": "0897f",
+    "grade": 2,
+    "reading": "にし",
+    "jlpt": "N5",
+    "meaning": "west",
+    "radical": 146,
+    "strokes": 6
+  },
+  {
+    "ch": "台",
+    "code": "053f0",
+    "grade": 2,
+    "reading": "うてな",
+    "jlpt": "N4",
+    "meaning": "pedestal",
+    "radical": 28,
+    "strokes": 5
+  },
+  {
+    "ch": "広",
+    "code": "05e83",
+    "grade": 2,
+    "reading": "ひろい",
+    "jlpt": "N4",
+    "meaning": "wide",
+    "radical": 53,
+    "strokes": 5
+  },
+  {
+    "ch": "電",
+    "code": "096fb",
+    "grade": 2,
+    "reading": "でん",
+    "jlpt": "N5",
+    "meaning": "electricity",
+    "radical": 173,
+    "strokes": 13
+  },
+  {
+    "ch": "少",
+    "code": "05c11",
+    "grade": 2,
+    "reading": "すくない",
+    "jlpt": "N5",
+    "meaning": "few",
+    "radical": 4,
+    "strokes": 4
+  },
+  {
+    "ch": "工",
+    "code": "05de5",
+    "grade": 2,
+    "reading": "こう",
+    "jlpt": "N4",
+    "meaning": "craft",
+    "radical": 48,
+    "strokes": 3
+  },
+  {
+    "ch": "語",
+    "code": "08a9e",
+    "grade": 2,
+    "reading": "かたる",
+    "jlpt": "N5",
+    "meaning": "word",
+    "radical": 149,
+    "strokes": 14
+  },
+  {
+    "ch": "止",
+    "code": "06b62",
+    "grade": 2,
+    "reading": "とまる",
+    "jlpt": "N4",
+    "meaning": "stop",
+    "radical": 77,
+    "strokes": 4
+  },
+  {
+    "ch": "聞",
+    "code": "0805e",
+    "grade": 2,
+    "reading": "きく",
+    "jlpt": "N5",
+    "meaning": "hear",
+    "radical": 169,
+    "strokes": 14
+  },
+  {
+    "ch": "切",
+    "code": "05207",
+    "grade": 2,
+    "reading": "きる",
+    "jlpt": "N4",
+    "meaning": "cut",
+    "radical": 18,
+    "strokes": 4
+  },
+  {
+    "ch": "食",
+    "code": "098df",
+    "grade": 2,
+    "reading": "くう",
+    "jlpt": "N5",
+    "meaning": "eat",
+    "radical": 184,
+    "strokes": 9
+  },
+  {
+    "ch": "何",
+    "code": "04f55",
+    "grade": 2,
+    "reading": "なに",
+    "jlpt": "N5",
+    "meaning": "what",
+    "radical": 9,
+    "strokes": 7
+  },
+  {
+    "ch": "南",
+    "code": "05357",
+    "grade": 2,
+    "reading": "みなみ",
+    "jlpt": "N5",
+    "meaning": "south",
+    "radical": 24,
+    "strokes": 9
+  },
+  {
+    "ch": "番",
+    "code": "0756a",
+    "grade": 2,
+    "reading": "つがい",
+    "jlpt": "N3",
+    "meaning": "turn",
+    "radical": 165,
+    "strokes": 12
+  },
+  {
+    "ch": "算",
+    "code": "07b97",
+    "grade": 2,
+    "reading": "そろ",
+    "jlpt": "N3",
+    "meaning": "calculate",
+    "radical": 118,
+    "strokes": 14
+  },
+  {
+    "ch": "楽",
+    "code": "0697d",
+    "grade": 2,
+    "reading": "たのしい",
+    "jlpt": "N4",
+    "meaning": "music",
+    "radical": 75,
+    "strokes": 13
+  },
+  {
+    "ch": "万",
+    "code": "04e07",
+    "grade": 2,
+    "reading": "よろず",
+    "jlpt": "N5",
+    "meaning": "ten thousand",
+    "radical": 1,
+    "strokes": 3
+  },
+  {
+    "ch": "店",
+    "code": "05e97",
+    "grade": 2,
+    "reading": "みせ",
+    "jlpt": "N5",
+    "meaning": "store",
+    "radical": 53,
+    "strokes": 8
+  },
+  {
+    "ch": "線",
+    "code": "07dda",
+    "grade": 2,
+    "reading": "すじ",
+    "jlpt": "N3",
+    "meaning": "line",
+    "radical": 120,
+    "strokes": 15
+  },
+  {
+    "ch": "声",
+    "code": "058f0",
+    "grade": 2,
+    "reading": "こえ",
+    "jlpt": "N4",
+    "meaning": "voice",
+    "radical": 32,
+    "strokes": 7
+  },
+  {
+    "ch": "親",
+    "code": "089aa",
+    "grade": 2,
+    "reading": "おや",
+    "jlpt": "N4",
+    "meaning": "parent",
+    "radical": 147,
+    "strokes": 16
+  },
+  {
+    "ch": "形",
+    "code": "05f62",
+    "grade": 2,
+    "reading": "かた",
+    "jlpt": "N3",
+    "meaning": "shape",
+    "radical": 59,
+    "strokes": 7
+  },
+  {
+    "ch": "頭",
+    "code": "0982d",
+    "grade": 2,
+    "reading": "あたま",
+    "jlpt": "N4",
+    "meaning": "head",
+    "radical": 151,
+    "strokes": 16
+  },
+  {
+    "ch": "毎",
+    "code": "06bce",
+    "grade": 2,
+    "reading": "ごと",
+    "jlpt": "N5",
+    "meaning": "every",
+    "radical": 80,
+    "strokes": 6
+  },
+  {
+    "ch": "門",
+    "code": "09580",
+    "grade": 2,
+    "reading": "かど",
+    "jlpt": "N4",
+    "meaning": "gate",
+    "radical": 169,
+    "strokes": 8
+  },
+  {
+    "ch": "答",
+    "code": "07b54",
+    "grade": 2,
+    "reading": "こたえる",
+    "jlpt": "N4",
+    "meaning": "solution",
+    "radical": 118,
+    "strokes": 12
+  },
+  {
+    "ch": "夜",
+    "code": "0591c",
+    "grade": 2,
+    "reading": "よ",
+    "jlpt": "N4",
+    "meaning": "night",
+    "radical": 8,
+    "strokes": 8
+  },
+  {
+    "ch": "帰",
+    "code": "05e30",
+    "grade": 2,
+    "reading": "かえる",
+    "jlpt": "N4",
+    "meaning": "homecoming",
+    "radical": 58,
+    "strokes": 10
+  },
+  {
+    "ch": "谷",
+    "code": "08c37",
+    "grade": 2,
+    "reading": "たに",
+    "jlpt": "N3",
+    "meaning": "valley",
+    "radical": 150,
+    "strokes": 7
+  },
+  {
+    "ch": "古",
+    "code": "053e4",
+    "grade": 2,
+    "reading": "ふるい",
+    "jlpt": "N5",
+    "meaning": "old",
+    "radical": 24,
+    "strokes": 5
+  },
+  {
+    "ch": "歌",
+    "code": "06b4c",
+    "grade": 2,
+    "reading": "うた",
+    "jlpt": "N4",
+    "meaning": "song",
+    "radical": 76,
+    "strokes": 14
+  },
+  {
+    "ch": "買",
+    "code": "08cb7",
+    "grade": 2,
+    "reading": "かう",
+    "jlpt": "N5",
+    "meaning": "buy",
+    "radical": 122,
+    "strokes": 12
+  },
+  {
+    "ch": "光",
+    "code": "05149",
+    "grade": 2,
+    "reading": "ひかる",
+    "jlpt": "N4",
+    "meaning": "ray",
+    "radical": 42,
+    "strokes": 6
+  },
+  {
+    "ch": "科",
+    "code": "079d1",
+    "grade": 2,
+    "reading": "か",
+    "jlpt": "N3",
+    "meaning": "department",
+    "radical": 115,
+    "strokes": 9
+  },
+  {
+    "ch": "細",
+    "code": "07d30",
+    "grade": 2,
+    "reading": "ほそい",
+    "jlpt": "N3",
+    "meaning": "dainty",
+    "radical": 120,
+    "strokes": 11
+  },
+  {
+    "ch": "図",
+    "code": "056f3",
+    "grade": 2,
+    "reading": "え",
+    "jlpt": "N4",
+    "meaning": "map",
+    "radical": 31,
+    "strokes": 7
+  },
+  {
+    "ch": "週",
+    "code": "09031",
+    "grade": 2,
+    "reading": "しゅう",
+    "jlpt": "N5",
+    "meaning": "week",
+    "radical": 162,
+    "strokes": 11
+  },
+  {
+    "ch": "丸",
+    "code": "04e38",
+    "grade": 2,
+    "reading": "まる",
+    "jlpt": "N3",
+    "meaning": "round",
+    "radical": 4,
+    "strokes": 3
+  },
+  {
+    "ch": "室",
+    "code": "05ba4",
+    "grade": 2,
+    "reading": "むろ",
+    "jlpt": "N4",
+    "meaning": "room",
+    "radical": 40,
+    "strokes": 9
+  },
+  {
+    "ch": "太",
+    "code": "0592a",
+    "grade": 2,
+    "reading": "ふとい",
+    "jlpt": "N4",
+    "meaning": "plump",
+    "radical": 37,
+    "strokes": 4
+  },
+  {
+    "ch": "歩",
+    "code": "06b69",
+    "grade": 2,
+    "reading": "あるく",
+    "jlpt": "N4",
+    "meaning": "walk",
+    "radical": 77,
+    "strokes": 8
+  },
+  {
+    "ch": "風",
+    "code": "098a8",
+    "grade": 2,
+    "reading": "かぜ",
+    "jlpt": "N4",
+    "meaning": "wind",
+    "radical": 182,
+    "strokes": 9
+  },
+  {
+    "ch": "紙",
+    "code": "07d19",
+    "grade": 2,
+    "reading": "かみ",
+    "jlpt": "N4",
+    "meaning": "paper",
+    "radical": 120,
+    "strokes": 10
+  },
+  {
+    "ch": "母",
+    "code": "06bcd",
+    "grade": 2,
+    "reading": "はは",
+    "jlpt": "N5",
+    "meaning": "mother",
+    "radical": 80,
+    "strokes": 5
+  },
+  {
+    "ch": "黒",
+    "code": "09ed2",
+    "grade": 2,
+    "reading": "くろ",
+    "jlpt": "N4",
+    "meaning": "black",
+    "radical": 203,
+    "strokes": 11
+  },
+  {
+    "ch": "戸",
+    "code": "06238",
+    "grade": 2,
+    "reading": "と",
+    "jlpt": "N3",
+    "meaning": "door",
+    "radical": 63,
+    "strokes": 4
+  },
+  {
+    "ch": "春",
+    "code": "06625",
+    "grade": 2,
+    "reading": "はる",
+    "jlpt": "N4",
+    "meaning": "springtime",
+    "radical": 72,
+    "strokes": 9
+  },
+  {
+    "ch": "読",
+    "code": "08aad",
+    "grade": 2,
+    "reading": "よむ",
+    "jlpt": "N5",
+    "meaning": "read",
+    "radical": 149,
+    "strokes": 14
+  },
+  {
+    "ch": "色",
+    "code": "08272",
+    "grade": 2,
+    "reading": "いろ",
+    "jlpt": "N4",
+    "meaning": "color",
+    "radical": 139,
+    "strokes": 6
+  },
+  {
+    "ch": "友",
+    "code": "053cb",
+    "grade": 2,
+    "reading": "とも",
+    "jlpt": "N5",
+    "meaning": "friend",
+    "radical": 29,
+    "strokes": 4
+  },
+  {
+    "ch": "走",
+    "code": "08d70",
+    "grade": 2,
+    "reading": "はしる",
+    "jlpt": "N4",
+    "meaning": "run",
+    "radical": 156,
+    "strokes": 7
+  },
+  {
+    "ch": "園",
+    "code": "05712",
+    "grade": 2,
+    "reading": "その",
+    "jlpt": "N3",
+    "meaning": "park",
+    "radical": 31,
+    "strokes": 13
+  },
+  {
+    "ch": "秋",
+    "code": "079cb",
+    "grade": 2,
+    "reading": "あき",
+    "jlpt": "N4",
+    "meaning": "autumn",
+    "radical": 115,
+    "strokes": 9
+  },
+  {
+    "ch": "馬",
+    "code": "099ac",
+    "grade": 2,
+    "reading": "うま",
+    "jlpt": "N3",
+    "meaning": "horse",
+    "radical": 187,
+    "strokes": 10
+  },
+  {
+    "ch": "父",
+    "code": "07236",
+    "grade": 2,
+    "reading": "ちち",
+    "jlpt": "N5",
+    "meaning": "father",
+    "radical": 88,
+    "strokes": 4
+  },
+  {
+    "ch": "夏",
+    "code": "0590f",
+    "grade": 2,
+    "reading": "なつ",
+    "jlpt": "N4",
+    "meaning": "summer",
+    "radical": 1,
+    "strokes": 10
+  },
+  {
+    "ch": "顔",
+    "code": "09854",
+    "grade": 2,
+    "reading": "かお",
+    "jlpt": "N4",
+    "meaning": "face",
+    "radical": 181,
+    "strokes": 18
+  },
+  {
+    "ch": "船",
+    "code": "08239",
+    "grade": 2,
+    "reading": "ふね",
+    "jlpt": "N3",
+    "meaning": "ship",
+    "radical": 137,
+    "strokes": 11
+  },
+  {
+    "ch": "羽",
+    "code": "07fbd",
+    "grade": 2,
+    "reading": "は",
+    "jlpt": "N3",
+    "meaning": "feathers",
+    "radical": 124,
+    "strokes": 6
+  },
+  {
+    "ch": "岩",
+    "code": "05ca9",
+    "grade": 2,
+    "reading": "いわ",
+    "jlpt": "N3",
+    "meaning": "boulder",
+    "radical": 46,
+    "strokes": 8
+  },
+  {
+    "ch": "角",
+    "code": "089d2",
+    "grade": 2,
+    "reading": "かど",
+    "jlpt": "N3",
+    "meaning": "angle",
+    "radical": 148,
+    "strokes": 7
+  },
+  {
+    "ch": "池",
+    "code": "06c60",
+    "grade": 2,
+    "reading": "いけ",
+    "jlpt": "N4",
+    "meaning": "pond",
+    "radical": 85,
+    "strokes": 6
+  },
+  {
+    "ch": "星",
+    "code": "0661f",
+    "grade": 2,
+    "reading": "ほし",
+    "jlpt": "N3",
+    "meaning": "star",
+    "radical": 72,
+    "strokes": 9
+  },
+  {
+    "ch": "寺",
+    "code": "05bfa",
+    "grade": 2,
+    "reading": "てら",
+    "jlpt": "N3",
+    "meaning": "Buddhist temple",
+    "radical": 32,
+    "strokes": 6
+  },
+  {
+    "ch": "遠",
+    "code": "09060",
+    "grade": 2,
+    "reading": "とおい",
+    "jlpt": "N4",
+    "meaning": "distant",
+    "radical": 162,
+    "strokes": 13
+  },
+  {
+    "ch": "絵",
+    "code": "07d75",
+    "grade": 2,
+    "reading": "かい",
+    "jlpt": "N3",
+    "meaning": "picture",
+    "radical": 120,
+    "strokes": 12
+  },
+  {
+    "ch": "曜",
+    "code": "066dc",
+    "grade": 2,
+    "reading": "よう",
+    "jlpt": "N4",
+    "meaning": "weekday",
+    "radical": 72,
+    "strokes": 18
+  },
+  {
+    "ch": "弱",
+    "code": "05f31",
+    "grade": 2,
+    "reading": "よわい",
+    "jlpt": "N4",
+    "meaning": "weak",
+    "radical": 15,
+    "strokes": 10
+  },
+  {
+    "ch": "肉",
+    "code": "08089",
+    "grade": 2,
+    "reading": "しし",
+    "jlpt": "N4",
+    "meaning": "meat",
+    "radical": 130,
+    "strokes": 6
+  },
+  {
+    "ch": "晴",
+    "code": "06674",
+    "grade": 2,
+    "reading": "はれる",
+    "jlpt": "N3",
+    "meaning": "clear up",
+    "radical": 72,
+    "strokes": 12
+  },
+  {
+    "ch": "鳥",
+    "code": "09ce5",
+    "grade": 2,
+    "reading": "とり",
+    "jlpt": "N4",
+    "meaning": "bird",
+    "radical": 196,
+    "strokes": 11
+  },
+  {
+    "ch": "冬",
+    "code": "051ac",
+    "grade": 2,
+    "reading": "ふゆ",
+    "jlpt": "N4",
+    "meaning": "winter",
+    "radical": 34,
+    "strokes": 5
+  },
+  {
+    "ch": "里",
+    "code": "091cc",
+    "grade": 2,
+    "reading": "さと",
+    "jlpt": "N3",
+    "meaning": "ri",
+    "radical": 166,
+    "strokes": 7
+  },
+  {
+    "ch": "昼",
+    "code": "0663c",
+    "grade": 2,
+    "reading": "ひる",
+    "jlpt": "N4",
+    "meaning": "daytime",
+    "radical": 1,
+    "strokes": 9
+  },
+  {
+    "ch": "茶",
+    "code": "08336",
+    "grade": 2,
+    "reading": "ちゃ",
+    "jlpt": "N4",
+    "meaning": "tea",
+    "radical": 140,
+    "strokes": 9
+  },
+  {
+    "ch": "雪",
+    "code": "096ea",
+    "grade": 2,
+    "reading": "ゆき",
+    "jlpt": "N3",
+    "meaning": "snow",
+    "radical": 173,
+    "strokes": 11
+  },
+  {
+    "ch": "弟",
+    "code": "05f1f",
+    "grade": 2,
+    "reading": "おとうと",
+    "jlpt": "N4",
+    "meaning": "younger brother",
+    "radical": 12,
+    "strokes": 7
+  },
+  {
+    "ch": "毛",
+    "code": "06bdb",
+    "grade": 2,
+    "reading": "け",
+    "jlpt": "N3",
+    "meaning": "fur",
+    "radical": 82,
+    "strokes": 4
+  },
+  {
+    "ch": "牛",
+    "code": "0725b",
+    "grade": 2,
+    "reading": "うし",
+    "jlpt": "N4",
+    "meaning": "cow",
+    "radical": 93,
+    "strokes": 4
+  },
+  {
+    "ch": "魚",
+    "code": "09b5a",
+    "grade": 2,
+    "reading": "うお",
+    "jlpt": "N5",
+    "meaning": "fish",
+    "radical": 195,
+    "strokes": 11
+  },
+  {
+    "ch": "兄",
+    "code": "05144",
+    "grade": 2,
+    "reading": "あに",
+    "jlpt": "N4",
+    "meaning": "elder brother",
+    "radical": 30,
+    "strokes": 5
+  },
+  {
+    "ch": "黄",
+    "code": "09ec4",
+    "grade": 2,
+    "reading": "き",
+    "jlpt": "N3",
+    "meaning": "yellow",
+    "radical": 201,
+    "strokes": 11
+  },
+  {
+    "ch": "雲",
+    "code": "096f2",
+    "grade": 2,
+    "reading": "くも",
+    "jlpt": "N3",
+    "meaning": "cloud",
+    "radical": 173,
+    "strokes": 12
+  },
+  {
+    "ch": "鳴",
+    "code": "09cf4",
+    "grade": 2,
+    "reading": "なく",
+    "jlpt": "N3",
+    "meaning": "chirp",
+    "radical": 30,
+    "strokes": 14
+  },
+  {
+    "ch": "矢",
+    "code": "077e2",
+    "grade": 2,
+    "reading": "や",
+    "jlpt": "N3",
+    "meaning": "dart",
+    "radical": 111,
+    "strokes": 5
+  },
+  {
+    "ch": "妹",
+    "code": "059b9",
+    "grade": 2,
+    "reading": "いもうと",
+    "jlpt": "N4",
+    "meaning": "younger sister",
+    "radical": 38,
+    "strokes": 8
+  },
+  {
+    "ch": "姉",
+    "code": "059c9",
+    "grade": 2,
+    "reading": "あね",
+    "jlpt": "N4",
+    "meaning": "elder sister",
+    "radical": 38,
+    "strokes": 8
+  },
+  {
+    "ch": "才",
+    "code": "0624d",
+    "grade": 2,
+    "reading": "さい",
+    "jlpt": "N3",
+    "meaning": "genius",
+    "radical": 6,
+    "strokes": 3
+  },
+  {
+    "ch": "麦",
+    "code": "09ea6",
+    "grade": 2,
+    "reading": "むぎ",
+    "jlpt": "N3",
+    "meaning": "barley",
+    "radical": 199,
+    "strokes": 7
+  },
+  {
+    "ch": "刀",
+    "code": "05200",
+    "grade": 2,
+    "reading": "かたな",
+    "jlpt": "N3",
+    "meaning": "sword",
+    "radical": 18,
+    "strokes": 2
+  },
+  {
+    "ch": "弓",
+    "code": "05f13",
+    "grade": 2,
+    "reading": "ゆみ",
+    "jlpt": "N3",
+    "meaning": "bow",
+    "radical": 57,
+    "strokes": 3
+  },
+  {
+    "ch": "汽",
+    "code": "06c7d",
+    "grade": 2,
+    "reading": "き",
+    "jlpt": "N3",
+    "meaning": "vapor",
+    "radical": 85,
+    "strokes": 7
+  },
+  {
+    "ch": "事",
+    "code": "04e8b",
+    "grade": 3,
+    "reading": "こと",
+    "jlpt": "N4",
+    "meaning": "matter",
+    "radical": 6,
+    "strokes": 8
+  },
+  {
+    "ch": "発",
+    "code": "0767a",
+    "grade": 3,
+    "reading": "たつ",
+    "jlpt": "N4",
+    "meaning": "departure",
+    "radical": 105,
+    "strokes": 9
+  },
+  {
+    "ch": "対",
+    "code": "05bfe",
+    "grade": 3,
+    "reading": "あいて",
+    "jlpt": "N3",
+    "meaning": "vis-a-vis",
+    "radical": 67,
+    "strokes": 7
+  },
+  {
+    "ch": "部",
+    "code": "090e8",
+    "grade": 3,
+    "reading": "べ",
+    "jlpt": "N3",
+    "meaning": "section",
+    "radical": 163,
+    "strokes": 11
+  },
+  {
+    "ch": "者",
+    "code": "08005",
+    "grade": 3,
+    "reading": "もの",
+    "jlpt": "N4",
+    "meaning": "someone",
+    "radical": 125,
+    "strokes": 8
+  },
+  {
+    "ch": "業",
+    "code": "0696d",
+    "grade": 3,
+    "reading": "わざ",
+    "jlpt": "N4",
+    "meaning": "business",
+    "radical": 3,
+    "strokes": 13
+  },
+  {
+    "ch": "相",
+    "code": "076f8",
+    "grade": 3,
+    "reading": "あい",
+    "jlpt": "N3",
+    "meaning": "inter-",
+    "radical": 75,
+    "strokes": 9
+  },
+  {
+    "ch": "定",
+    "code": "05b9a",
+    "grade": 3,
+    "reading": "さだめる",
+    "jlpt": "N3",
+    "meaning": "determine",
+    "radical": 40,
+    "strokes": 8
+  },
+  {
+    "ch": "員",
+    "code": "054e1",
+    "grade": 3,
+    "reading": "いん",
+    "jlpt": "N4",
+    "meaning": "employee",
+    "radical": 30,
+    "strokes": 10
+  },
+  {
+    "ch": "開",
+    "code": "0958b",
+    "grade": 3,
+    "reading": "ひらく",
+    "jlpt": "N4",
+    "meaning": "open",
+    "radical": 169,
+    "strokes": 12
+  },
+  {
+    "ch": "問",
+    "code": "0554f",
+    "grade": 3,
+    "reading": "とう",
+    "jlpt": "N4",
+    "meaning": "question",
+    "radical": 30,
+    "strokes": 11
+  },
+  {
+    "ch": "代",
+    "code": "04ee3",
+    "grade": 3,
+    "reading": "かわる",
+    "jlpt": "N4",
+    "meaning": "substitute",
+    "radical": 9,
+    "strokes": 5
+  },
+  {
+    "ch": "実",
+    "code": "05b9f",
+    "grade": 3,
+    "reading": "み",
+    "jlpt": "N3",
+    "meaning": "reality",
+    "radical": 40,
+    "strokes": 8
+  },
+  {
+    "ch": "決",
+    "code": "06c7a",
+    "grade": 3,
+    "reading": "きめる",
+    "jlpt": "N3",
+    "meaning": "decide",
+    "radical": 85,
+    "strokes": 7
+  },
+  {
+    "ch": "動",
+    "code": "052d5",
+    "grade": 3,
+    "reading": "うごく",
+    "jlpt": "N4",
+    "meaning": "move",
+    "radical": 19,
+    "strokes": 11
+  },
+  {
+    "ch": "全",
+    "code": "05168",
+    "grade": 3,
+    "reading": "まったく",
+    "jlpt": "N3",
+    "meaning": "whole",
+    "radical": 11,
+    "strokes": 6
+  },
+  {
+    "ch": "表",
+    "code": "08868",
+    "grade": 3,
+    "reading": "おもて",
+    "jlpt": "N3",
+    "meaning": "surface",
+    "radical": 2,
+    "strokes": 8
+  },
+  {
+    "ch": "調",
+    "code": "08abf",
+    "grade": 3,
+    "reading": "しらべる",
+    "jlpt": "N3",
+    "meaning": "tune",
+    "radical": 149,
+    "strokes": 15
+  },
+  {
+    "ch": "化",
+    "code": "05316",
+    "grade": 3,
+    "reading": "ばける",
+    "jlpt": "N3",
+    "meaning": "change",
+    "radical": 9,
+    "strokes": 4
+  },
+  {
+    "ch": "主",
+    "code": "04e3b",
+    "grade": 3,
+    "reading": "ぬし",
+    "jlpt": "N4",
+    "meaning": "lord",
+    "radical": 8,
+    "strokes": 5
+  },
+  {
+    "ch": "題",
+    "code": "0984c",
+    "grade": 3,
+    "reading": "だい",
+    "jlpt": "N4",
+    "meaning": "topic",
+    "radical": 72,
+    "strokes": 18
+  },
+  {
+    "ch": "意",
+    "code": "0610f",
+    "grade": 3,
+    "reading": "い",
+    "jlpt": "N4",
+    "meaning": "idea",
+    "radical": 180,
+    "strokes": 13
+  },
+  {
+    "ch": "度",
+    "code": "05ea6",
+    "grade": 3,
+    "reading": "たび",
+    "jlpt": "N4",
+    "meaning": "degrees",
+    "radical": 53,
+    "strokes": 9
+  },
+  {
+    "ch": "期",
+    "code": "0671f",
+    "grade": 3,
+    "reading": "き",
+    "jlpt": "N3",
+    "meaning": "period",
+    "radical": 130,
+    "strokes": 12
+  },
+  {
+    "ch": "持",
+    "code": "06301",
+    "grade": 3,
+    "reading": "もつ",
+    "jlpt": "N4",
+    "meaning": "hold",
+    "radical": 64,
+    "strokes": 9
+  },
+  {
+    "ch": "取",
+    "code": "053d6",
+    "grade": 3,
+    "reading": "とる",
+    "jlpt": "N3",
+    "meaning": "take",
+    "radical": 128,
+    "strokes": 8
+  },
+  {
+    "ch": "都",
+    "code": "090fd",
+    "grade": 3,
+    "reading": "みやこ",
+    "jlpt": "N4",
+    "meaning": "metropolis",
+    "radical": 163,
+    "strokes": 11
+  },
+  {
+    "ch": "和",
+    "code": "0548c",
+    "grade": 3,
+    "reading": "やわらぐ",
+    "jlpt": "N3",
+    "meaning": "harmony",
+    "radical": 115,
+    "strokes": 8
+  },
+  {
+    "ch": "平",
+    "code": "05e73",
+    "grade": 3,
+    "reading": "たいら",
+    "jlpt": "N3",
+    "meaning": "even",
+    "radical": 1,
+    "strokes": 5
+  },
+  {
+    "ch": "世",
+    "code": "04e16",
+    "grade": 3,
+    "reading": "よ",
+    "jlpt": "N4",
+    "meaning": "generation",
+    "radical": 2,
+    "strokes": 5
+  },
+  {
+    "ch": "受",
+    "code": "053d7",
+    "grade": 3,
+    "reading": "うける",
+    "jlpt": "N3",
+    "meaning": "accept",
+    "radical": 87,
+    "strokes": 8
+  },
+  {
+    "ch": "区",
+    "code": "0533a",
+    "grade": 3,
+    "reading": "く",
+    "jlpt": "N4",
+    "meaning": "ward",
+    "radical": 22,
+    "strokes": 4
+  },
+  {
+    "ch": "県",
+    "code": "0770c",
+    "grade": 3,
+    "reading": "かける",
+    "jlpt": "N4",
+    "meaning": "prefecture",
+    "radical": 42,
+    "strokes": 9
+  },
+  {
+    "ch": "進",
+    "code": "09032",
+    "grade": 3,
+    "reading": "すすむ",
+    "jlpt": "N4",
+    "meaning": "advance",
+    "radical": 162,
+    "strokes": 11
+  },
+  {
+    "ch": "安",
+    "code": "05b89",
+    "grade": 3,
+    "reading": "やすい",
+    "jlpt": "N5",
+    "meaning": "relax",
+    "radical": 40,
+    "strokes": 6
+  },
+  {
+    "ch": "院",
+    "code": "09662",
+    "grade": 3,
+    "reading": "いん",
+    "jlpt": "N4",
+    "meaning": "Inst.",
+    "radical": 170,
+    "strokes": 10
+  },
+  {
+    "ch": "指",
+    "code": "06307",
+    "grade": 3,
+    "reading": "ゆび",
+    "jlpt": "N3",
+    "meaning": "finger",
+    "radical": 64,
+    "strokes": 9
+  },
+  {
+    "ch": "界",
+    "code": "0754c",
+    "grade": 3,
+    "reading": "かい",
+    "jlpt": "N4",
+    "meaning": "world",
+    "radical": 102,
+    "strokes": 9
+  },
+  {
+    "ch": "第",
+    "code": "07b2c",
+    "grade": 3,
+    "reading": "だい",
+    "jlpt": "N3",
+    "meaning": "No.",
+    "radical": 118,
+    "strokes": 11
+  },
+  {
+    "ch": "予",
+    "code": "04e88",
+    "grade": 3,
+    "reading": "あらかじめ",
+    "jlpt": "N3",
+    "meaning": "beforehand",
+    "radical": 6,
+    "strokes": 4
+  },
+  {
+    "ch": "向",
+    "code": "05411",
+    "grade": 3,
+    "reading": "むく",
+    "jlpt": "N3",
+    "meaning": "yonder",
+    "radical": 2,
+    "strokes": 6
+  },
+  {
+    "ch": "勝",
+    "code": "052dd",
+    "grade": 3,
+    "reading": "かつ",
+    "jlpt": "N3",
+    "meaning": "victory",
+    "radical": 130,
+    "strokes": 12
+  },
+  {
+    "ch": "面",
+    "code": "09762",
+    "grade": 3,
+    "reading": "おも",
+    "jlpt": "N3",
+    "meaning": "mask",
+    "radical": 176,
+    "strokes": 9
+  },
+  {
+    "ch": "委",
+    "code": "059d4",
+    "grade": 3,
+    "reading": "ゆだねる",
+    "jlpt": "N3",
+    "meaning": "committee",
+    "radical": 115,
+    "strokes": 8
+  },
+  {
+    "ch": "反",
+    "code": "053cd",
+    "grade": 3,
+    "reading": "そる",
+    "jlpt": "N3",
+    "meaning": "anti-",
+    "radical": 27,
+    "strokes": 4
+  },
+  {
+    "ch": "重",
+    "code": "091cd",
+    "grade": 3,
+    "reading": "え",
+    "jlpt": "N4",
+    "meaning": "heavy",
+    "radical": 4,
+    "strokes": 9
+  },
+  {
+    "ch": "集",
+    "code": "096c6",
+    "grade": 3,
+    "reading": "あつまる",
+    "jlpt": "N4",
+    "meaning": "gather",
+    "radical": 172,
+    "strokes": 12
+  },
+  {
+    "ch": "物",
+    "code": "07269",
+    "grade": 3,
+    "reading": "もの",
+    "jlpt": "N4",
+    "meaning": "thing",
+    "radical": 93,
+    "strokes": 8
+  },
+  {
+    "ch": "使",
+    "code": "04f7f",
+    "grade": 3,
+    "reading": "つかう",
+    "jlpt": "N4",
+    "meaning": "use",
+    "radical": 9,
+    "strokes": 8
+  },
+  {
+    "ch": "所",
+    "code": "06240",
+    "grade": 3,
+    "reading": "ところ",
+    "jlpt": "N4",
+    "meaning": "place",
+    "radical": 63,
+    "strokes": 8
+  },
+  {
+    "ch": "次",
+    "code": "06b21",
+    "grade": 3,
+    "reading": "つぐ",
+    "jlpt": "N3",
+    "meaning": "next",
+    "radical": 15,
+    "strokes": 6
+  },
+  {
+    "ch": "品",
+    "code": "054c1",
+    "grade": 3,
+    "reading": "しな",
+    "jlpt": "N4",
+    "meaning": "goods",
+    "radical": 30,
+    "strokes": 9
+  },
+  {
+    "ch": "死",
+    "code": "06b7b",
+    "grade": 3,
+    "reading": "しぬ",
+    "jlpt": "N4",
+    "meaning": "death",
+    "radical": 78,
+    "strokes": 6
+  },
+  {
+    "ch": "係",
+    "code": "04fc2",
+    "grade": 3,
+    "reading": "かかる",
+    "jlpt": "N3",
+    "meaning": "person in charge",
+    "radical": 9,
+    "strokes": 9
+  },
+  {
+    "ch": "感",
+    "code": "0611f",
+    "grade": 3,
+    "reading": "かん",
+    "jlpt": "N3",
+    "meaning": "emotion",
+    "radical": 61,
+    "strokes": 13
+  },
+  {
+    "ch": "投",
+    "code": "06295",
+    "grade": 3,
+    "reading": "なげる",
+    "jlpt": "N3",
+    "meaning": "throw",
+    "radical": 64,
+    "strokes": 7
+  },
+  {
+    "ch": "打",
+    "code": "06253",
+    "grade": 3,
+    "reading": "うつ",
+    "jlpt": "N3",
+    "meaning": "strike",
+    "radical": 64,
+    "strokes": 5
+  },
+  {
+    "ch": "始",
+    "code": "059cb",
+    "grade": 3,
+    "reading": "はじめる",
+    "jlpt": "N4",
+    "meaning": "commence",
+    "radical": 38,
+    "strokes": 8
+  },
+  {
+    "ch": "島",
+    "code": "05cf6",
+    "grade": 3,
+    "reading": "しま",
+    "jlpt": "N3",
+    "meaning": "island",
+    "radical": 4,
+    "strokes": 10
+  },
+  {
+    "ch": "両",
+    "code": "04e21",
+    "grade": 3,
+    "reading": "てる",
+    "jlpt": "N3",
+    "meaning": "both",
+    "radical": 1,
+    "strokes": 6
+  },
+  {
+    "ch": "式",
+    "code": "05f0f",
+    "grade": 3,
+    "reading": "しき",
+    "jlpt": "N3",
+    "meaning": "style",
+    "radical": 56,
+    "strokes": 6
+  },
+  {
+    "ch": "運",
+    "code": "0904b",
+    "grade": 3,
+    "reading": "はこぶ",
+    "jlpt": "N4",
+    "meaning": "carry",
+    "radical": 162,
+    "strokes": 12
+  },
+  {
+    "ch": "終",
+    "code": "07d42",
+    "grade": 3,
+    "reading": "おわる",
+    "jlpt": "N4",
+    "meaning": "end",
+    "radical": 120,
+    "strokes": 11
+  },
+  {
+    "ch": "住",
+    "code": "04f4f",
+    "grade": 3,
+    "reading": "すむ",
+    "jlpt": "N4",
+    "meaning": "dwell",
+    "radical": 9,
+    "strokes": 7
+  },
+  {
+    "ch": "談",
+    "code": "08ac7",
+    "grade": 3,
+    "reading": "だん",
+    "jlpt": "N3",
+    "meaning": "discuss",
+    "radical": 149,
+    "strokes": 15
+  },
+  {
+    "ch": "真",
+    "code": "0771f",
+    "grade": 3,
+    "reading": "ま",
+    "jlpt": "N4",
+    "meaning": "true",
+    "radical": 24,
+    "strokes": 10
+  },
+  {
+    "ch": "流",
+    "code": "06d41",
+    "grade": 3,
+    "reading": "ながれる",
+    "jlpt": "N3",
+    "meaning": "current",
+    "radical": 85,
+    "strokes": 10
+  },
+  {
+    "ch": "有",
+    "code": "06709",
+    "grade": 3,
+    "reading": "ある",
+    "jlpt": "N4",
+    "meaning": "possess",
+    "radical": 130,
+    "strokes": 6
+  },
+  {
+    "ch": "局",
+    "code": "05c40",
+    "grade": 3,
+    "reading": "つぼね",
+    "jlpt": "N3",
+    "meaning": "bureau",
+    "radical": 44,
+    "strokes": 7
+  },
+  {
+    "ch": "放",
+    "code": "0653e",
+    "grade": 3,
+    "reading": "はなす",
+    "jlpt": "N3",
+    "meaning": "set free",
+    "radical": 70,
+    "strokes": 8
+  },
+  {
+    "ch": "球",
+    "code": "07403",
+    "grade": 3,
+    "reading": "たま",
+    "jlpt": "N3",
+    "meaning": "ball",
+    "radical": 96,
+    "strokes": 11
+  },
+  {
+    "ch": "急",
+    "code": "06025",
+    "grade": 3,
+    "reading": "いそぐ",
+    "jlpt": "N4",
+    "meaning": "hurry",
+    "radical": 61,
+    "strokes": 9
+  },
+  {
+    "ch": "送",
+    "code": "09001",
+    "grade": 3,
+    "reading": "おくる",
+    "jlpt": "N4",
+    "meaning": "escort",
+    "radical": 162,
+    "strokes": 9
+  },
+  {
+    "ch": "役",
+    "code": "05f79",
+    "grade": 3,
+    "reading": "やく",
+    "jlpt": "N3",
+    "meaning": "duty",
+    "radical": 60,
+    "strokes": 7
+  },
+  {
+    "ch": "身",
+    "code": "08eab",
+    "grade": 3,
+    "reading": "み",
+    "jlpt": "N4",
+    "meaning": "somebody",
+    "radical": 158,
+    "strokes": 7
+  },
+  {
+    "ch": "由",
+    "code": "07531",
+    "grade": 3,
+    "reading": "よし",
+    "jlpt": "N3",
+    "meaning": "wherefore",
+    "radical": 2,
+    "strokes": 5
+  },
+  {
+    "ch": "転",
+    "code": "08ee2",
+    "grade": 3,
+    "reading": "ころがる",
+    "jlpt": "N4",
+    "meaning": "revolve",
+    "radical": 159,
+    "strokes": 11
+  },
+  {
+    "ch": "研",
+    "code": "07814",
+    "grade": 3,
+    "reading": "とぐ",
+    "jlpt": "N4",
+    "meaning": "polish",
+    "radical": 112,
+    "strokes": 9
+  },
+  {
+    "ch": "消",
+    "code": "06d88",
+    "grade": 3,
+    "reading": "きえる",
+    "jlpt": "N3",
+    "meaning": "extinguish",
+    "radical": 85,
+    "strokes": 10
+  },
+  {
+    "ch": "神",
+    "code": "0795e",
+    "grade": 3,
+    "reading": "かみ",
+    "jlpt": "N3",
+    "meaning": "gods",
+    "radical": 113,
+    "strokes": 9
+  },
+  {
+    "ch": "配",
+    "code": "0914d",
+    "grade": 3,
+    "reading": "くばる",
+    "jlpt": "N3",
+    "meaning": "distribute",
+    "radical": 164,
+    "strokes": 10
+  },
+  {
+    "ch": "宮",
+    "code": "05bae",
+    "grade": 3,
+    "reading": "みや",
+    "jlpt": "N3",
+    "meaning": "Shinto shrine",
+    "radical": 40,
+    "strokes": 10
+  },
+  {
+    "ch": "究",
+    "code": "07a76",
+    "grade": 3,
+    "reading": "きわめる",
+    "jlpt": "N4",
+    "meaning": "research",
+    "radical": 116,
+    "strokes": 7
+  },
+  {
+    "ch": "育",
+    "code": "080b2",
+    "grade": 3,
+    "reading": "そだつ",
+    "jlpt": "N3",
+    "meaning": "bring up",
+    "radical": 8,
+    "strokes": 8
+  },
+  {
+    "ch": "起",
+    "code": "08d77",
+    "grade": 3,
+    "reading": "おきる",
+    "jlpt": "N4",
+    "meaning": "rouse",
+    "radical": 156,
+    "strokes": 10
+  },
+  {
+    "ch": "着",
+    "code": "07740",
+    "grade": 3,
+    "reading": "きる",
+    "jlpt": "N4",
+    "meaning": "don",
+    "radical": 123,
+    "strokes": 12
+  },
+  {
+    "ch": "乗",
+    "code": "04e57",
+    "grade": 3,
+    "reading": "のる",
+    "jlpt": "N4",
+    "meaning": "ride",
+    "radical": 4,
+    "strokes": 9
+  },
+  {
+    "ch": "想",
+    "code": "060f3",
+    "grade": 3,
+    "reading": "おもう",
+    "jlpt": "N3",
+    "meaning": "concept",
+    "radical": 61,
+    "strokes": 13
+  },
+  {
+    "ch": "病",
+    "code": "075c5",
+    "grade": 3,
+    "reading": "やむ",
+    "jlpt": "N4",
+    "meaning": "ill",
+    "radical": 104,
+    "strokes": 10
+  },
+  {
+    "ch": "農",
+    "code": "08fb2",
+    "grade": 3,
+    "reading": "のう",
+    "jlpt": "N3",
+    "meaning": "agriculture",
+    "radical": 161,
+    "strokes": 13
+  },
+  {
+    "ch": "州",
+    "code": "05dde",
+    "grade": 3,
+    "reading": "す",
+    "jlpt": "N3",
+    "meaning": "state",
+    "radical": 2,
+    "strokes": 6
+  },
+  {
+    "ch": "待",
+    "code": "05f85",
+    "grade": 3,
+    "reading": "まつ",
+    "jlpt": "N4",
+    "meaning": "wait",
+    "radical": 60,
+    "strokes": 9
+  },
+  {
+    "ch": "族",
+    "code": "065cf",
+    "grade": 3,
+    "reading": "ぞく",
+    "jlpt": "N4",
+    "meaning": "tribe",
+    "radical": 70,
+    "strokes": 11
+  },
+  {
+    "ch": "銀",
+    "code": "09280",
+    "grade": 3,
+    "reading": "しろがね",
+    "jlpt": "N4",
+    "meaning": "silver",
+    "radical": 167,
+    "strokes": 14
+  },
+  {
+    "ch": "助",
+    "code": "052a9",
+    "grade": 3,
+    "reading": "たすける",
+    "jlpt": "N3",
+    "meaning": "help",
+    "radical": 19,
+    "strokes": 7
+  },
+  {
+    "ch": "追",
+    "code": "08ffd",
+    "grade": 3,
+    "reading": "おう",
+    "jlpt": "N3",
+    "meaning": "chase",
+    "radical": 162,
+    "strokes": 9
+  },
+  {
+    "ch": "商",
+    "code": "05546",
+    "grade": 3,
+    "reading": "あきなう",
+    "jlpt": "N3",
+    "meaning": "make a deal",
+    "radical": 8,
+    "strokes": 11
+  },
+  {
+    "ch": "葉",
+    "code": "08449",
+    "grade": 3,
+    "reading": "は",
+    "jlpt": "N3",
+    "meaning": "leaf",
+    "radical": 140,
+    "strokes": 12
+  },
+  {
+    "ch": "落",
+    "code": "0843d",
+    "grade": 3,
+    "reading": "おちる",
+    "jlpt": "N3",
+    "meaning": "fall",
+    "radical": 140,
+    "strokes": 12
+  },
+  {
+    "ch": "医",
+    "code": "0533b",
+    "grade": 3,
+    "reading": "いやす",
+    "jlpt": "N4",
+    "meaning": "doctor",
+    "radical": 22,
+    "strokes": 7
+  },
+  {
+    "ch": "仕",
+    "code": "04ed5",
+    "grade": 3,
+    "reading": "つかえる",
+    "jlpt": "N4",
+    "meaning": "attend",
+    "radical": 9,
+    "strokes": 5
+  },
+  {
+    "ch": "去",
+    "code": "053bb",
+    "grade": 3,
+    "reading": "さる",
+    "jlpt": "N4",
+    "meaning": "gone",
+    "radical": 32,
+    "strokes": 5
+  },
+  {
+    "ch": "味",
+    "code": "05473",
+    "grade": 3,
+    "reading": "あじ",
+    "jlpt": "N4",
+    "meaning": "flavor",
+    "radical": 30,
+    "strokes": 8
+  },
+  {
+    "ch": "負",
+    "code": "08ca0",
+    "grade": 3,
+    "reading": "まける",
+    "jlpt": "N3",
+    "meaning": "defeat",
+    "radical": 154,
+    "strokes": 9
+  },
+  {
+    "ch": "写",
+    "code": "05199",
+    "grade": 3,
+    "reading": "うつす",
+    "jlpt": "N4",
+    "meaning": "copy",
+    "radical": 14,
+    "strokes": 5
+  },
+  {
+    "ch": "守",
+    "code": "05b88",
+    "grade": 3,
+    "reading": "まもる",
+    "jlpt": "N3",
+    "meaning": "guard",
+    "radical": 40,
+    "strokes": 6
+  },
+  {
+    "ch": "美",
+    "code": "07f8e",
+    "grade": 3,
+    "reading": "うつくしい",
+    "jlpt": "N3",
+    "meaning": "beauty",
+    "radical": 123,
+    "strokes": 9
+  },
+  {
+    "ch": "命",
+    "code": "0547d",
+    "grade": 3,
+    "reading": "いのち",
+    "jlpt": "N3",
+    "meaning": "fate",
+    "radical": 9,
+    "strokes": 8
+  },
+  {
+    "ch": "福",
+    "code": "0798f",
+    "grade": 3,
+    "reading": "ふく",
+    "jlpt": "N3",
+    "meaning": "blessing",
+    "radical": 113,
+    "strokes": 13
+  },
+  {
+    "ch": "整",
+    "code": "06574",
+    "grade": 3,
+    "reading": "ととのえる",
+    "jlpt": "N3",
+    "meaning": "organize",
+    "radical": 77,
+    "strokes": 16
+  },
+  {
+    "ch": "横",
+    "code": "06a2a",
+    "grade": 3,
+    "reading": "よこ",
+    "jlpt": "N3",
+    "meaning": "sideways",
+    "radical": 75,
+    "strokes": 15
+  },
+  {
+    "ch": "深",
+    "code": "06df1",
+    "grade": 3,
+    "reading": "ふかい",
+    "jlpt": "N3",
+    "meaning": "deep",
+    "radical": 85,
+    "strokes": 11
+  },
+  {
+    "ch": "申",
+    "code": "07533",
+    "grade": 3,
+    "reading": "もうす",
+    "jlpt": "N3",
+    "meaning": "have the honor to",
+    "radical": 2,
+    "strokes": 5
+  },
+  {
+    "ch": "様",
+    "code": "069d8",
+    "grade": 3,
+    "reading": "さま",
+    "jlpt": "N3",
+    "meaning": "Esq.",
+    "radical": 75,
+    "strokes": 14
+  },
+  {
+    "ch": "港",
+    "code": "06e2f",
+    "grade": 3,
+    "reading": "みなと",
+    "jlpt": "N3",
+    "meaning": "harbor",
+    "radical": 85,
+    "strokes": 12
+  },
+  {
+    "ch": "注",
+    "code": "06ce8",
+    "grade": 3,
+    "reading": "そそぐ",
+    "jlpt": "N4",
+    "meaning": "pour",
+    "radical": 85,
+    "strokes": 8
+  },
+  {
+    "ch": "階",
+    "code": "0968e",
+    "grade": 3,
+    "reading": "きざはし",
+    "jlpt": "N3",
+    "meaning": "storey",
+    "radical": 170,
+    "strokes": 12
+  },
+  {
+    "ch": "路",
+    "code": "08def",
+    "grade": 3,
+    "reading": "じ",
+    "jlpt": "N3",
+    "meaning": "path",
+    "radical": 157,
+    "strokes": 13
+  },
+  {
+    "ch": "悪",
+    "code": "060aa",
+    "grade": 3,
+    "reading": "わるい",
+    "jlpt": "N4",
+    "meaning": "bad",
+    "radical": 1,
+    "strokes": 11
+  },
+  {
+    "ch": "他",
+    "code": "04ed6",
+    "grade": 3,
+    "reading": "ほか",
+    "jlpt": "N3",
+    "meaning": "other",
+    "radical": 9,
+    "strokes": 5
+  },
+  {
+    "ch": "橋",
+    "code": "06a4b",
+    "grade": 3,
+    "reading": "はし",
+    "jlpt": "N3",
+    "meaning": "bridge",
+    "radical": 75,
+    "strokes": 16
+  },
+  {
+    "ch": "岸",
+    "code": "05cb8",
+    "grade": 3,
+    "reading": "きし",
+    "jlpt": "N3",
+    "meaning": "beach",
+    "radical": 46,
+    "strokes": 8
+  },
+  {
+    "ch": "客",
+    "code": "05ba2",
+    "grade": 3,
+    "reading": "きゃく",
+    "jlpt": "N3",
+    "meaning": "guest",
+    "radical": 40,
+    "strokes": 9
+  },
+  {
+    "ch": "登",
+    "code": "0767b",
+    "grade": 3,
+    "reading": "のぼる",
+    "jlpt": "N3",
+    "meaning": "ascend",
+    "radical": 105,
+    "strokes": 12
+  },
+  {
+    "ch": "速",
+    "code": "0901f",
+    "grade": 3,
+    "reading": "はやい",
+    "jlpt": "N3",
+    "meaning": "quick",
+    "radical": 162,
+    "strokes": 10
+  },
+  {
+    "ch": "央",
+    "code": "0592e",
+    "grade": 3,
+    "reading": "おう",
+    "jlpt": "N3",
+    "meaning": "center",
+    "radical": 2,
+    "strokes": 5
+  },
+  {
+    "ch": "号",
+    "code": "053f7",
+    "grade": 3,
+    "reading": "さけぶ",
+    "jlpt": "N3",
+    "meaning": "nickname",
+    "radical": 30,
+    "strokes": 5
+  },
+  {
+    "ch": "館",
+    "code": "09928",
+    "grade": 3,
+    "reading": "やかた",
+    "jlpt": "N4",
+    "meaning": "building",
+    "radical": 184,
+    "strokes": 16
+  },
+  {
+    "ch": "屋",
+    "code": "05c4b",
+    "grade": 3,
+    "reading": "や",
+    "jlpt": "N4",
+    "meaning": "roof",
+    "radical": 44,
+    "strokes": 9
+  },
+  {
+    "ch": "根",
+    "code": "06839",
+    "grade": 3,
+    "reading": "ね",
+    "jlpt": "N3",
+    "meaning": "root",
+    "radical": 75,
+    "strokes": 10
+  },
+  {
+    "ch": "苦",
+    "code": "082e6",
+    "grade": 3,
+    "reading": "くるしい",
+    "jlpt": "N3",
+    "meaning": "suffering",
+    "radical": 140,
+    "strokes": 8
+  },
+  {
+    "ch": "具",
+    "code": "05177",
+    "grade": 3,
+    "reading": "そなえる",
+    "jlpt": "N3",
+    "meaning": "tool",
+    "radical": 109,
+    "strokes": 8
+  },
+  {
+    "ch": "鉄",
+    "code": "09244",
+    "grade": 3,
+    "reading": "くろがね",
+    "jlpt": "N3",
+    "meaning": "iron",
+    "radical": 167,
+    "strokes": 13
+  },
+  {
+    "ch": "返",
+    "code": "08fd4",
+    "grade": 3,
+    "reading": "かえす",
+    "jlpt": "N3",
+    "meaning": "return",
+    "radical": 162,
+    "strokes": 7
+  },
+  {
+    "ch": "短",
+    "code": "077ed",
+    "grade": 3,
+    "reading": "みじかい",
+    "jlpt": "N4",
+    "meaning": "short",
+    "radical": 111,
+    "strokes": 12
+  },
+  {
+    "ch": "油",
+    "code": "06cb9",
+    "grade": 3,
+    "reading": "あぶら",
+    "jlpt": "N3",
+    "meaning": "oil",
+    "radical": 85,
+    "strokes": 8
+  },
+  {
+    "ch": "昭",
+    "code": "0662d",
+    "grade": 3,
+    "reading": "しょう",
+    "jlpt": "N3",
+    "meaning": "shining",
+    "radical": 72,
+    "strokes": 9
+  },
+  {
+    "ch": "植",
+    "code": "0690d",
+    "grade": 3,
+    "reading": "うえる",
+    "jlpt": "N3",
+    "meaning": "plant",
+    "radical": 75,
+    "strokes": 12
+  },
+  {
+    "ch": "宿",
+    "code": "05bbf",
+    "grade": 3,
+    "reading": "やど",
+    "jlpt": "N3",
+    "meaning": "inn",
+    "radical": 40,
+    "strokes": 11
+  },
+  {
+    "ch": "薬",
+    "code": "085ac",
+    "grade": 3,
+    "reading": "くすり",
+    "jlpt": "N4",
+    "meaning": "medicine",
+    "radical": 140,
+    "strokes": 16
+  },
+  {
+    "ch": "習",
+    "code": "07fd2",
+    "grade": 3,
+    "reading": "ならう",
+    "jlpt": "N4",
+    "meaning": "learn",
+    "radical": 124,
+    "strokes": 11
+  },
+  {
+    "ch": "倍",
+    "code": "0500d",
+    "grade": 3,
+    "reading": "ばい",
+    "jlpt": "N3",
+    "meaning": "double",
+    "radical": 9,
+    "strokes": 10
+  },
+  {
+    "ch": "駅",
+    "code": "099c5",
+    "grade": 3,
+    "reading": "えき",
+    "jlpt": "N5",
+    "meaning": "station",
+    "radical": 187,
+    "strokes": 14
+  },
+  {
+    "ch": "波",
+    "code": "06ce2",
+    "grade": 3,
+    "reading": "なみ",
+    "jlpt": "N3",
+    "meaning": "waves",
+    "radical": 85,
+    "strokes": 8
+  },
+  {
+    "ch": "洋",
+    "code": "06d0b",
+    "grade": 3,
+    "reading": "よう",
+    "jlpt": "N4",
+    "meaning": "ocean",
+    "radical": 85,
+    "strokes": 9
+  },
+  {
+    "ch": "旅",
+    "code": "065c5",
+    "grade": 3,
+    "reading": "たび",
+    "jlpt": "N4",
+    "meaning": "trip",
+    "radical": 70,
+    "strokes": 10
+  },
+  {
+    "ch": "級",
+    "code": "07d1a",
+    "grade": 3,
+    "reading": "きゅう",
+    "jlpt": "N3",
+    "meaning": "class",
+    "radical": 120,
+    "strokes": 9
+  },
+  {
+    "ch": "幸",
+    "code": "05e78",
+    "grade": 3,
+    "reading": "さいわい",
+    "jlpt": "N3",
+    "meaning": "happiness",
+    "radical": 32,
+    "strokes": 8
+  },
+  {
+    "ch": "練",
+    "code": "07df4",
+    "grade": 3,
+    "reading": "ねる",
+    "jlpt": "N3",
+    "meaning": "practice",
+    "radical": 120,
+    "strokes": 14
+  },
+  {
+    "ch": "軽",
+    "code": "08efd",
+    "grade": 3,
+    "reading": "かるい",
+    "jlpt": "N4",
+    "meaning": "lightly",
+    "radical": 159,
+    "strokes": 12
+  },
+  {
+    "ch": "等",
+    "code": "07b49",
+    "grade": 3,
+    "reading": "ひとしい",
+    "jlpt": "N3",
+    "meaning": "etc.",
+    "radical": 118,
+    "strokes": 12
+  },
+  {
+    "ch": "曲",
+    "code": "066f2",
+    "grade": 3,
+    "reading": "まがる",
+    "jlpt": "N3",
+    "meaning": "bend",
+    "radical": 2,
+    "strokes": 6
+  },
+  {
+    "ch": "庭",
+    "code": "05ead",
+    "grade": 3,
+    "reading": "にわ",
+    "jlpt": "N3",
+    "meaning": "courtyard",
+    "radical": 53,
+    "strokes": 10
+  },
+  {
+    "ch": "血",
+    "code": "08840",
+    "grade": 3,
+    "reading": "ち",
+    "jlpt": "N3",
+    "meaning": "blood",
+    "radical": 143,
+    "strokes": 6
+  },
+  {
+    "ch": "温",
+    "code": "06e29",
+    "grade": 3,
+    "reading": "あたたか",
+    "jlpt": "N3",
+    "meaning": "warm",
+    "radical": 85,
+    "strokes": 12
+  },
+  {
+    "ch": "庫",
+    "code": "05eab",
+    "grade": 3,
+    "reading": "くら",
+    "jlpt": "N3",
+    "meaning": "warehouse",
+    "radical": 53,
+    "strokes": 10
+  },
+  {
+    "ch": "坂",
+    "code": "05742",
+    "grade": 3,
+    "reading": "さか",
+    "jlpt": "N3",
+    "meaning": "slope",
+    "radical": 32,
+    "strokes": 7
+  },
+  {
+    "ch": "服",
+    "code": "0670d",
+    "grade": 3,
+    "reading": "ふく",
+    "jlpt": "N4",
+    "meaning": "clothing",
+    "radical": 130,
+    "strokes": 8
+  },
+  {
+    "ch": "息",
+    "code": "0606f",
+    "grade": 3,
+    "reading": "いき",
+    "jlpt": "N3",
+    "meaning": "breath",
+    "radical": 132,
+    "strokes": 10
+  },
+  {
+    "ch": "板",
+    "code": "0677f",
+    "grade": 3,
+    "reading": "いた",
+    "jlpt": "N3",
+    "meaning": "plank",
+    "radical": 75,
+    "strokes": 8
+  },
+  {
+    "ch": "列",
+    "code": "05217",
+    "grade": 3,
+    "reading": "れつ",
+    "jlpt": "N3",
+    "meaning": "file",
+    "radical": 78,
+    "strokes": 6
+  },
+  {
+    "ch": "遊",
+    "code": "0904a",
+    "grade": 3,
+    "reading": "あそぶ",
+    "jlpt": "N3",
+    "meaning": "play",
+    "radical": 162,
+    "strokes": 12
+  },
+  {
+    "ch": "君",
+    "code": "0541b",
+    "grade": 3,
+    "reading": "きみ",
+    "jlpt": "N3",
+    "meaning": "mister",
+    "radical": 30,
+    "strokes": 7
+  },
+  {
+    "ch": "飲",
+    "code": "098f2",
+    "grade": 3,
+    "reading": "のむ",
+    "jlpt": "N5",
+    "meaning": "drink",
+    "radical": 184,
+    "strokes": 12
+  },
+  {
+    "ch": "章",
+    "code": "07ae0",
+    "grade": 3,
+    "reading": "しょう",
+    "jlpt": "N3",
+    "meaning": "badge",
+    "radical": 180,
+    "strokes": 11
+  },
+  {
+    "ch": "酒",
+    "code": "09152",
+    "grade": 3,
+    "reading": "さけ",
+    "jlpt": "N3",
+    "meaning": "sake",
+    "radical": 85,
+    "strokes": 10
+  },
+  {
+    "ch": "悲",
+    "code": "060b2",
+    "grade": 3,
+    "reading": "かなしい",
+    "jlpt": "N3",
+    "meaning": "grieve",
+    "radical": 175,
+    "strokes": 12
+  },
+  {
+    "ch": "秒",
+    "code": "079d2",
+    "grade": 3,
+    "reading": "びょう",
+    "jlpt": "N3",
+    "meaning": "second (1/60 minute)",
+    "radical": 115,
+    "strokes": 9
+  },
+  {
+    "ch": "暗",
+    "code": "06697",
+    "grade": 3,
+    "reading": "くらい",
+    "jlpt": "N4",
+    "meaning": "darkness",
+    "radical": 72,
+    "strokes": 13
+  },
+  {
+    "ch": "勉",
+    "code": "052c9",
+    "grade": 3,
+    "reading": "つとめる",
+    "jlpt": "N4",
+    "meaning": "exertion",
+    "radical": 4,
+    "strokes": 10
+  },
+  {
+    "ch": "陽",
+    "code": "0967d",
+    "grade": 3,
+    "reading": "ひ",
+    "jlpt": "N3",
+    "meaning": "sunshine",
+    "radical": 170,
+    "strokes": 12
+  },
+  {
+    "ch": "皮",
+    "code": "076ae",
+    "grade": 3,
+    "reading": "かわ",
+    "jlpt": "N3",
+    "meaning": "pelt",
+    "radical": 107,
+    "strokes": 5
+  },
+  {
+    "ch": "歯",
+    "code": "06b6f",
+    "grade": 3,
+    "reading": "よわい",
+    "jlpt": "N3",
+    "meaning": "tooth",
+    "radical": 211,
+    "strokes": 12
+  },
+  {
+    "ch": "柱",
+    "code": "067f1",
+    "grade": 3,
+    "reading": "はしら",
+    "jlpt": "N3",
+    "meaning": "pillar",
+    "radical": 75,
+    "strokes": 9
+  },
+  {
+    "ch": "祭",
+    "code": "0796d",
+    "grade": 3,
+    "reading": "まつる",
+    "jlpt": "N3",
+    "meaning": "ritual",
+    "radical": 113,
+    "strokes": 11
+  },
+  {
+    "ch": "筆",
+    "code": "07b46",
+    "grade": 3,
+    "reading": "ふで",
+    "jlpt": "N3",
+    "meaning": "writing brush",
+    "radical": 118,
+    "strokes": 12
+  },
+  {
+    "ch": "童",
+    "code": "07ae5",
+    "grade": 3,
+    "reading": "わらべ",
+    "jlpt": "N3",
+    "meaning": "juvenile",
+    "radical": 117,
+    "strokes": 12
+  },
+  {
+    "ch": "畑",
+    "code": "07551",
+    "grade": 3,
+    "reading": "はた",
+    "jlpt": "N3",
+    "meaning": "farm",
+    "radical": 86,
+    "strokes": 9
+  },
+  {
+    "ch": "緑",
+    "code": "07dd1",
+    "grade": 3,
+    "reading": "みどり",
+    "jlpt": "N3",
+    "meaning": "green",
+    "radical": 120,
+    "strokes": 14
+  },
+  {
+    "ch": "礼",
+    "code": "0793c",
+    "grade": 3,
+    "reading": "れい",
+    "jlpt": "N3",
+    "meaning": "salute",
+    "radical": 113,
+    "strokes": 5
+  },
+  {
+    "ch": "詩",
+    "code": "08a69",
+    "grade": 3,
+    "reading": "うた",
+    "jlpt": "N3",
+    "meaning": "poem",
+    "radical": 149,
+    "strokes": 13
+  },
+  {
+    "ch": "昔",
+    "code": "06614",
+    "grade": 3,
+    "reading": "むかし",
+    "jlpt": "N3",
+    "meaning": "once upon a time",
+    "radical": 72,
+    "strokes": 8
+  },
+  {
+    "ch": "泳",
+    "code": "06cf3",
+    "grade": 3,
+    "reading": "およぐ",
+    "jlpt": "N3",
+    "meaning": "swim",
+    "radical": 85,
+    "strokes": 8
+  },
+  {
+    "ch": "荷",
+    "code": "08377",
+    "grade": 3,
+    "reading": "に",
+    "jlpt": "N3",
+    "meaning": "baggage",
+    "radical": 140,
+    "strokes": 10
+  },
+  {
+    "ch": "炭",
+    "code": "070ad",
+    "grade": 3,
+    "reading": "すみ",
+    "jlpt": "N3",
+    "meaning": "charcoal",
+    "radical": 46,
+    "strokes": 9
+  },
+  {
+    "ch": "丁",
+    "code": "04e01",
+    "grade": 3,
+    "reading": "ひのと",
+    "jlpt": "N3",
+    "meaning": "street",
+    "radical": 1,
+    "strokes": 2
+  },
+  {
+    "ch": "湖",
+    "code": "06e56",
+    "grade": 3,
+    "reading": "みずうみ",
+    "jlpt": "N3",
+    "meaning": "lake",
+    "radical": 85,
+    "strokes": 12
+  },
+  {
+    "ch": "湯",
+    "code": "06e6f",
+    "grade": 3,
+    "reading": "ゆ",
+    "jlpt": "N3",
+    "meaning": "hot water",
+    "radical": 85,
+    "strokes": 12
+  },
+  {
+    "ch": "箱",
+    "code": "07bb1",
+    "grade": 3,
+    "reading": "はこ",
+    "jlpt": "N3",
+    "meaning": "box",
+    "radical": 118,
+    "strokes": 15
+  },
+  {
+    "ch": "豆",
+    "code": "08c46",
+    "grade": 3,
+    "reading": "まめ",
+    "jlpt": "N3",
+    "meaning": "beans",
+    "radical": 151,
+    "strokes": 7
+  },
+  {
+    "ch": "暑",
+    "code": "06691",
+    "grade": 3,
+    "reading": "あつい",
+    "jlpt": "N4",
+    "meaning": "sultry",
+    "radical": 72,
+    "strokes": 12
+  },
+  {
+    "ch": "氷",
+    "code": "06c37",
+    "grade": 3,
+    "reading": "こおり",
+    "jlpt": "N3",
+    "meaning": "icicle",
+    "radical": 3,
+    "strokes": 5
+  },
+  {
+    "ch": "寒",
+    "code": "05bd2",
+    "grade": 3,
+    "reading": "さむい",
+    "jlpt": "N4",
+    "meaning": "cold",
+    "radical": 40,
+    "strokes": 12
+  },
+  {
+    "ch": "帳",
+    "code": "05e33",
+    "grade": 3,
+    "reading": "とばり",
+    "jlpt": "N3",
+    "meaning": "notebook",
+    "radical": 50,
+    "strokes": 11
+  },
+  {
+    "ch": "拾",
+    "code": "062fe",
+    "grade": 3,
+    "reading": "ひろう",
+    "jlpt": "N3",
+    "meaning": "pick up",
+    "radical": 64,
+    "strokes": 9
+  },
+  {
+    "ch": "漢",
+    "code": "06f22",
+    "grade": 3,
+    "reading": "かん",
+    "jlpt": "N4",
+    "meaning": "Sino-",
+    "radical": 85,
+    "strokes": 13
+  },
+  {
+    "ch": "鼻",
+    "code": "09f3b",
+    "grade": 3,
+    "reading": "はな",
+    "jlpt": "N3",
+    "meaning": "nose",
+    "radical": 209,
+    "strokes": 14
+  },
+  {
+    "ch": "皿",
+    "code": "076bf",
+    "grade": 3,
+    "reading": "さら",
+    "jlpt": "N3",
+    "meaning": "dish",
+    "radical": 108,
+    "strokes": 5
+  },
+  {
+    "ch": "羊",
+    "code": "07f8a",
+    "grade": 3,
+    "reading": "ひつじ",
+    "jlpt": "N3",
+    "meaning": "sheep",
+    "radical": 123,
+    "strokes": 6
+  },
+  {
+    "ch": "笛",
+    "code": "07b1b",
+    "grade": 3,
+    "reading": "ふえ",
+    "jlpt": "N3",
+    "meaning": "flute",
+    "radical": 118,
+    "strokes": 11
+  },
+  {
+    "ch": "議",
+    "code": "08b70",
+    "grade": 4,
+    "reading": "ぎ",
+    "jlpt": "N3",
+    "meaning": "deliberation",
+    "radical": 149,
+    "strokes": 20
+  },
+  {
+    "ch": "民",
+    "code": "06c11",
+    "grade": 4,
+    "reading": "たみ",
+    "jlpt": "N4",
+    "meaning": "people",
+    "radical": 1,
+    "strokes": 5
+  },
+  {
+    "ch": "連",
+    "code": "09023",
+    "grade": 4,
+    "reading": "つらなる",
+    "jlpt": "N3",
+    "meaning": "take along",
+    "radical": 162,
+    "strokes": 10
+  },
+  {
+    "ch": "選",
+    "code": "09078",
+    "grade": 4,
+    "reading": "えらぶ",
+    "jlpt": "N3",
+    "meaning": "elect",
+    "radical": 162,
+    "strokes": 15
+  },
+  {
+    "ch": "関",
+    "code": "095a2",
+    "grade": 4,
+    "reading": "せき",
+    "jlpt": "N3",
+    "meaning": "connection",
+    "radical": 169,
+    "strokes": 14
+  },
+  {
+    "ch": "戦",
+    "code": "06226",
+    "grade": 4,
+    "reading": "いくさ",
+    "jlpt": "N3",
+    "meaning": "war",
+    "radical": 62,
+    "strokes": 13
+  },
+  {
+    "ch": "最",
+    "code": "06700",
+    "grade": 4,
+    "reading": "もっとも",
+    "jlpt": "N3",
+    "meaning": "utmost",
+    "radical": 72,
+    "strokes": 12
+  },
+  {
+    "ch": "氏",
+    "code": "06c0f",
+    "grade": 4,
+    "reading": "うじ",
+    "jlpt": "N3",
+    "meaning": "family name",
+    "radical": 83,
+    "strokes": 4
+  },
+  {
+    "ch": "約",
+    "code": "07d04",
+    "grade": 4,
+    "reading": "つづまる",
+    "jlpt": "N3",
+    "meaning": "promise",
+    "radical": 120,
+    "strokes": 9
+  },
+  {
+    "ch": "法",
+    "code": "06cd5",
+    "grade": 4,
+    "reading": "のり",
+    "jlpt": "N3",
+    "meaning": "method",
+    "radical": 85,
+    "strokes": 8
+  },
+  {
+    "ch": "不",
+    "code": "04e0d",
+    "grade": 4,
+    "reading": "ふ",
+    "jlpt": "N4",
+    "meaning": "negative",
+    "radical": 1,
+    "strokes": 4
+  },
+  {
+    "ch": "的",
+    "code": "07684",
+    "grade": 4,
+    "reading": "まと",
+    "jlpt": "N4",
+    "meaning": "bull's eye",
+    "radical": 106,
+    "strokes": 8
+  },
+  {
+    "ch": "要",
+    "code": "08981",
+    "grade": 4,
+    "reading": "いる",
+    "jlpt": "N3",
+    "meaning": "need",
+    "radical": 146,
+    "strokes": 9
+  },
+  {
+    "ch": "治",
+    "code": "06cbb",
+    "grade": 4,
+    "reading": "おさめる",
+    "jlpt": "N3",
+    "meaning": "reign",
+    "radical": 85,
+    "strokes": 8
+  },
+  {
+    "ch": "成",
+    "code": "06210",
+    "grade": 4,
+    "reading": "なる",
+    "jlpt": "N3",
+    "meaning": "turn into",
+    "radical": 62,
+    "strokes": 6
+  },
+  {
+    "ch": "協",
+    "code": "05354",
+    "grade": 4,
+    "reading": "きょう",
+    "jlpt": "N3",
+    "meaning": "co-",
+    "radical": 24,
+    "strokes": 8
+  },
+  {
+    "ch": "以",
+    "code": "04ee5",
+    "grade": 4,
+    "reading": "もって",
+    "jlpt": "N4",
+    "meaning": "by means of",
+    "radical": 9,
+    "strokes": 5
+  },
+  {
+    "ch": "機",
+    "code": "06a5f",
+    "grade": 4,
+    "reading": "はた",
+    "jlpt": "N3",
+    "meaning": "loom",
+    "radical": 75,
+    "strokes": 16
+  },
+  {
+    "ch": "加",
+    "code": "052a0",
+    "grade": 4,
+    "reading": "くわえる",
+    "jlpt": "N3",
+    "meaning": "add",
+    "radical": 19,
+    "strokes": 5
+  },
+  {
+    "ch": "続",
+    "code": "07d9a",
+    "grade": 4,
+    "reading": "つづく",
+    "jlpt": "N3",
+    "meaning": "continue",
+    "radical": 120,
+    "strokes": 13
+  },
+  {
+    "ch": "改",
+    "code": "06539",
+    "grade": 4,
+    "reading": "あらためる",
+    "jlpt": "N3",
+    "meaning": "reformation",
+    "radical": 49,
+    "strokes": 7
+  },
+  {
+    "ch": "初",
+    "code": "0521d",
+    "grade": 4,
+    "reading": "はじめ",
+    "jlpt": "N3",
+    "meaning": "first time",
+    "radical": 145,
+    "strokes": 7
+  },
+  {
+    "ch": "産",
+    "code": "07523",
+    "grade": 4,
+    "reading": "うむ",
+    "jlpt": "N4",
+    "meaning": "products",
+    "radical": 117,
+    "strokes": 11
+  },
+  {
+    "ch": "結",
+    "code": "07d50",
+    "grade": 4,
+    "reading": "むすぶ",
+    "jlpt": "N3",
+    "meaning": "tie",
+    "radical": 120,
+    "strokes": 12
+  },
+  {
+    "ch": "府",
+    "code": "05e9c",
+    "grade": 4,
+    "reading": "ふ",
+    "jlpt": "N3",
+    "meaning": "borough",
+    "radical": 53,
+    "strokes": 8
+  },
+  {
+    "ch": "共",
+    "code": "05171",
+    "grade": 4,
+    "reading": "とも",
+    "jlpt": "N3",
+    "meaning": "together",
+    "radical": 12,
+    "strokes": 6
+  },
+  {
+    "ch": "得",
+    "code": "05f97",
+    "grade": 4,
+    "reading": "える",
+    "jlpt": "N3",
+    "meaning": "gain",
+    "radical": 60,
+    "strokes": 11
+  },
+  {
+    "ch": "告",
+    "code": "0544a",
+    "grade": 4,
+    "reading": "つげる",
+    "jlpt": "N3",
+    "meaning": "revelation",
+    "radical": 30,
+    "strokes": 7
+  },
+  {
+    "ch": "軍",
+    "code": "08ecd",
+    "grade": 4,
+    "reading": "いくさ",
+    "jlpt": "N3",
+    "meaning": "army",
+    "radical": 14,
+    "strokes": 9
+  },
+  {
+    "ch": "参",
+    "code": "053c2",
+    "grade": 4,
+    "reading": "まいる",
+    "jlpt": "N3",
+    "meaning": "nonplussed",
+    "radical": 28,
+    "strokes": 8
+  },
+  {
+    "ch": "利",
+    "code": "05229",
+    "grade": 4,
+    "reading": "きく",
+    "jlpt": "N3",
+    "meaning": "profit",
+    "radical": 115,
+    "strokes": 7
+  },
+  {
+    "ch": "案",
+    "code": "06848",
+    "grade": 4,
+    "reading": "つくえ",
+    "jlpt": "N3",
+    "meaning": "plan",
+    "radical": 40,
+    "strokes": 10
+  },
+  {
+    "ch": "信",
+    "code": "04fe1",
+    "grade": 4,
+    "reading": "しん",
+    "jlpt": "N3",
+    "meaning": "faith",
+    "radical": 9,
+    "strokes": 9
+  },
+  {
+    "ch": "別",
+    "code": "05225",
+    "grade": 4,
+    "reading": "わかれる",
+    "jlpt": "N4",
+    "meaning": "separate",
+    "radical": 18,
+    "strokes": 7
+  },
+  {
+    "ch": "側",
+    "code": "05074",
+    "grade": 4,
+    "reading": "かわ",
+    "jlpt": "N3",
+    "meaning": "side",
+    "radical": 9,
+    "strokes": 11
+  },
+  {
+    "ch": "求",
+    "code": "06c42",
+    "grade": 4,
+    "reading": "もとめる",
+    "jlpt": "N3",
+    "meaning": "request",
+    "radical": 3,
+    "strokes": 7
+  },
+  {
+    "ch": "昨",
+    "code": "06628",
+    "grade": 4,
+    "reading": "さく",
+    "jlpt": "N3",
+    "meaning": "yesterday",
+    "radical": 72,
+    "strokes": 9
+  },
+  {
+    "ch": "官",
+    "code": "05b98",
+    "grade": 4,
+    "reading": "かん",
+    "jlpt": "N3",
+    "meaning": "bureaucrat",
+    "radical": 40,
+    "strokes": 8
+  },
+  {
+    "ch": "特",
+    "code": "07279",
+    "grade": 4,
+    "reading": "とく",
+    "jlpt": "N4",
+    "meaning": "special",
+    "radical": 93,
+    "strokes": 10
+  },
+  {
+    "ch": "変",
+    "code": "05909",
+    "grade": 4,
+    "reading": "かわる",
+    "jlpt": "N3",
+    "meaning": "unusual",
+    "radical": 8,
+    "strokes": 9
+  },
+  {
+    "ch": "各",
+    "code": "05404",
+    "grade": 4,
+    "reading": "おのおの",
+    "jlpt": "N3",
+    "meaning": "each",
+    "radical": 34,
+    "strokes": 6
+  },
+  {
+    "ch": "挙",
+    "code": "06319",
+    "grade": 4,
+    "reading": "あげる",
+    "jlpt": "N3",
+    "meaning": "raise",
+    "radical": 64,
+    "strokes": 10
+  },
+  {
+    "ch": "果",
+    "code": "0679c",
+    "grade": 4,
+    "reading": "はたす",
+    "jlpt": "N3",
+    "meaning": "fruit",
+    "radical": 2,
+    "strokes": 8
+  },
+  {
+    "ch": "必",
+    "code": "05fc5",
+    "grade": 4,
+    "reading": "かならず",
+    "jlpt": "N3",
+    "meaning": "invariably",
+    "radical": 3,
+    "strokes": 5
+  },
+  {
+    "ch": "争",
+    "code": "04e89",
+    "grade": 4,
+    "reading": "あらそう",
+    "jlpt": "N3",
+    "meaning": "contend",
+    "radical": 4,
+    "strokes": 6
+  },
+  {
+    "ch": "無",
+    "code": "07121",
+    "grade": 4,
+    "reading": "ない",
+    "jlpt": "N4",
+    "meaning": "nothingness",
+    "radical": 86,
+    "strokes": 12
+  },
+  {
+    "ch": "位",
+    "code": "04f4d",
+    "grade": 4,
+    "reading": "くらい",
+    "jlpt": "N3",
+    "meaning": "rank",
+    "radical": 9,
+    "strokes": 7
+  },
+  {
+    "ch": "置",
+    "code": "07f6e",
+    "grade": 4,
+    "reading": "おく",
+    "jlpt": "N3",
+    "meaning": "placement",
+    "radical": 122,
+    "strokes": 13
+  },
+  {
+    "ch": "料",
+    "code": "06599",
+    "grade": 4,
+    "reading": "りょう",
+    "jlpt": "N4",
+    "meaning": "fee",
+    "radical": 119,
+    "strokes": 10
+  },
+  {
+    "ch": "建",
+    "code": "05efa",
+    "grade": 4,
+    "reading": "たてる",
+    "jlpt": "N4",
+    "meaning": "build",
+    "radical": 54,
+    "strokes": 9
+  },
+  {
+    "ch": "費",
+    "code": "08cbb",
+    "grade": 4,
+    "reading": "ついやす",
+    "jlpt": "N3",
+    "meaning": "expense",
+    "radical": 154,
+    "strokes": 12
+  },
+  {
+    "ch": "付",
+    "code": "04ed8",
+    "grade": 4,
+    "reading": "つける",
+    "jlpt": "N3",
+    "meaning": "adhere",
+    "radical": 9,
+    "strokes": 5
+  },
+  {
+    "ch": "説",
+    "code": "08aac",
+    "grade": 4,
+    "reading": "とく",
+    "jlpt": "N4",
+    "meaning": "opinion",
+    "radical": 149,
+    "strokes": 14
+  },
+  {
+    "ch": "夫",
+    "code": "0592b",
+    "grade": 4,
+    "reading": "おっと",
+    "jlpt": "N3",
+    "meaning": "husband",
+    "radical": 4,
+    "strokes": 4
+  },
+  {
+    "ch": "害",
+    "code": "05bb3",
+    "grade": 4,
+    "reading": "がい",
+    "jlpt": "N3",
+    "meaning": "harm",
+    "radical": 40,
+    "strokes": 10
+  },
+  {
+    "ch": "副",
+    "code": "0526f",
+    "grade": 4,
+    "reading": "ふく",
+    "jlpt": "N3",
+    "meaning": "vice-",
+    "radical": 18,
+    "strokes": 11
+  },
+  {
+    "ch": "席",
+    "code": "05e2d",
+    "grade": 4,
+    "reading": "むしろ",
+    "jlpt": "N3",
+    "meaning": "seat",
+    "radical": 53,
+    "strokes": 10
+  },
+  {
+    "ch": "残",
+    "code": "06b8b",
+    "grade": 4,
+    "reading": "のこる",
+    "jlpt": "N3",
+    "meaning": "remainder",
+    "radical": 78,
+    "strokes": 10
+  },
+  {
+    "ch": "念",
+    "code": "05ff5",
+    "grade": 4,
+    "reading": "ねん",
+    "jlpt": "N3",
+    "meaning": "wish",
+    "radical": 9,
+    "strokes": 8
+  },
+  {
+    "ch": "試",
+    "code": "08a66",
+    "grade": 4,
+    "reading": "こころみる",
+    "jlpt": "N4",
+    "meaning": "test",
+    "radical": 149,
+    "strokes": 13
+  },
+  {
+    "ch": "象",
+    "code": "08c61",
+    "grade": 4,
+    "reading": "かたどる",
+    "jlpt": "N3",
+    "meaning": "elephant",
+    "radical": 152,
+    "strokes": 12
+  },
+  {
+    "ch": "労",
+    "code": "052b4",
+    "grade": 4,
+    "reading": "ろうする",
+    "jlpt": "N3",
+    "meaning": "labor",
+    "radical": 19,
+    "strokes": 7
+  },
+  {
+    "ch": "例",
+    "code": "04f8b",
+    "grade": 4,
+    "reading": "たとえる",
+    "jlpt": "N3",
+    "meaning": "example",
+    "radical": 9,
+    "strokes": 8
+  },
+  {
+    "ch": "然",
+    "code": "07136",
+    "grade": 4,
+    "reading": "しか",
+    "jlpt": "N3",
+    "meaning": "sort of thing",
+    "radical": 86,
+    "strokes": 12
+  },
+  {
+    "ch": "験",
+    "code": "09a13",
+    "grade": 4,
+    "reading": "あかし",
+    "jlpt": "N4",
+    "meaning": "verification",
+    "radical": 187,
+    "strokes": 18
+  },
+  {
+    "ch": "伝",
+    "code": "04f1d",
+    "grade": 4,
+    "reading": "つたわる",
+    "jlpt": "N3",
+    "meaning": "transmit",
+    "radical": 9,
+    "strokes": 6
+  },
+  {
+    "ch": "働",
+    "code": "050cd",
+    "grade": 4,
+    "reading": "はたらく",
+    "jlpt": "N4",
+    "meaning": "work",
+    "radical": 9,
+    "strokes": 13
+  },
+  {
+    "ch": "景",
+    "code": "0666f",
+    "grade": 4,
+    "reading": "けい",
+    "jlpt": "N3",
+    "meaning": "scenery",
+    "radical": 72,
+    "strokes": 12
+  },
+  {
+    "ch": "好",
+    "code": "0597d",
+    "grade": 4,
+    "reading": "このむ",
+    "jlpt": "N4",
+    "meaning": "fond",
+    "radical": 38,
+    "strokes": 6
+  },
+  {
+    "ch": "賞",
+    "code": "08cde",
+    "grade": 4,
+    "reading": "ほめる",
+    "jlpt": "N3",
+    "meaning": "prize",
+    "radical": 42,
+    "strokes": 15
+  },
+  {
+    "ch": "辺",
+    "code": "08fba",
+    "grade": 4,
+    "reading": "あたり",
+    "jlpt": "N3",
+    "meaning": "environs",
+    "radical": 162,
+    "strokes": 5
+  },
+  {
+    "ch": "英",
+    "code": "082f1",
+    "grade": 4,
+    "reading": "はなぶさ",
+    "jlpt": "N4",
+    "meaning": "England",
+    "radical": 140,
+    "strokes": 8
+  },
+  {
+    "ch": "低",
+    "code": "04f4e",
+    "grade": 4,
+    "reading": "ひくい",
+    "jlpt": "N4",
+    "meaning": "lower",
+    "radical": 9,
+    "strokes": 7
+  },
+  {
+    "ch": "失",
+    "code": "05931",
+    "grade": 4,
+    "reading": "うしなう",
+    "jlpt": "N3",
+    "meaning": "lose",
+    "radical": 4,
+    "strokes": 5
+  },
+  {
+    "ch": "差",
+    "code": "05dee",
+    "grade": 4,
+    "reading": "さす",
+    "jlpt": "N3",
+    "meaning": "distinction",
+    "radical": 123,
+    "strokes": 10
+  },
+  {
+    "ch": "課",
+    "code": "08ab2",
+    "grade": 4,
+    "reading": "か",
+    "jlpt": "N3",
+    "meaning": "chapter",
+    "radical": 149,
+    "strokes": 15
+  },
+  {
+    "ch": "末",
+    "code": "0672b",
+    "grade": 4,
+    "reading": "すえ",
+    "jlpt": "N3",
+    "meaning": "end",
+    "radical": 4,
+    "strokes": 5
+  },
+  {
+    "ch": "極",
+    "code": "06975",
+    "grade": 4,
+    "reading": "きわめる",
+    "jlpt": "N3",
+    "meaning": "poles",
+    "radical": 75,
+    "strokes": 13
+  },
+  {
+    "ch": "種",
+    "code": "07a2e",
+    "grade": 4,
+    "reading": "たね",
+    "jlpt": "N3",
+    "meaning": "species",
+    "radical": 115,
+    "strokes": 14
+  },
+  {
+    "ch": "量",
+    "code": "091cf",
+    "grade": 4,
+    "reading": "はかる",
+    "jlpt": "N3",
+    "meaning": "quantity",
+    "radical": 72,
+    "strokes": 12
+  },
+  {
+    "ch": "望",
+    "code": "0671b",
+    "grade": 4,
+    "reading": "のぞむ",
+    "jlpt": "N3",
+    "meaning": "ambition",
+    "radical": 96,
+    "strokes": 11
+  },
+  {
+    "ch": "松",
+    "code": "0677e",
+    "grade": 4,
+    "reading": "まつ",
+    "jlpt": "N3",
+    "meaning": "pine tree",
+    "radical": 75,
+    "strokes": 8
+  },
+  {
+    "ch": "観",
+    "code": "089b3",
+    "grade": 4,
+    "reading": "みる",
+    "jlpt": "N3",
+    "meaning": "outlook",
+    "radical": 147,
+    "strokes": 18
+  },
+  {
+    "ch": "察",
+    "code": "05bdf",
+    "grade": 4,
+    "reading": "さつ",
+    "jlpt": "N3",
+    "meaning": "guess",
+    "radical": 40,
+    "strokes": 14
+  },
+  {
+    "ch": "型",
+    "code": "0578b",
+    "grade": 4,
+    "reading": "かた",
+    "jlpt": "N3",
+    "meaning": "mould",
+    "radical": 32,
+    "strokes": 9
+  },
+  {
+    "ch": "票",
+    "code": "07968",
+    "grade": 4,
+    "reading": "ひょう",
+    "jlpt": "N3",
+    "meaning": "ballot",
+    "radical": 146,
+    "strokes": 11
+  },
+  {
+    "ch": "達",
+    "code": "09054",
+    "grade": 4,
+    "reading": "たち",
+    "jlpt": "N3",
+    "meaning": "accomplished",
+    "radical": 162,
+    "strokes": 12
+  },
+  {
+    "ch": "良",
+    "code": "0826f",
+    "grade": 4,
+    "reading": "よい",
+    "jlpt": "N3",
+    "meaning": "good",
+    "radical": 138,
+    "strokes": 7
+  },
+  {
+    "ch": "候",
+    "code": "05019",
+    "grade": 4,
+    "reading": "そうろう",
+    "jlpt": "N3",
+    "meaning": "climate",
+    "radical": 9,
+    "strokes": 10
+  },
+  {
+    "ch": "史",
+    "code": "053f2",
+    "grade": 4,
+    "reading": "し",
+    "jlpt": "N3",
+    "meaning": "history",
+    "radical": 2,
+    "strokes": 5
+  },
+  {
+    "ch": "満",
+    "code": "06e80",
+    "grade": 4,
+    "reading": "みちる",
+    "jlpt": "N3",
+    "meaning": "full",
+    "radical": 85,
+    "strokes": 12
+  },
+  {
+    "ch": "敗",
+    "code": "06557",
+    "grade": 4,
+    "reading": "やぶれる",
+    "jlpt": "N3",
+    "meaning": "failure",
+    "radical": 154,
+    "strokes": 11
+  },
+  {
+    "ch": "管",
+    "code": "07ba1",
+    "grade": 4,
+    "reading": "くだ",
+    "jlpt": "N3",
+    "meaning": "pipe",
+    "radical": 118,
+    "strokes": 14
+  },
+  {
+    "ch": "兵",
+    "code": "05175",
+    "grade": 4,
+    "reading": "つわもの",
+    "jlpt": "N3",
+    "meaning": "soldier",
+    "radical": 4,
+    "strokes": 7
+  },
+  {
+    "ch": "器",
+    "code": "05668",
+    "grade": 4,
+    "reading": "うつわ",
+    "jlpt": "N3",
+    "meaning": "utensil",
+    "radical": 30,
+    "strokes": 15
+  },
+  {
+    "ch": "士",
+    "code": "058eb",
+    "grade": 4,
+    "reading": "さむらい",
+    "jlpt": "N3",
+    "meaning": "gentleman",
+    "radical": 33,
+    "strokes": 3
+  },
+  {
+    "ch": "積",
+    "code": "07a4d",
+    "grade": 4,
+    "reading": "つむ",
+    "jlpt": "N3",
+    "meaning": "volume",
+    "radical": 115,
+    "strokes": 16
+  },
+  {
+    "ch": "録",
+    "code": "09332",
+    "grade": 4,
+    "reading": "しるす",
+    "jlpt": "N3",
+    "meaning": "record",
+    "radical": 167,
+    "strokes": 16
+  },
+  {
+    "ch": "省",
+    "code": "07701",
+    "grade": 4,
+    "reading": "かえりみる",
+    "jlpt": "N3",
+    "meaning": "focus",
+    "radical": 4,
+    "strokes": 9
+  },
+  {
+    "ch": "周",
+    "code": "05468",
+    "grade": 4,
+    "reading": "まわり",
+    "jlpt": "N3",
+    "meaning": "circumference",
+    "radical": 13,
+    "strokes": 8
+  },
+  {
+    "ch": "材",
+    "code": "06750",
+    "grade": 4,
+    "reading": "ざい",
+    "jlpt": "N3",
+    "meaning": "lumber",
+    "radical": 75,
+    "strokes": 7
+  },
+  {
+    "ch": "健",
+    "code": "05065",
+    "grade": 4,
+    "reading": "すこやか",
+    "jlpt": "N3",
+    "meaning": "healthy",
+    "radical": 9,
+    "strokes": 11
+  },
+  {
+    "ch": "飛",
+    "code": "098db",
+    "grade": 4,
+    "reading": "とぶ",
+    "jlpt": "N3",
+    "meaning": "fly",
+    "radical": 183,
+    "strokes": 9
+  },
+  {
+    "ch": "殺",
+    "code": "06bba",
+    "grade": 4,
+    "reading": "ころす",
+    "jlpt": "N3",
+    "meaning": "kill",
+    "radical": 79,
+    "strokes": 10
+  },
+  {
+    "ch": "単",
+    "code": "05358",
+    "grade": 4,
+    "reading": "ひとえ",
+    "jlpt": "N3",
+    "meaning": "simple",
+    "radical": 3,
+    "strokes": 9
+  },
+  {
+    "ch": "完",
+    "code": "05b8c",
+    "grade": 4,
+    "reading": "かん",
+    "jlpt": "N3",
+    "meaning": "perfect",
+    "radical": 40,
+    "strokes": 7
+  },
+  {
+    "ch": "隊",
+    "code": "0968a",
+    "grade": 4,
+    "reading": "たい",
+    "jlpt": "N3",
+    "meaning": "regiment",
+    "radical": 170,
+    "strokes": 12
+  },
+  {
+    "ch": "競",
+    "code": "07af6",
+    "grade": 4,
+    "reading": "きそう",
+    "jlpt": "N3",
+    "meaning": "emulate",
+    "radical": 117,
+    "strokes": 20
+  },
+  {
+    "ch": "給",
+    "code": "07d66",
+    "grade": 4,
+    "reading": "たまう",
+    "jlpt": "N3",
+    "meaning": "salary",
+    "radical": 120,
+    "strokes": 12
+  },
+  {
+    "ch": "歴",
+    "code": "06b74",
+    "grade": 4,
+    "reading": "れき",
+    "jlpt": "N3",
+    "meaning": "curriculum",
+    "radical": 27,
+    "strokes": 14
+  },
+  {
+    "ch": "辞",
+    "code": "08f9e",
+    "grade": 4,
+    "reading": "やめる",
+    "jlpt": "N3",
+    "meaning": "resign",
+    "radical": 135,
+    "strokes": 13
+  },
+  {
+    "ch": "愛",
+    "code": "0611b",
+    "grade": 4,
+    "reading": "いとしい",
+    "jlpt": "N3",
+    "meaning": "love",
+    "radical": 87,
+    "strokes": 13
+  },
+  {
+    "ch": "未",
+    "code": "0672a",
+    "grade": 4,
+    "reading": "いまだ",
+    "jlpt": "N3",
+    "meaning": "un-",
+    "radical": 4,
+    "strokes": 5
+  },
+  {
+    "ch": "航",
+    "code": "0822a",
+    "grade": 4,
+    "reading": "こう",
+    "jlpt": "N3",
+    "meaning": "navigate",
+    "radical": 137,
+    "strokes": 10
+  },
+  {
+    "ch": "冷",
+    "code": "051b7",
+    "grade": 4,
+    "reading": "つめたい",
+    "jlpt": "N3",
+    "meaning": "cool",
+    "radical": 15,
+    "strokes": 7
+  },
+  {
+    "ch": "類",
+    "code": "0985e",
+    "grade": 4,
+    "reading": "たぐい",
+    "jlpt": "N3",
+    "meaning": "sort",
+    "radical": 181,
+    "strokes": 18
+  },
+  {
+    "ch": "児",
+    "code": "05150",
+    "grade": 4,
+    "reading": "こ",
+    "jlpt": "N3",
+    "meaning": "newborn babe",
+    "radical": 10,
+    "strokes": 7
+  },
+  {
+    "ch": "印",
+    "code": "05370",
+    "grade": 4,
+    "reading": "しるし",
+    "jlpt": "N3",
+    "meaning": "stamp",
+    "radical": 2,
+    "strokes": 6
+  },
+  {
+    "ch": "標",
+    "code": "06a19",
+    "grade": 4,
+    "reading": "しるべ",
+    "jlpt": "N3",
+    "meaning": "signpost",
+    "radical": 75,
+    "strokes": 15
+  },
+  {
+    "ch": "輪",
+    "code": "08f2a",
+    "grade": 4,
+    "reading": "わ",
+    "jlpt": "N3",
+    "meaning": "wheel",
+    "radical": 159,
+    "strokes": 15
+  },
+  {
+    "ch": "熱",
+    "code": "071b1",
+    "grade": 4,
+    "reading": "あつい",
+    "jlpt": "N3",
+    "meaning": "heat",
+    "radical": 86,
+    "strokes": 15
+  },
+  {
+    "ch": "清",
+    "code": "06e05",
+    "grade": 4,
+    "reading": "きよい",
+    "jlpt": "N3",
+    "meaning": "pure",
+    "radical": 85,
+    "strokes": 11
+  },
+  {
+    "ch": "覚",
+    "code": "0899a",
+    "grade": 4,
+    "reading": "おぼえる",
+    "jlpt": "N3",
+    "meaning": "memorize",
+    "radical": 147,
+    "strokes": 12
+  },
+  {
+    "ch": "億",
+    "code": "05104",
+    "grade": 4,
+    "reading": "おく",
+    "jlpt": "N3",
+    "meaning": "hundred million",
+    "radical": 9,
+    "strokes": 15
+  },
+  {
+    "ch": "芸",
+    "code": "082b8",
+    "grade": 4,
+    "reading": "うえる",
+    "jlpt": "N3",
+    "meaning": "technique",
+    "radical": 140,
+    "strokes": 7
+  },
+  {
+    "ch": "便",
+    "code": "04fbf",
+    "grade": 4,
+    "reading": "たより",
+    "jlpt": "N4",
+    "meaning": "convenience",
+    "radical": 9,
+    "strokes": 9
+  },
+  {
+    "ch": "停",
+    "code": "0505c",
+    "grade": 4,
+    "reading": "とめる",
+    "jlpt": "N3",
+    "meaning": "halt",
+    "radical": 9,
+    "strokes": 11
+  },
+  {
+    "ch": "陸",
+    "code": "09678",
+    "grade": 4,
+    "reading": "おか",
+    "jlpt": "N3",
+    "meaning": "land",
+    "radical": 170,
+    "strokes": 11
+  },
+  {
+    "ch": "帯",
+    "code": "05e2f",
+    "grade": 4,
+    "reading": "おびる",
+    "jlpt": "N3",
+    "meaning": "sash",
+    "radical": 50,
+    "strokes": 10
+  },
+  {
+    "ch": "努",
+    "code": "052aa",
+    "grade": 4,
+    "reading": "つとめる",
+    "jlpt": "N3",
+    "meaning": "toil",
+    "radical": 19,
+    "strokes": 7
+  },
+  {
+    "ch": "固",
+    "code": "056fa",
+    "grade": 4,
+    "reading": "かためる",
+    "jlpt": "N3",
+    "meaning": "harden",
+    "radical": 31,
+    "strokes": 8
+  },
+  {
+    "ch": "散",
+    "code": "06563",
+    "grade": 4,
+    "reading": "ちる",
+    "jlpt": "N3",
+    "meaning": "scatter",
+    "radical": 66,
+    "strokes": 12
+  },
+  {
+    "ch": "司",
+    "code": "053f8",
+    "grade": 4,
+    "reading": "つかさどる",
+    "jlpt": "N3",
+    "meaning": "director",
+    "radical": 30,
+    "strokes": 5
+  },
+  {
+    "ch": "康",
+    "code": "05eb7",
+    "grade": 4,
+    "reading": "こう",
+    "jlpt": "N3",
+    "meaning": "ease",
+    "radical": 53,
+    "strokes": 11
+  },
+  {
+    "ch": "静",
+    "code": "09759",
+    "grade": 4,
+    "reading": "しず",
+    "jlpt": "N3",
+    "meaning": "quiet",
+    "radical": 174,
+    "strokes": 14
+  },
+  {
+    "ch": "喜",
+    "code": "0559c",
+    "grade": 4,
+    "reading": "よろこぶ",
+    "jlpt": "N3",
+    "meaning": "rejoice",
+    "radical": 32,
+    "strokes": 12
+  },
+  {
+    "ch": "囲",
+    "code": "056f2",
+    "grade": 4,
+    "reading": "かこむ",
+    "jlpt": "N3",
+    "meaning": "surround",
+    "radical": 31,
+    "strokes": 7
+  },
+  {
+    "ch": "卒",
+    "code": "05352",
+    "grade": 4,
+    "reading": "そっする",
+    "jlpt": "N3",
+    "meaning": "graduate",
+    "radical": 8,
+    "strokes": 8
+  },
+  {
+    "ch": "順",
+    "code": "09806",
+    "grade": 4,
+    "reading": "じゅん",
+    "jlpt": "N3",
+    "meaning": "obey",
+    "radical": 47,
+    "strokes": 12
+  },
+  {
+    "ch": "紀",
+    "code": "07d00",
+    "grade": 4,
+    "reading": "き",
+    "jlpt": "N3",
+    "meaning": "chronicle",
+    "radical": 120,
+    "strokes": 9
+  },
+  {
+    "ch": "博",
+    "code": "0535a",
+    "grade": 4,
+    "reading": "はく",
+    "jlpt": "N3",
+    "meaning": "Dr.",
+    "radical": 24,
+    "strokes": 12
+  },
+  {
+    "ch": "救",
+    "code": "06551",
+    "grade": 4,
+    "reading": "すくう",
+    "jlpt": "N3",
+    "meaning": "salvation",
+    "radical": 66,
+    "strokes": 11
+  },
+  {
+    "ch": "老",
+    "code": "08001",
+    "grade": 4,
+    "reading": "おいる",
+    "jlpt": "N3",
+    "meaning": "old man",
+    "radical": 125,
+    "strokes": 6
+  },
+  {
+    "ch": "令",
+    "code": "04ee4",
+    "grade": 4,
+    "reading": "れい",
+    "jlpt": "N3",
+    "meaning": "orders",
+    "radical": 9,
+    "strokes": 5
+  },
+  {
+    "ch": "徒",
+    "code": "05f92",
+    "grade": 4,
+    "reading": "いたずら",
+    "jlpt": "N3",
+    "meaning": "on foot",
+    "radical": 60,
+    "strokes": 10
+  },
+  {
+    "ch": "貨",
+    "code": "08ca8",
+    "grade": 4,
+    "reading": "たから",
+    "jlpt": "N3",
+    "meaning": "freight",
+    "radical": 154,
+    "strokes": 11
+  },
+  {
+    "ch": "季",
+    "code": "05b63",
+    "grade": 4,
+    "reading": "き",
+    "jlpt": "N3",
+    "meaning": "seasons",
+    "radical": 115,
+    "strokes": 8
+  },
+  {
+    "ch": "功",
+    "code": "0529f",
+    "grade": 4,
+    "reading": "いさお",
+    "jlpt": "N3",
+    "meaning": "achievement",
+    "radical": 48,
+    "strokes": 5
+  },
+  {
+    "ch": "欠",
+    "code": "06b20",
+    "grade": 4,
+    "reading": "かける",
+    "jlpt": "N3",
+    "meaning": "lack",
+    "radical": 76,
+    "strokes": 4
+  },
+  {
+    "ch": "底",
+    "code": "05e95",
+    "grade": 4,
+    "reading": "そこ",
+    "jlpt": "N3",
+    "meaning": "bottom",
+    "radical": 53,
+    "strokes": 8
+  },
+  {
+    "ch": "養",
+    "code": "0990a",
+    "grade": 4,
+    "reading": "やしなう",
+    "jlpt": "N3",
+    "meaning": "foster",
+    "radical": 123,
+    "strokes": 15
+  },
+  {
+    "ch": "街",
+    "code": "08857",
+    "grade": 4,
+    "reading": "まち",
+    "jlpt": "N3",
+    "meaning": "boulevard",
+    "radical": 60,
+    "strokes": 12
+  },
+  {
+    "ch": "願",
+    "code": "09858",
+    "grade": 4,
+    "reading": "ねがう",
+    "jlpt": "N3",
+    "meaning": "petition",
+    "radical": 4,
+    "strokes": 19
+  },
+  {
+    "ch": "希",
+    "code": "05e0c",
+    "grade": 4,
+    "reading": "まれ",
+    "jlpt": "N3",
+    "meaning": "hope",
+    "radical": 50,
+    "strokes": 7
+  },
+  {
+    "ch": "笑",
+    "code": "07b11",
+    "grade": 4,
+    "reading": "わらう",
+    "jlpt": "N3",
+    "meaning": "laugh",
+    "radical": 118,
+    "strokes": 10
+  },
+  {
+    "ch": "束",
+    "code": "0675f",
+    "grade": 4,
+    "reading": "たば",
+    "jlpt": "N3",
+    "meaning": "bundle",
+    "radical": 4,
+    "strokes": 7
+  },
+  {
+    "ch": "仲",
+    "code": "04ef2",
+    "grade": 4,
+    "reading": "なか",
+    "jlpt": "N3",
+    "meaning": "go-between",
+    "radical": 9,
+    "strokes": 6
+  },
+  {
+    "ch": "栄",
+    "code": "06804",
+    "grade": 4,
+    "reading": "さかえる",
+    "jlpt": "N3",
+    "meaning": "flourish",
+    "radical": 75,
+    "strokes": 9
+  },
+  {
+    "ch": "札",
+    "code": "0672d",
+    "grade": 4,
+    "reading": "ふだ",
+    "jlpt": "N3",
+    "meaning": "tag",
+    "radical": 75,
+    "strokes": 5
+  },
+  {
+    "ch": "借",
+    "code": "0501f",
+    "grade": 4,
+    "reading": "かりる",
+    "jlpt": "N4",
+    "meaning": "borrow",
+    "radical": 9,
+    "strokes": 10
+  },
+  {
+    "ch": "節",
+    "code": "07bc0",
+    "grade": 4,
+    "reading": "ふし",
+    "jlpt": "N3",
+    "meaning": "node",
+    "radical": 118,
+    "strokes": 13
+  },
+  {
+    "ch": "包",
+    "code": "05305",
+    "grade": 4,
+    "reading": "つつむ",
+    "jlpt": "N3",
+    "meaning": "wrap",
+    "radical": 4,
+    "strokes": 5
+  },
+  {
+    "ch": "折",
+    "code": "06298",
+    "grade": 4,
+    "reading": "おる",
+    "jlpt": "N3",
+    "meaning": "fold",
+    "radical": 64,
+    "strokes": 7
+  },
+  {
+    "ch": "郡",
+    "code": "090e1",
+    "grade": 4,
+    "reading": "こおり",
+    "jlpt": "N3",
+    "meaning": "county",
+    "radical": 163,
+    "strokes": 10
+  },
+  {
+    "ch": "焼",
+    "code": "0713c",
+    "grade": 4,
+    "reading": "やく",
+    "jlpt": "N3",
+    "meaning": "bake",
+    "radical": 86,
+    "strokes": 12
+  },
+  {
+    "ch": "照",
+    "code": "07167",
+    "grade": 4,
+    "reading": "てる",
+    "jlpt": "N3",
+    "meaning": "illuminate",
+    "radical": 86,
+    "strokes": 13
+  },
+  {
+    "ch": "堂",
+    "code": "05802",
+    "grade": 4,
+    "reading": "どう",
+    "jlpt": "N4",
+    "meaning": "public chamber",
+    "radical": 42,
+    "strokes": 11
+  },
+  {
+    "ch": "飯",
+    "code": "098ef",
+    "grade": 4,
+    "reading": "めし",
+    "jlpt": "N4",
+    "meaning": "meal",
+    "radical": 184,
+    "strokes": 12
+  },
+  {
+    "ch": "典",
+    "code": "05178",
+    "grade": 4,
+    "reading": "てん",
+    "jlpt": "N3",
+    "meaning": "code",
+    "radical": 12,
+    "strokes": 8
+  },
+  {
+    "ch": "漁",
+    "code": "06f01",
+    "grade": 4,
+    "reading": "あさる",
+    "jlpt": "N3",
+    "meaning": "fishing",
+    "radical": 85,
+    "strokes": 14
+  },
+  {
+    "ch": "貯",
+    "code": "08caf",
+    "grade": 4,
+    "reading": "ためる",
+    "jlpt": "N3",
+    "meaning": "savings",
+    "radical": 154,
+    "strokes": 12
+  },
+  {
+    "ch": "倉",
+    "code": "05009",
+    "grade": 4,
+    "reading": "くら",
+    "jlpt": "N3",
+    "meaning": "godown",
+    "radical": 9,
+    "strokes": 10
+  },
+  {
+    "ch": "唱",
+    "code": "05531",
+    "grade": 4,
+    "reading": "となえる",
+    "jlpt": "N3",
+    "meaning": "chant",
+    "radical": 30,
+    "strokes": 11
+  },
+  {
+    "ch": "訓",
+    "code": "08a13",
+    "grade": 4,
+    "reading": "おしえる",
+    "jlpt": "N3",
+    "meaning": "instruction",
+    "radical": 149,
+    "strokes": 10
+  },
+  {
+    "ch": "浴",
+    "code": "06d74",
+    "grade": 4,
+    "reading": "あびる",
+    "jlpt": "N3",
+    "meaning": "bathe",
+    "radical": 85,
+    "strokes": 10
+  },
+  {
+    "ch": "塩",
+    "code": "05869",
+    "grade": 4,
+    "reading": "しお",
+    "jlpt": "N3",
+    "meaning": "salt",
+    "radical": 32,
+    "strokes": 13
+  },
+  {
+    "ch": "兆",
+    "code": "05146",
+    "grade": 4,
+    "reading": "きざす",
+    "jlpt": "N3",
+    "meaning": "portent",
+    "radical": 15,
+    "strokes": 6
+  },
+  {
+    "ch": "祝",
+    "code": "0795d",
+    "grade": 4,
+    "reading": "いわう",
+    "jlpt": "N3",
+    "meaning": "celebrate",
+    "radical": 113,
+    "strokes": 9
+  },
+  {
+    "ch": "旗",
+    "code": "065d7",
+    "grade": 4,
+    "reading": "はた",
+    "jlpt": "N3",
+    "meaning": "national flag",
+    "radical": 70,
+    "strokes": 14
+  },
+  {
+    "ch": "衣",
+    "code": "08863",
+    "grade": 4,
+    "reading": "ころも",
+    "jlpt": "N3",
+    "meaning": "garment",
+    "radical": 145,
+    "strokes": 6
+  },
+  {
+    "ch": "梅",
+    "code": "06885",
+    "grade": 4,
+    "reading": "うめ",
+    "jlpt": "N3",
+    "meaning": "plum",
+    "radical": 75,
+    "strokes": 10
+  },
+  {
+    "ch": "臣",
+    "code": "081e3",
+    "grade": 4,
+    "reading": "しん",
+    "jlpt": "N3",
+    "meaning": "retainer",
+    "radical": 131,
+    "strokes": 7
+  },
+  {
+    "ch": "浅",
+    "code": "06d45",
+    "grade": 4,
+    "reading": "あさい",
+    "jlpt": "N3",
+    "meaning": "shallow",
+    "radical": 85,
+    "strokes": 9
+  },
+  {
+    "ch": "勇",
+    "code": "052c7",
+    "grade": 4,
+    "reading": "いさむ",
+    "jlpt": "N3",
+    "meaning": "courage",
+    "radical": 19,
+    "strokes": 9
+  },
+  {
+    "ch": "械",
+    "code": "068b0",
+    "grade": 4,
+    "reading": "かせ",
+    "jlpt": "N3",
+    "meaning": "contraption",
+    "radical": 75,
+    "strokes": 11
+  },
+  {
+    "ch": "菜",
+    "code": "083dc",
+    "grade": 4,
+    "reading": "な",
+    "jlpt": "N4",
+    "meaning": "vegetable",
+    "radical": 140,
+    "strokes": 11
+  },
+  {
+    "ch": "刷",
+    "code": "05237",
+    "grade": 4,
+    "reading": "する",
+    "jlpt": "N3",
+    "meaning": "printing",
+    "radical": 4,
+    "strokes": 8
+  },
+  {
+    "ch": "牧",
+    "code": "07267",
+    "grade": 4,
+    "reading": "まき",
+    "jlpt": "N3",
+    "meaning": "breed",
+    "radical": 93,
+    "strokes": 8
+  },
+  {
+    "ch": "泣",
+    "code": "06ce3",
+    "grade": 4,
+    "reading": "なく",
+    "jlpt": "N3",
+    "meaning": "cry",
+    "radical": 85,
+    "strokes": 8
+  },
+  {
+    "ch": "孫",
+    "code": "05b6b",
+    "grade": 4,
+    "reading": "まご",
+    "jlpt": "N3",
+    "meaning": "grandchild",
+    "radical": 39,
+    "strokes": 10
+  },
+  {
+    "ch": "毒",
+    "code": "06bd2",
+    "grade": 4,
+    "reading": "どく",
+    "jlpt": "N3",
+    "meaning": "poison",
+    "radical": 80,
+    "strokes": 8
+  },
+  {
+    "ch": "径",
+    "code": "05f84",
+    "grade": 4,
+    "reading": "みち",
+    "jlpt": "N3",
+    "meaning": "diameter",
+    "radical": 60,
+    "strokes": 8
+  },
+  {
+    "ch": "脈",
+    "code": "08108",
+    "grade": 4,
+    "reading": "すじ",
+    "jlpt": "N3",
+    "meaning": "vein",
+    "radical": 130,
+    "strokes": 10
+  },
+  {
+    "ch": "粉",
+    "code": "07c89",
+    "grade": 4,
+    "reading": "こ",
+    "jlpt": "N3",
+    "meaning": "flour",
+    "radical": 119,
+    "strokes": 10
+  },
+  {
+    "ch": "鏡",
+    "code": "093e1",
+    "grade": 4,
+    "reading": "かがみ",
+    "jlpt": "N3",
+    "meaning": "mirror",
+    "radical": 167,
+    "strokes": 19
+  },
+  {
+    "ch": "巣",
+    "code": "05de3",
+    "grade": 4,
+    "reading": "す",
+    "jlpt": "N3",
+    "meaning": "nest",
+    "radical": 3,
+    "strokes": 11
+  },
+  {
+    "ch": "灯",
+    "code": "0706f",
+    "grade": 4,
+    "reading": "ひ",
+    "jlpt": "N3",
+    "meaning": "lamp",
+    "radical": 86,
+    "strokes": 6
+  },
+  {
+    "ch": "胃",
+    "code": "080c3",
+    "grade": 4,
+    "reading": "い",
+    "jlpt": "N3",
+    "meaning": "stomach",
+    "radical": 102,
+    "strokes": 9
+  },
+  {
+    "ch": "芽",
+    "code": "082bd",
+    "grade": 4,
+    "reading": "め",
+    "jlpt": "N3",
+    "meaning": "bud",
+    "radical": 140,
+    "strokes": 8
+  },
+  {
+    "ch": "腸",
+    "code": "08178",
+    "grade": 4,
+    "reading": "はらわた",
+    "jlpt": "N3",
+    "meaning": "intestines",
+    "radical": 130,
+    "strokes": 13
+  },
+  {
+    "ch": "政",
+    "code": "0653f",
+    "grade": 5,
+    "reading": "まつりごと",
+    "jlpt": "N3",
+    "meaning": "politics",
+    "radical": 66,
+    "strokes": 9
+  },
+  {
+    "ch": "経",
+    "code": "07d4c",
+    "grade": 5,
+    "reading": "へる",
+    "jlpt": "N3",
+    "meaning": "sutra",
+    "radical": 120,
+    "strokes": 11
+  },
+  {
+    "ch": "現",
+    "code": "073fe",
+    "grade": 5,
+    "reading": "あらわれる",
+    "jlpt": "N3",
+    "meaning": "present",
+    "radical": 96,
+    "strokes": 11
+  },
+  {
+    "ch": "性",
+    "code": "06027",
+    "grade": 5,
+    "reading": "さが",
+    "jlpt": "N3",
+    "meaning": "sex",
+    "radical": 61,
+    "strokes": 8
+  },
+  {
+    "ch": "制",
+    "code": "05236",
+    "grade": 5,
+    "reading": "せい",
+    "jlpt": "N3",
+    "meaning": "system",
+    "radical": 18,
+    "strokes": 8
+  },
+  {
+    "ch": "務",
+    "code": "052d9",
+    "grade": 5,
+    "reading": "つとめる",
+    "jlpt": "N3",
+    "meaning": "task",
+    "radical": 110,
+    "strokes": 11
+  },
+  {
+    "ch": "統",
+    "code": "07d71",
+    "grade": 5,
+    "reading": "すべる",
+    "jlpt": "N1",
+    "meaning": "overall",
+    "radical": 120,
+    "strokes": 12
+  },
+  {
+    "ch": "総",
+    "code": "07dcf",
+    "grade": 5,
+    "reading": "すべて",
+    "jlpt": "N2",
+    "meaning": "general",
+    "radical": 120,
+    "strokes": 14
+  },
+  {
+    "ch": "領",
+    "code": "09818",
+    "grade": 5,
+    "reading": "えり",
+    "jlpt": "N2",
+    "meaning": "jurisdiction",
+    "radical": 181,
+    "strokes": 14
+  },
+  {
+    "ch": "設",
+    "code": "08a2d",
+    "grade": 5,
+    "reading": "もうける",
+    "jlpt": "N2",
+    "meaning": "establishment",
+    "radical": 149,
+    "strokes": 11
+  },
+  {
+    "ch": "保",
+    "code": "04fdd",
+    "grade": 5,
+    "reading": "たもつ",
+    "jlpt": "N2",
+    "meaning": "protect",
+    "radical": 9,
+    "strokes": 9
+  },
+  {
+    "ch": "支",
+    "code": "0652f",
+    "grade": 5,
+    "reading": "ささえる",
+    "jlpt": "N3",
+    "meaning": "branch",
+    "radical": 65,
+    "strokes": 4
+  },
+  {
+    "ch": "報",
+    "code": "05831",
+    "grade": 5,
+    "reading": "むくいる",
+    "jlpt": "N3",
+    "meaning": "report",
+    "radical": 32,
+    "strokes": 12
+  },
+  {
+    "ch": "解",
+    "code": "089e3",
+    "grade": 5,
+    "reading": "とく",
+    "jlpt": "N3",
+    "meaning": "unravel",
+    "radical": 148,
+    "strokes": 13
+  },
+  {
+    "ch": "資",
+    "code": "08cc7",
+    "grade": 5,
+    "reading": "し",
+    "jlpt": "N3",
+    "meaning": "assets",
+    "radical": 154,
+    "strokes": 13
+  },
+  {
+    "ch": "際",
+    "code": "0969b",
+    "grade": 5,
+    "reading": "きわ",
+    "jlpt": "N3",
+    "meaning": "occasion",
+    "radical": 170,
+    "strokes": 14
+  },
+  {
+    "ch": "査",
+    "code": "067fb",
+    "grade": 5,
+    "reading": "さ",
+    "jlpt": "N2",
+    "meaning": "investigate",
+    "radical": 75,
+    "strokes": 9
+  },
+  {
+    "ch": "判",
+    "code": "05224",
+    "grade": 5,
+    "reading": "わかる",
+    "jlpt": "N3",
+    "meaning": "judgement",
+    "radical": 18,
+    "strokes": 7
+  },
+  {
+    "ch": "在",
+    "code": "05728",
+    "grade": 5,
+    "reading": "ある",
+    "jlpt": "N3",
+    "meaning": "exist",
+    "radical": 32,
+    "strokes": 6
+  },
+  {
+    "ch": "件",
+    "code": "04ef6",
+    "grade": 5,
+    "reading": "くだん",
+    "jlpt": "N3",
+    "meaning": "affair",
+    "radical": 9,
+    "strokes": 6
+  },
+  {
+    "ch": "団",
+    "code": "056e3",
+    "grade": 5,
+    "reading": "かたまり",
+    "jlpt": "N2",
+    "meaning": "group",
+    "radical": 31,
+    "strokes": 6
+  },
+  {
+    "ch": "任",
+    "code": "04efb",
+    "grade": 5,
+    "reading": "まかせる",
+    "jlpt": "N3",
+    "meaning": "responsibility",
+    "radical": 9,
+    "strokes": 6
+  },
+  {
+    "ch": "増",
+    "code": "05897",
+    "grade": 5,
+    "reading": "ます",
+    "jlpt": "N3",
+    "meaning": "increase",
+    "radical": 32,
+    "strokes": 14
+  },
+  {
+    "ch": "情",
+    "code": "060c5",
+    "grade": 5,
+    "reading": "なさけ",
+    "jlpt": "N3",
+    "meaning": "feelings",
+    "radical": 61,
+    "strokes": 11
+  },
+  {
+    "ch": "示",
+    "code": "0793a",
+    "grade": 5,
+    "reading": "しめす",
+    "jlpt": "N3",
+    "meaning": "show",
+    "radical": 113,
+    "strokes": 5
+  },
+  {
+    "ch": "基",
+    "code": "057fa",
+    "grade": 5,
+    "reading": "もと",
+    "jlpt": "N2",
+    "meaning": "fundamentals",
+    "radical": 32,
+    "strokes": 11
+  },
+  {
+    "ch": "価",
+    "code": "04fa1",
+    "grade": 5,
+    "reading": "あたい",
+    "jlpt": "N2",
+    "meaning": "value",
+    "radical": 9,
+    "strokes": 8
+  },
+  {
+    "ch": "確",
+    "code": "078ba",
+    "grade": 5,
+    "reading": "たしか",
+    "jlpt": "N3",
+    "meaning": "assurance",
+    "radical": 112,
+    "strokes": 15
+  },
+  {
+    "ch": "提",
+    "code": "063d0",
+    "grade": 5,
+    "reading": "さげる",
+    "jlpt": "N1",
+    "meaning": "propose",
+    "radical": 64,
+    "strokes": 12
+  },
+  {
+    "ch": "勢",
+    "code": "052e2",
+    "grade": 5,
+    "reading": "いきおい",
+    "jlpt": "N2",
+    "meaning": "forces",
+    "radical": 19,
+    "strokes": 13
+  },
+  {
+    "ch": "減",
+    "code": "06e1b",
+    "grade": 5,
+    "reading": "へる",
+    "jlpt": "N2",
+    "meaning": "dwindle",
+    "radical": 85,
+    "strokes": 12
+  },
+  {
+    "ch": "容",
+    "code": "05bb9",
+    "grade": 5,
+    "reading": "いれる",
+    "jlpt": "N3",
+    "meaning": "contain",
+    "radical": 40,
+    "strokes": 10
+  },
+  {
+    "ch": "応",
+    "code": "05fdc",
+    "grade": 5,
+    "reading": "あたる",
+    "jlpt": "N2",
+    "meaning": "apply",
+    "radical": 53,
+    "strokes": 7
+  },
+  {
+    "ch": "演",
+    "code": "06f14",
+    "grade": 5,
+    "reading": "えん",
+    "jlpt": "N3",
+    "meaning": "performance",
+    "radical": 85,
+    "strokes": 14
+  },
+  {
+    "ch": "能",
+    "code": "080fd",
+    "grade": 5,
+    "reading": "よく",
+    "jlpt": "N3",
+    "meaning": "ability",
+    "radical": 28,
+    "strokes": 10
+  },
+  {
+    "ch": "再",
+    "code": "0518d",
+    "grade": 5,
+    "reading": "ふたたび",
+    "jlpt": "N2",
+    "meaning": "again",
+    "radical": 1,
+    "strokes": 6
+  },
+  {
+    "ch": "格",
+    "code": "0683c",
+    "grade": 5,
+    "reading": "かく",
+    "jlpt": "N3",
+    "meaning": "status",
+    "radical": 75,
+    "strokes": 10
+  },
+  {
+    "ch": "過",
+    "code": "0904e",
+    "grade": 5,
+    "reading": "すぎる",
+    "jlpt": "N3",
+    "meaning": "overdo",
+    "radical": 162,
+    "strokes": 12
+  },
+  {
+    "ch": "税",
+    "code": "07a0e",
+    "grade": 5,
+    "reading": "ぜい",
+    "jlpt": "N2",
+    "meaning": "tax",
+    "radical": 115,
+    "strokes": 12
+  },
+  {
+    "ch": "検",
+    "code": "0691c",
+    "grade": 5,
+    "reading": "しらべる",
+    "jlpt": "N2",
+    "meaning": "examination",
+    "radical": 75,
+    "strokes": 12
+  },
+  {
+    "ch": "常",
+    "code": "05e38",
+    "grade": 5,
+    "reading": "つね",
+    "jlpt": "N3",
+    "meaning": "usual",
+    "radical": 42,
+    "strokes": 11
+  },
+  {
+    "ch": "状",
+    "code": "072b6",
+    "grade": 5,
+    "reading": "じょう",
+    "jlpt": "N3",
+    "meaning": "status quo",
+    "radical": 90,
+    "strokes": 7
+  },
+  {
+    "ch": "営",
+    "code": "055b6",
+    "grade": 5,
+    "reading": "いとなむ",
+    "jlpt": "N2",
+    "meaning": "occupation",
+    "radical": 30,
+    "strokes": 12
+  },
+  {
+    "ch": "職",
+    "code": "08077",
+    "grade": 5,
+    "reading": "しょく",
+    "jlpt": "N3",
+    "meaning": "post",
+    "radical": 128,
+    "strokes": 18
+  },
+  {
+    "ch": "証",
+    "code": "08a3c",
+    "grade": 5,
+    "reading": "あかし",
+    "jlpt": "N1",
+    "meaning": "evidence",
+    "radical": 149,
+    "strokes": 12
+  },
+  {
+    "ch": "可",
+    "code": "053ef",
+    "grade": 5,
+    "reading": "べき",
+    "jlpt": "N4",
+    "meaning": "can",
+    "radical": 1,
+    "strokes": 5
+  },
+  {
+    "ch": "構",
+    "code": "069cb",
+    "grade": 5,
+    "reading": "かまえる",
+    "jlpt": "N3",
+    "meaning": "posture",
+    "radical": 75,
+    "strokes": 14
+  },
+  {
+    "ch": "比",
+    "code": "06bd4",
+    "grade": 5,
+    "reading": "くらべる",
+    "jlpt": "N2",
+    "meaning": "compare",
+    "radical": 81,
+    "strokes": 4
+  },
+  {
+    "ch": "防",
+    "code": "09632",
+    "grade": 5,
+    "reading": "ふせぐ",
+    "jlpt": "N2",
+    "meaning": "ward off",
+    "radical": 170,
+    "strokes": 7
+  },
+  {
+    "ch": "断",
+    "code": "065ad",
+    "grade": 5,
+    "reading": "たつ",
+    "jlpt": "N3",
+    "meaning": "severance",
+    "radical": 69,
+    "strokes": 11
+  },
+  {
+    "ch": "境",
+    "code": "05883",
+    "grade": 5,
+    "reading": "さかい",
+    "jlpt": "N2",
+    "meaning": "boundary",
+    "radical": 32,
+    "strokes": 14
+  },
+  {
+    "ch": "規",
+    "code": "0898f",
+    "grade": 5,
+    "reading": "き",
+    "jlpt": "N3",
+    "meaning": "standard",
+    "radical": 147,
+    "strokes": 11
+  },
+  {
+    "ch": "術",
+    "code": "08853",
+    "grade": 5,
+    "reading": "すべ",
+    "jlpt": "N3",
+    "meaning": "art",
+    "radical": 60,
+    "strokes": 11
+  },
+  {
+    "ch": "護",
+    "code": "08b77",
+    "grade": 5,
+    "reading": "まもる",
+    "jlpt": "N1",
+    "meaning": "safeguard",
+    "radical": 149,
+    "strokes": 20
+  },
+  {
+    "ch": "態",
+    "code": "0614b",
+    "grade": 5,
+    "reading": "わざと",
+    "jlpt": "N1",
+    "meaning": "attitude",
+    "radical": 61,
+    "strokes": 14
+  },
+  {
+    "ch": "導",
+    "code": "05c0e",
+    "grade": 5,
+    "reading": "みちびく",
+    "jlpt": "N2",
+    "meaning": "guidance",
+    "radical": 41,
+    "strokes": 15
+  },
+  {
+    "ch": "備",
+    "code": "05099",
+    "grade": 5,
+    "reading": "そなえる",
+    "jlpt": "N3",
+    "meaning": "equip",
+    "radical": 9,
+    "strokes": 12
+  },
+  {
+    "ch": "条",
+    "code": "06761",
+    "grade": 5,
+    "reading": "えだ",
+    "jlpt": "N2",
+    "meaning": "article",
+    "radical": 34,
+    "strokes": 7
+  },
+  {
+    "ch": "幹",
+    "code": "05e79",
+    "grade": 5,
+    "reading": "みき",
+    "jlpt": "N1",
+    "meaning": "tree trunk",
+    "radical": 24,
+    "strokes": 13
+  },
+  {
+    "ch": "独",
+    "code": "072ec",
+    "grade": 5,
+    "reading": "ひとり",
+    "jlpt": "N2",
+    "meaning": "single",
+    "radical": 94,
+    "strokes": 9
+  },
+  {
+    "ch": "輸",
+    "code": "08f38",
+    "grade": 5,
+    "reading": "ゆ",
+    "jlpt": "N2",
+    "meaning": "transport",
+    "radical": 159,
+    "strokes": 16
+  },
+  {
+    "ch": "述",
+    "code": "08ff0",
+    "grade": 5,
+    "reading": "のべる",
+    "jlpt": "N2",
+    "meaning": "mention",
+    "radical": 162,
+    "strokes": 8
+  },
+  {
+    "ch": "率",
+    "code": "07387",
+    "grade": 5,
+    "reading": "ひきいる",
+    "jlpt": "N2",
+    "meaning": "ratio",
+    "radical": 8,
+    "strokes": 11
+  },
+  {
+    "ch": "武",
+    "code": "06b66",
+    "grade": 5,
+    "reading": "たけ",
+    "jlpt": "N2",
+    "meaning": "warrior",
+    "radical": 1,
+    "strokes": 8
+  },
+  {
+    "ch": "質",
+    "code": "08cea",
+    "grade": 5,
+    "reading": "たち",
+    "jlpt": "N4",
+    "meaning": "substance",
+    "radical": 154,
+    "strokes": 15
+  },
+  {
+    "ch": "衛",
+    "code": "0885b",
+    "grade": 5,
+    "reading": "えい",
+    "jlpt": "N1",
+    "meaning": "defense",
+    "radical": 60,
+    "strokes": 16
+  },
+  {
+    "ch": "張",
+    "code": "05f35",
+    "grade": 5,
+    "reading": "はる",
+    "jlpt": "N2",
+    "meaning": "lengthen",
+    "radical": 57,
+    "strokes": 11
+  },
+  {
+    "ch": "限",
+    "code": "09650",
+    "grade": 5,
+    "reading": "かぎる",
+    "jlpt": "N3",
+    "meaning": "limit",
+    "radical": 170,
+    "strokes": 9
+  },
+  {
+    "ch": "額",
+    "code": "0984d",
+    "grade": 5,
+    "reading": "ひたい",
+    "jlpt": "N2",
+    "meaning": "forehead",
+    "radical": 181,
+    "strokes": 18
+  },
+  {
+    "ch": "義",
+    "code": "07fa9",
+    "grade": 5,
+    "reading": "ぎ",
+    "jlpt": "N1",
+    "meaning": "righteousness",
+    "radical": 123,
+    "strokes": 13
+  },
+  {
+    "ch": "退",
+    "code": "09000",
+    "grade": 5,
+    "reading": "しりぞく",
+    "jlpt": "N3",
+    "meaning": "retreat",
+    "radical": 162,
+    "strokes": 9
+  },
+  {
+    "ch": "準",
+    "code": "06e96",
+    "grade": 5,
+    "reading": "じゅんじる",
+    "jlpt": "N2",
+    "meaning": "semi-",
+    "radical": 24,
+    "strokes": 13
+  },
+  {
+    "ch": "造",
+    "code": "09020",
+    "grade": 5,
+    "reading": "つくる",
+    "jlpt": "N2",
+    "meaning": "create",
+    "radical": 162,
+    "strokes": 10
+  },
+  {
+    "ch": "技",
+    "code": "06280",
+    "grade": 5,
+    "reading": "わざ",
+    "jlpt": "N2",
+    "meaning": "skill",
+    "radical": 64,
+    "strokes": 7
+  },
+  {
+    "ch": "復",
+    "code": "05fa9",
+    "grade": 5,
+    "reading": "また",
+    "jlpt": "N2",
+    "meaning": "restore",
+    "radical": 60,
+    "strokes": 12
+  },
+  {
+    "ch": "移",
+    "code": "079fb",
+    "grade": 5,
+    "reading": "うつる",
+    "jlpt": "N2",
+    "meaning": "shift",
+    "radical": 115,
+    "strokes": 11
+  },
+  {
+    "ch": "個",
+    "code": "0500b",
+    "grade": 5,
+    "reading": "こ",
+    "jlpt": "N2",
+    "meaning": "individual",
+    "radical": 9,
+    "strokes": 10
+  },
+  {
+    "ch": "評",
+    "code": "08a55",
+    "grade": 5,
+    "reading": "ひょう",
+    "jlpt": "N2",
+    "meaning": "evaluate",
+    "radical": 149,
+    "strokes": 12
+  },
+  {
+    "ch": "非",
+    "code": "0975e",
+    "grade": 5,
+    "reading": "あらず",
+    "jlpt": "N3",
+    "meaning": "un-",
+    "radical": 175,
+    "strokes": 8
+  },
+  {
+    "ch": "製",
+    "code": "088fd",
+    "grade": 5,
+    "reading": "せい",
+    "jlpt": "N2",
+    "meaning": "made in...",
+    "radical": 145,
+    "strokes": 14
+  },
+  {
+    "ch": "財",
+    "code": "08ca1",
+    "grade": 5,
+    "reading": "たから",
+    "jlpt": "N3",
+    "meaning": "property",
+    "radical": 154,
+    "strokes": 10
+  },
+  {
+    "ch": "識",
+    "code": "08b58",
+    "grade": 5,
+    "reading": "しる",
+    "jlpt": "N3",
+    "meaning": "discriminating",
+    "radical": 149,
+    "strokes": 19
+  },
+  {
+    "ch": "程",
+    "code": "07a0b",
+    "grade": 5,
+    "reading": "ほど",
+    "jlpt": "N3",
+    "meaning": "extent",
+    "radical": 115,
+    "strokes": 12
+  },
+  {
+    "ch": "接",
+    "code": "063a5",
+    "grade": 5,
+    "reading": "つぐ",
+    "jlpt": "N2",
+    "meaning": "touch",
+    "radical": 64,
+    "strokes": 11
+  },
+  {
+    "ch": "授",
+    "code": "06388",
+    "grade": 5,
+    "reading": "さずける",
+    "jlpt": "N2",
+    "meaning": "impart",
+    "radical": 64,
+    "strokes": 11
+  },
+  {
+    "ch": "効",
+    "code": "052b9",
+    "grade": 5,
+    "reading": "きく",
+    "jlpt": "N2",
+    "meaning": "merit",
+    "radical": 19,
+    "strokes": 8
+  },
+  {
+    "ch": "旧",
+    "code": "065e7",
+    "grade": 5,
+    "reading": "ふるい",
+    "jlpt": "N2",
+    "meaning": "old times",
+    "radical": 2,
+    "strokes": 5
+  },
+  {
+    "ch": "師",
+    "code": "05e2b",
+    "grade": 5,
+    "reading": "いくさ",
+    "jlpt": "N3",
+    "meaning": "expert",
+    "radical": 2,
+    "strokes": 10
+  },
+  {
+    "ch": "易",
+    "code": "06613",
+    "grade": 5,
+    "reading": "やさしい",
+    "jlpt": "N3",
+    "meaning": "easy",
+    "radical": 72,
+    "strokes": 8
+  },
+  {
+    "ch": "券",
+    "code": "05238",
+    "grade": 5,
+    "reading": "けん",
+    "jlpt": "N2",
+    "meaning": "ticket",
+    "radical": 18,
+    "strokes": 8
+  },
+  {
+    "ch": "破",
+    "code": "07834",
+    "grade": 5,
+    "reading": "やぶる",
+    "jlpt": "N3",
+    "meaning": "rend",
+    "radical": 112,
+    "strokes": 10
+  },
+  {
+    "ch": "編",
+    "code": "07de8",
+    "grade": 5,
+    "reading": "あむ",
+    "jlpt": "N2",
+    "meaning": "compilation",
+    "radical": 120,
+    "strokes": 15
+  },
+  {
+    "ch": "責",
+    "code": "08cac",
+    "grade": 5,
+    "reading": "せめる",
+    "jlpt": "N3",
+    "meaning": "blame",
+    "radical": 154,
+    "strokes": 11
+  },
+  {
+    "ch": "修",
+    "code": "04fee",
+    "grade": 5,
+    "reading": "おさめる",
+    "jlpt": "N2",
+    "meaning": "discipline",
+    "radical": 9,
+    "strokes": 10
+  },
+  {
+    "ch": "採",
+    "code": "063a1",
+    "grade": 5,
+    "reading": "とる",
+    "jlpt": "N2",
+    "meaning": "pick",
+    "radical": 64,
+    "strokes": 11
+  },
+  {
+    "ch": "織",
+    "code": "07e54",
+    "grade": 5,
+    "reading": "おる",
+    "jlpt": "N1",
+    "meaning": "weave",
+    "radical": 120,
+    "strokes": 18
+  },
+  {
+    "ch": "故",
+    "code": "06545",
+    "grade": 5,
+    "reading": "ゆえ",
+    "jlpt": "N2",
+    "meaning": "happenstance",
+    "radical": 66,
+    "strokes": 9
+  },
+  {
+    "ch": "弁",
+    "code": "05f01",
+    "grade": 5,
+    "reading": "かんむり",
+    "jlpt": "N1",
+    "meaning": "valve",
+    "radical": 28,
+    "strokes": 5
+  },
+  {
+    "ch": "因",
+    "code": "056e0",
+    "grade": 5,
+    "reading": "よる",
+    "jlpt": "N3",
+    "meaning": "cause",
+    "radical": 31,
+    "strokes": 6
+  },
+  {
+    "ch": "富",
+    "code": "05bcc",
+    "grade": 5,
+    "reading": "とむ",
+    "jlpt": "N3",
+    "meaning": "wealth",
+    "radical": 40,
+    "strokes": 12
+  },
+  {
+    "ch": "貿",
+    "code": "08cbf",
+    "grade": 5,
+    "reading": "ぼう",
+    "jlpt": "N2",
+    "meaning": "trade",
+    "radical": 154,
+    "strokes": 12
+  },
+  {
+    "ch": "講",
+    "code": "08b1b",
+    "grade": 5,
+    "reading": "こう",
+    "jlpt": "N2",
+    "meaning": "lecture",
+    "radical": 149,
+    "strokes": 17
+  },
+  {
+    "ch": "素",
+    "code": "07d20",
+    "grade": 5,
+    "reading": "もと",
+    "jlpt": "N1",
+    "meaning": "elementary",
+    "radical": 120,
+    "strokes": 10
+  },
+  {
+    "ch": "河",
+    "code": "06cb3",
+    "grade": 5,
+    "reading": "かわ",
+    "jlpt": "N2",
+    "meaning": "river",
+    "radical": 85,
+    "strokes": 8
+  },
+  {
+    "ch": "適",
+    "code": "09069",
+    "grade": 5,
+    "reading": "かなう",
+    "jlpt": "N3",
+    "meaning": "suitable",
+    "radical": 162,
+    "strokes": 14
+  },
+  {
+    "ch": "婦",
+    "code": "05a66",
+    "grade": 5,
+    "reading": "よめ",
+    "jlpt": "N3",
+    "meaning": "lady",
+    "radical": 38,
+    "strokes": 11
+  },
+  {
+    "ch": "寄",
+    "code": "05bc4",
+    "grade": 5,
+    "reading": "よる",
+    "jlpt": "N3",
+    "meaning": "draw near",
+    "radical": 40,
+    "strokes": 11
+  },
+  {
+    "ch": "益",
+    "code": "076ca",
+    "grade": 5,
+    "reading": "ます",
+    "jlpt": "N1",
+    "meaning": "benefit",
+    "radical": 12,
+    "strokes": 10
+  },
+  {
+    "ch": "余",
+    "code": "04f59",
+    "grade": 5,
+    "reading": "あまる",
+    "jlpt": "N3",
+    "meaning": "too much",
+    "radical": 9,
+    "strokes": 7
+  },
+  {
+    "ch": "禁",
+    "code": "07981",
+    "grade": 5,
+    "reading": "きん",
+    "jlpt": "N2",
+    "meaning": "prohibition",
+    "radical": 113,
+    "strokes": 13
+  },
+  {
+    "ch": "逆",
+    "code": "09006",
+    "grade": 5,
+    "reading": "さか",
+    "jlpt": "N2",
+    "meaning": "inverted",
+    "radical": 162,
+    "strokes": 9
+  },
+  {
+    "ch": "久",
+    "code": "04e45",
+    "grade": 5,
+    "reading": "ひさしい",
+    "jlpt": "N2",
+    "meaning": "long time",
+    "radical": 4,
+    "strokes": 3
+  },
+  {
+    "ch": "妻",
+    "code": "059bb",
+    "grade": 5,
+    "reading": "つま",
+    "jlpt": "N3",
+    "meaning": "wife",
+    "radical": 38,
+    "strokes": 8
+  },
+  {
+    "ch": "暴",
+    "code": "066b4",
+    "grade": 5,
+    "reading": "あばく",
+    "jlpt": "N2",
+    "meaning": "outburst",
+    "radical": 72,
+    "strokes": 15
+  },
+  {
+    "ch": "険",
+    "code": "0967a",
+    "grade": 5,
+    "reading": "けわしい",
+    "jlpt": "N3",
+    "meaning": "precipitous",
+    "radical": 170,
+    "strokes": 11
+  },
+  {
+    "ch": "均",
+    "code": "05747",
+    "grade": 5,
+    "reading": "ならす",
+    "jlpt": "N2",
+    "meaning": "level",
+    "radical": 32,
+    "strokes": 7
+  },
+  {
+    "ch": "圧",
+    "code": "05727",
+    "grade": 5,
+    "reading": "おす",
+    "jlpt": "N2",
+    "meaning": "pressure",
+    "radical": 27,
+    "strokes": 5
+  },
+  {
+    "ch": "許",
+    "code": "08a31",
+    "grade": 5,
+    "reading": "ゆるす",
+    "jlpt": "N3",
+    "meaning": "permit",
+    "radical": 149,
+    "strokes": 11
+  },
+  {
+    "ch": "留",
+    "code": "07559",
+    "grade": 5,
+    "reading": "とめる",
+    "jlpt": "N3",
+    "meaning": "detain",
+    "radical": 102,
+    "strokes": 10
+  },
+  {
+    "ch": "罪",
+    "code": "07f6a",
+    "grade": 5,
+    "reading": "つみ",
+    "jlpt": "N3",
+    "meaning": "guilt",
+    "radical": 122,
+    "strokes": 13
+  },
+  {
+    "ch": "興",
+    "code": "08208",
+    "grade": 5,
+    "reading": "おこる",
+    "jlpt": "N1",
+    "meaning": "entertain",
+    "radical": 12,
+    "strokes": 16
+  },
+  {
+    "ch": "精",
+    "code": "07cbe",
+    "grade": 5,
+    "reading": "せい",
+    "jlpt": "N3",
+    "meaning": "refined",
+    "radical": 119,
+    "strokes": 14
+  },
+  {
+    "ch": "則",
+    "code": "05247",
+    "grade": 5,
+    "reading": "のっとる",
+    "jlpt": "N2",
+    "meaning": "rule",
+    "radical": 154,
+    "strokes": 9
+  },
+  {
+    "ch": "測",
+    "code": "06e2c",
+    "grade": 5,
+    "reading": "はかる",
+    "jlpt": "N2",
+    "meaning": "fathom",
+    "radical": 85,
+    "strokes": 12
+  },
+  {
+    "ch": "豊",
+    "code": "08c4a",
+    "grade": 5,
+    "reading": "ゆたか",
+    "jlpt": "N2",
+    "meaning": "bountiful",
+    "radical": 151,
+    "strokes": 13
+  },
+  {
+    "ch": "厚",
+    "code": "0539a",
+    "grade": 5,
+    "reading": "あつい",
+    "jlpt": "N2",
+    "meaning": "thick",
+    "radical": 27,
+    "strokes": 9
+  },
+  {
+    "ch": "略",
+    "code": "07565",
+    "grade": 5,
+    "reading": "ほぼ",
+    "jlpt": "N2",
+    "meaning": "abbreviation",
+    "radical": 102,
+    "strokes": 11
+  },
+  {
+    "ch": "承",
+    "code": "0627f",
+    "grade": 5,
+    "reading": "うけたまわる",
+    "jlpt": "N2",
+    "meaning": "acquiesce",
+    "radical": 4,
+    "strokes": 8
+  },
+  {
+    "ch": "絶",
+    "code": "07d76",
+    "grade": 5,
+    "reading": "たえる",
+    "jlpt": "N3",
+    "meaning": "discontinue",
+    "radical": 120,
+    "strokes": 12
+  },
+  {
+    "ch": "版",
+    "code": "07248",
+    "grade": 5,
+    "reading": "はん",
+    "jlpt": "N2",
+    "meaning": "printing block",
+    "radical": 91,
+    "strokes": 8
+  },
+  {
+    "ch": "損",
+    "code": "0640d",
+    "grade": 5,
+    "reading": "そこなう",
+    "jlpt": "N2",
+    "meaning": "damage",
+    "radical": 64,
+    "strokes": 13
+  },
+  {
+    "ch": "仏",
+    "code": "04ecf",
+    "grade": 5,
+    "reading": "ほとけ",
+    "jlpt": "N2",
+    "meaning": "Buddha",
+    "radical": 9,
+    "strokes": 4
+  },
+  {
+    "ch": "績",
+    "code": "07e3e",
+    "grade": 5,
+    "reading": "せき",
+    "jlpt": "N2",
+    "meaning": "exploits",
+    "radical": 120,
+    "strokes": 17
+  },
+  {
+    "ch": "築",
+    "code": "07bc9",
+    "grade": 5,
+    "reading": "きずく",
+    "jlpt": "N2",
+    "meaning": "fabricate",
+    "radical": 118,
+    "strokes": 16
+  },
+  {
+    "ch": "志",
+    "code": "05fd7",
+    "grade": 5,
+    "reading": "こころざす",
+    "jlpt": "N2",
+    "meaning": "intention",
+    "radical": 32,
+    "strokes": 7
+  },
+  {
+    "ch": "混",
+    "code": "06df7",
+    "grade": 5,
+    "reading": "まじる",
+    "jlpt": "N2",
+    "meaning": "mix",
+    "radical": 85,
+    "strokes": 11
+  },
+  {
+    "ch": "居",
+    "code": "05c45",
+    "grade": 5,
+    "reading": "いる",
+    "jlpt": "N3",
+    "meaning": "reside",
+    "radical": 44,
+    "strokes": 8
+  },
+  {
+    "ch": "雑",
+    "code": "096d1",
+    "grade": 5,
+    "reading": "まじえる",
+    "jlpt": "N3",
+    "meaning": "miscellaneous",
+    "radical": 172,
+    "strokes": 14
+  },
+  {
+    "ch": "招",
+    "code": "062db",
+    "grade": 5,
+    "reading": "まねく",
+    "jlpt": "N3",
+    "meaning": "beckon",
+    "radical": 64,
+    "strokes": 8
+  },
+  {
+    "ch": "永",
+    "code": "06c38",
+    "grade": 5,
+    "reading": "ながい",
+    "jlpt": "N2",
+    "meaning": "eternity",
+    "radical": 3,
+    "strokes": 5
+  },
+  {
+    "ch": "刊",
+    "code": "0520a",
+    "grade": 5,
+    "reading": "かん",
+    "jlpt": "N2",
+    "meaning": "publish",
+    "radical": 51,
+    "strokes": 5
+  },
+  {
+    "ch": "像",
+    "code": "050cf",
+    "grade": 5,
+    "reading": "ぞう",
+    "jlpt": "N2",
+    "meaning": "statue",
+    "radical": 9,
+    "strokes": 14
+  },
+  {
+    "ch": "賛",
+    "code": "08cdb",
+    "grade": 5,
+    "reading": "たすける",
+    "jlpt": "N3",
+    "meaning": "approve",
+    "radical": 154,
+    "strokes": 15
+  },
+  {
+    "ch": "犯",
+    "code": "072af",
+    "grade": 5,
+    "reading": "おかす",
+    "jlpt": "N3",
+    "meaning": "crime",
+    "radical": 94,
+    "strokes": 5
+  },
+  {
+    "ch": "布",
+    "code": "05e03",
+    "grade": 5,
+    "reading": "ぬの",
+    "jlpt": "N2",
+    "meaning": "linen",
+    "radical": 50,
+    "strokes": 5
+  },
+  {
+    "ch": "属",
+    "code": "05c5e",
+    "grade": 5,
+    "reading": "さかん",
+    "jlpt": "N1",
+    "meaning": "belong",
+    "radical": 44,
+    "strokes": 12
+  },
+  {
+    "ch": "複",
+    "code": "08907",
+    "grade": 5,
+    "reading": "ふく",
+    "jlpt": "N2",
+    "meaning": "duplicate",
+    "radical": 145,
+    "strokes": 14
+  },
+  {
+    "ch": "似",
+    "code": "04f3c",
+    "grade": 5,
+    "reading": "にる",
+    "jlpt": "N3",
+    "meaning": "becoming",
+    "radical": 9,
+    "strokes": 7
+  },
+  {
+    "ch": "迷",
+    "code": "08ff7",
+    "grade": 5,
+    "reading": "まよう",
+    "jlpt": "N3",
+    "meaning": "astray",
+    "radical": 162,
+    "strokes": 9
+  },
+  {
+    "ch": "夢",
+    "code": "05922",
+    "grade": 5,
+    "reading": "ゆめ",
+    "jlpt": "N3",
+    "meaning": "dream",
+    "radical": 140,
+    "strokes": 13
+  },
+  {
+    "ch": "燃",
+    "code": "071c3",
+    "grade": 5,
+    "reading": "もえる",
+    "jlpt": "N2",
+    "meaning": "burn",
+    "radical": 86,
+    "strokes": 16
+  },
+  {
+    "ch": "災",
+    "code": "0707d",
+    "grade": 5,
+    "reading": "わざわい",
+    "jlpt": "N1",
+    "meaning": "disaster",
+    "radical": 47,
+    "strokes": 7
+  },
+  {
+    "ch": "預",
+    "code": "09810",
+    "grade": 5,
+    "reading": "あずける",
+    "jlpt": "N2",
+    "meaning": "deposit",
+    "radical": 181,
+    "strokes": 13
+  },
+  {
+    "ch": "貸",
+    "code": "08cb8",
+    "grade": 5,
+    "reading": "かす",
+    "jlpt": "N4",
+    "meaning": "lend",
+    "radical": 154,
+    "strokes": 12
+  },
+  {
+    "ch": "銭",
+    "code": "092ad",
+    "grade": 5,
+    "reading": "ぜに",
+    "jlpt": "N1",
+    "meaning": "coin",
+    "radical": 167,
+    "strokes": 14
+  },
+  {
+    "ch": "群",
+    "code": "07fa4",
+    "grade": 5,
+    "reading": "むれる",
+    "jlpt": "N2",
+    "meaning": "flock",
+    "radical": 123,
+    "strokes": 13
+  },
+  {
+    "ch": "謝",
+    "code": "08b1d",
+    "grade": 5,
+    "reading": "あやまる",
+    "jlpt": "N1",
+    "meaning": "apologize",
+    "radical": 149,
+    "strokes": 17
+  },
+  {
+    "ch": "仮",
+    "code": "04eee",
+    "grade": 5,
+    "reading": "かり",
+    "jlpt": "N2",
+    "meaning": "sham",
+    "radical": 9,
+    "strokes": 6
+  },
+  {
+    "ch": "賀",
+    "code": "08cc0",
+    "grade": 5,
+    "reading": "が",
+    "jlpt": "N1",
+    "meaning": "congratulations",
+    "radical": 154,
+    "strokes": 12
+  },
+  {
+    "ch": "快",
+    "code": "05feb",
+    "grade": 5,
+    "reading": "こころよい",
+    "jlpt": "N2",
+    "meaning": "cheerful",
+    "radical": 61,
+    "strokes": 7
+  },
+  {
+    "ch": "徳",
+    "code": "05fb3",
+    "grade": 5,
+    "reading": "とく",
+    "jlpt": "N1",
+    "meaning": "benevolence",
+    "radical": 60,
+    "strokes": 14
+  },
+  {
+    "ch": "序",
+    "code": "05e8f",
+    "grade": 5,
+    "reading": "ついで",
+    "jlpt": "N1",
+    "meaning": "preface",
+    "radical": 53,
+    "strokes": 7
+  },
+  {
+    "ch": "舎",
+    "code": "0820e",
+    "grade": 5,
+    "reading": "やどる",
+    "jlpt": "N1",
+    "meaning": "cottage",
+    "radical": 9,
+    "strokes": 8
+  },
+  {
+    "ch": "慣",
+    "code": "06163",
+    "grade": 5,
+    "reading": "なれる",
+    "jlpt": "N3",
+    "meaning": "accustomed",
+    "radical": 61,
+    "strokes": 14
+  },
+  {
+    "ch": "敵",
+    "code": "06575",
+    "grade": 5,
+    "reading": "かたき",
+    "jlpt": "N1",
+    "meaning": "enemy",
+    "radical": 66,
+    "strokes": 15
+  },
+  {
+    "ch": "液",
+    "code": "06db2",
+    "grade": 5,
+    "reading": "えき",
+    "jlpt": "N2",
+    "meaning": "fluid",
+    "radical": 85,
+    "strokes": 11
+  },
+  {
+    "ch": "貧",
+    "code": "08ca7",
+    "grade": 5,
+    "reading": "まずしい",
+    "jlpt": "N3",
+    "meaning": "poverty",
+    "radical": 12,
+    "strokes": 11
+  },
+  {
+    "ch": "酸",
+    "code": "09178",
+    "grade": 5,
+    "reading": "すい",
+    "jlpt": "N1",
+    "meaning": "acid",
+    "radical": 164,
+    "strokes": 14
+  },
+  {
+    "ch": "祖",
+    "code": "07956",
+    "grade": 5,
+    "reading": "そ",
+    "jlpt": "N3",
+    "meaning": "ancestor",
+    "radical": 113,
+    "strokes": 9
+  },
+  {
+    "ch": "桜",
+    "code": "0685c",
+    "grade": 5,
+    "reading": "さくら",
+    "jlpt": "N1",
+    "meaning": "cherry",
+    "radical": 75,
+    "strokes": 10
+  },
+  {
+    "ch": "句",
+    "code": "053e5",
+    "grade": 5,
+    "reading": "く",
+    "jlpt": "N1",
+    "meaning": "phrase",
+    "radical": 20,
+    "strokes": 5
+  },
+  {
+    "ch": "墓",
+    "code": "05893",
+    "grade": 5,
+    "reading": "はか",
+    "jlpt": "N1",
+    "meaning": "grave",
+    "radical": 140,
+    "strokes": 13
+  },
+  {
+    "ch": "鉱",
+    "code": "09271",
+    "grade": 5,
+    "reading": "あらがね",
+    "jlpt": "N2",
+    "meaning": "mineral",
+    "radical": 167,
+    "strokes": 13
+  },
+  {
+    "ch": "飼",
+    "code": "098fc",
+    "grade": 5,
+    "reading": "かう",
+    "jlpt": "N1",
+    "meaning": "domesticate",
+    "radical": 184,
+    "strokes": 13
+  },
+  {
+    "ch": "枝",
+    "code": "0679d",
+    "grade": 5,
+    "reading": "えだ",
+    "jlpt": "N2",
+    "meaning": "bough",
+    "radical": 75,
+    "strokes": 8
+  },
+  {
+    "ch": "恩",
+    "code": "06069",
+    "grade": 5,
+    "reading": "おん",
+    "jlpt": "N1",
+    "meaning": "grace",
+    "radical": 61,
+    "strokes": 10
+  },
+  {
+    "ch": "往",
+    "code": "05f80",
+    "grade": 5,
+    "reading": "いく",
+    "jlpt": "N1",
+    "meaning": "journey",
+    "radical": 60,
+    "strokes": 8
+  },
+  {
+    "ch": "肥",
+    "code": "080a5",
+    "grade": 5,
+    "reading": "こえる",
+    "jlpt": "N1",
+    "meaning": "fertilizer",
+    "radical": 130,
+    "strokes": 8
+  },
+  {
+    "ch": "俵",
+    "code": "04ff5",
+    "grade": 5,
+    "reading": "たわら",
+    "jlpt": "N1",
+    "meaning": "bag",
+    "radical": 9,
+    "strokes": 10
+  },
+  {
+    "ch": "綿",
+    "code": "07dbf",
+    "grade": 5,
+    "reading": "わた",
+    "jlpt": "N2",
+    "meaning": "cotton",
+    "radical": 120,
+    "strokes": 14
+  },
+  {
+    "ch": "銅",
+    "code": "09285",
+    "grade": 5,
+    "reading": "あかがね",
+    "jlpt": "N2",
+    "meaning": "copper",
+    "radical": 167,
+    "strokes": 14
+  },
+  {
+    "ch": "眼",
+    "code": "0773c",
+    "grade": 5,
+    "reading": "まなこ",
+    "jlpt": "N1",
+    "meaning": "eyeball",
+    "radical": 109,
+    "strokes": 11
+  },
+  {
+    "ch": "耕",
+    "code": "08015",
+    "grade": 5,
+    "reading": "たがやす",
+    "jlpt": "N2",
+    "meaning": "till",
+    "radical": 127,
+    "strokes": 10
+  },
+  {
+    "ch": "潔",
+    "code": "06f54",
+    "grade": 5,
+    "reading": "いさぎよい",
+    "jlpt": "N1",
+    "meaning": "undefiled",
+    "radical": 85,
+    "strokes": 15
+  },
+  {
+    "ch": "舌",
+    "code": "0820c",
+    "grade": 5,
+    "reading": "した",
+    "jlpt": "N1",
+    "meaning": "tongue",
+    "radical": 135,
+    "strokes": 6
+  },
+  {
+    "ch": "党",
+    "code": "0515a",
+    "grade": 6,
+    "reading": "なかま",
+    "jlpt": "N2",
+    "meaning": "party",
+    "radical": 42,
+    "strokes": 10
+  },
+  {
+    "ch": "権",
+    "code": "06a29",
+    "grade": 6,
+    "reading": "おもり",
+    "jlpt": "N3",
+    "meaning": "authority",
+    "radical": 75,
+    "strokes": 15
+  },
+  {
+    "ch": "派",
+    "code": "06d3e",
+    "grade": 6,
+    "reading": "は",
+    "jlpt": "N1",
+    "meaning": "faction",
+    "radical": 85,
+    "strokes": 9
+  },
+  {
+    "ch": "済",
+    "code": "06e08",
+    "grade": 6,
+    "reading": "すむ",
+    "jlpt": "N3",
+    "meaning": "finish",
+    "radical": 85,
+    "strokes": 11
+  },
+  {
+    "ch": "認",
+    "code": "08a8d",
+    "grade": 6,
+    "reading": "みとめる",
+    "jlpt": "N3",
+    "meaning": "acknowledge",
+    "radical": 149,
+    "strokes": 14
+  },
+  {
+    "ch": "策",
+    "code": "07b56",
+    "grade": 6,
+    "reading": "さく",
+    "jlpt": "N1",
+    "meaning": "scheme",
+    "radical": 118,
+    "strokes": 12
+  },
+  {
+    "ch": "論",
+    "code": "08ad6",
+    "grade": 6,
+    "reading": "ろん",
+    "jlpt": "N3",
+    "meaning": "argument",
+    "radical": 149,
+    "strokes": 15
+  },
+  {
+    "ch": "私",
+    "code": "079c1",
+    "grade": 6,
+    "reading": "わたくし",
+    "jlpt": "N4",
+    "meaning": "private",
+    "radical": 115,
+    "strokes": 7
+  },
+  {
+    "ch": "革",
+    "code": "09769",
+    "grade": 6,
+    "reading": "かわ",
+    "jlpt": "N2",
+    "meaning": "leather",
+    "radical": 177,
+    "strokes": 9
+  },
+  {
+    "ch": "疑",
+    "code": "07591",
+    "grade": 6,
+    "reading": "うたがう",
+    "jlpt": "N3",
+    "meaning": "doubt",
+    "radical": 21,
+    "strokes": 14
+  },
+  {
+    "ch": "裁",
+    "code": "088c1",
+    "grade": 6,
+    "reading": "たつ",
+    "jlpt": "N1",
+    "meaning": "tailor",
+    "radical": 24,
+    "strokes": 12
+  },
+  {
+    "ch": "供",
+    "code": "04f9b",
+    "grade": 6,
+    "reading": "そなえる",
+    "jlpt": "N3",
+    "meaning": "submit",
+    "radical": 9,
+    "strokes": 8
+  },
+  {
+    "ch": "割",
+    "code": "05272",
+    "grade": 6,
+    "reading": "わる",
+    "jlpt": "N3",
+    "meaning": "proportion",
+    "radical": 18,
+    "strokes": 12
+  },
+  {
+    "ch": "難",
+    "code": "096e3",
+    "grade": 6,
+    "reading": "かたい",
+    "jlpt": "N3",
+    "meaning": "difficult",
+    "radical": 172,
+    "strokes": 18
+  },
+  {
+    "ch": "補",
+    "code": "088dc",
+    "grade": 6,
+    "reading": "おぎなう",
+    "jlpt": "N2",
+    "meaning": "supplement",
+    "radical": 145,
+    "strokes": 12
+  },
+  {
+    "ch": "優",
+    "code": "0512a",
+    "grade": 6,
+    "reading": "やさしい",
+    "jlpt": "N3",
+    "meaning": "tenderness",
+    "radical": 9,
+    "strokes": 17
+  },
+  {
+    "ch": "収",
+    "code": "053ce",
+    "grade": 6,
+    "reading": "おさめる",
+    "jlpt": "N3",
+    "meaning": "income",
+    "radical": 29,
+    "strokes": 4
+  },
+  {
+    "ch": "展",
+    "code": "05c55",
+    "grade": 6,
+    "reading": "てん",
+    "jlpt": "N2",
+    "meaning": "unfold",
+    "radical": 44,
+    "strokes": 10
+  },
+  {
+    "ch": "宅",
+    "code": "05b85",
+    "grade": 6,
+    "reading": "たく",
+    "jlpt": "N3",
+    "meaning": "home",
+    "radical": 40,
+    "strokes": 6
+  },
+  {
+    "ch": "視",
+    "code": "08996",
+    "grade": 6,
+    "reading": "みる",
+    "jlpt": "N1",
+    "meaning": "inspection",
+    "radical": 113,
+    "strokes": 11
+  },
+  {
+    "ch": "警",
+    "code": "08b66",
+    "grade": 6,
+    "reading": "いましめる",
+    "jlpt": "N3",
+    "meaning": "admonish",
+    "radical": 149,
+    "strokes": 19
+  },
+  {
+    "ch": "訪",
+    "code": "08a2a",
+    "grade": 6,
+    "reading": "おとずれる",
+    "jlpt": "N3",
+    "meaning": "call on",
+    "radical": 149,
+    "strokes": 11
+  },
+  {
+    "ch": "域",
+    "code": "057df",
+    "grade": 6,
+    "reading": "いき",
+    "jlpt": "N2",
+    "meaning": "range",
+    "radical": 32,
+    "strokes": 11
+  },
+  {
+    "ch": "映",
+    "code": "06620",
+    "grade": 6,
+    "reading": "うつる",
+    "jlpt": "N4",
+    "meaning": "reflect",
+    "radical": 72,
+    "strokes": 9
+  },
+  {
+    "ch": "担",
+    "code": "062c5",
+    "grade": 6,
+    "reading": "かつぐ",
+    "jlpt": "N2",
+    "meaning": "shouldering",
+    "radical": 64,
+    "strokes": 8
+  },
+  {
+    "ch": "株",
+    "code": "0682a",
+    "grade": 6,
+    "reading": "かぶ",
+    "jlpt": "N1",
+    "meaning": "stocks",
+    "radical": 75,
+    "strokes": 10
+  },
+  {
+    "ch": "姿",
+    "code": "059ff",
+    "grade": 6,
+    "reading": "すがた",
+    "jlpt": "N1",
+    "meaning": "figure",
+    "radical": 38,
+    "strokes": 9
+  },
+  {
+    "ch": "閣",
+    "code": "095a3",
+    "grade": 6,
+    "reading": "かく",
+    "jlpt": "N1",
+    "meaning": "tower",
+    "radical": 169,
+    "strokes": 14
+  },
+  {
+    "ch": "衆",
+    "code": "08846",
+    "grade": 6,
+    "reading": "おおい",
+    "jlpt": "N1",
+    "meaning": "masses",
+    "radical": 143,
+    "strokes": 12
+  },
+  {
+    "ch": "若",
+    "code": "082e5",
+    "grade": 6,
+    "reading": "わかい",
+    "jlpt": "N3",
+    "meaning": "young",
+    "radical": 140,
+    "strokes": 8
+  },
+  {
+    "ch": "脳",
+    "code": "08133",
+    "grade": 6,
+    "reading": "のうずる",
+    "jlpt": "N2",
+    "meaning": "brain",
+    "radical": 130,
+    "strokes": 11
+  },
+  {
+    "ch": "蔵",
+    "code": "08535",
+    "grade": 6,
+    "reading": "くら",
+    "jlpt": "N2",
+    "meaning": "storehouse",
+    "radical": 140,
+    "strokes": 15
+  },
+  {
+    "ch": "段",
+    "code": "06bb5",
+    "grade": 6,
+    "reading": "だん",
+    "jlpt": "N3",
+    "meaning": "grade",
+    "radical": 79,
+    "strokes": 9
+  },
+  {
+    "ch": "呼",
+    "code": "0547c",
+    "grade": 6,
+    "reading": "よぶ",
+    "jlpt": "N3",
+    "meaning": "call",
+    "radical": 30,
+    "strokes": 8
+  },
+  {
+    "ch": "針",
+    "code": "091dd",
+    "grade": 6,
+    "reading": "はり",
+    "jlpt": "N2",
+    "meaning": "needle",
+    "radical": 167,
+    "strokes": 10
+  },
+  {
+    "ch": "専",
+    "code": "05c02",
+    "grade": 6,
+    "reading": "もっぱら",
+    "jlpt": "N2",
+    "meaning": "specialty",
+    "radical": 41,
+    "strokes": 9
+  },
+  {
+    "ch": "推",
+    "code": "063a8",
+    "grade": 6,
+    "reading": "おす",
+    "jlpt": "N1",
+    "meaning": "conjecture",
+    "radical": 64,
+    "strokes": 11
+  },
+  {
+    "ch": "値",
+    "code": "05024",
+    "grade": 6,
+    "reading": "ね",
+    "jlpt": "N3",
+    "meaning": "price",
+    "radical": 9,
+    "strokes": 10
+  },
+  {
+    "ch": "討",
+    "code": "08a0e",
+    "grade": 6,
+    "reading": "うつ",
+    "jlpt": "N1",
+    "meaning": "chastise",
+    "radical": 149,
+    "strokes": 10
+  },
+  {
+    "ch": "処",
+    "code": "051e6",
+    "grade": 6,
+    "reading": "ところ",
+    "jlpt": "N3",
+    "meaning": "dispose",
+    "radical": 34,
+    "strokes": 5
+  },
+  {
+    "ch": "憲",
+    "code": "061b2",
+    "grade": 6,
+    "reading": "けん",
+    "jlpt": "N1",
+    "meaning": "constitution",
+    "radical": 40,
+    "strokes": 16
+  },
+  {
+    "ch": "激",
+    "code": "06fc0",
+    "grade": 6,
+    "reading": "はげしい",
+    "jlpt": "N1",
+    "meaning": "violent",
+    "radical": 85,
+    "strokes": 16
+  },
+  {
+    "ch": "否",
+    "code": "05426",
+    "grade": 6,
+    "reading": "いな",
+    "jlpt": "N3",
+    "meaning": "negate",
+    "radical": 1,
+    "strokes": 7
+  },
+  {
+    "ch": "系",
+    "code": "07cfb",
+    "grade": 6,
+    "reading": "けい",
+    "jlpt": "N1",
+    "meaning": "lineage",
+    "radical": 4,
+    "strokes": 7
+  },
+  {
+    "ch": "批",
+    "code": "06279",
+    "grade": 6,
+    "reading": "ひ",
+    "jlpt": "N2",
+    "meaning": "criticism",
+    "radical": 64,
+    "strokes": 7
+  },
+  {
+    "ch": "存",
+    "code": "05b58",
+    "grade": 6,
+    "reading": "ながらえる",
+    "jlpt": "N3",
+    "meaning": "exist",
+    "radical": 39,
+    "strokes": 6
+  },
+  {
+    "ch": "盟",
+    "code": "076df",
+    "grade": 6,
+    "reading": "めい",
+    "jlpt": "N1",
+    "meaning": "alliance",
+    "radical": 108,
+    "strokes": 13
+  },
+  {
+    "ch": "座",
+    "code": "05ea7",
+    "grade": 6,
+    "reading": "すわる",
+    "jlpt": "N3",
+    "meaning": "squat",
+    "radical": 53,
+    "strokes": 10
+  },
+  {
+    "ch": "除",
+    "code": "09664",
+    "grade": 6,
+    "reading": "のぞく",
+    "jlpt": "N3",
+    "meaning": "exclude",
+    "radical": 170,
+    "strokes": 10
+  },
+  {
+    "ch": "降",
+    "code": "0964d",
+    "grade": 6,
+    "reading": "おりる",
+    "jlpt": "N3",
+    "meaning": "descend",
+    "radical": 170,
+    "strokes": 10
+  },
+  {
+    "ch": "並",
+    "code": "04e26",
+    "grade": 6,
+    "reading": "なみ",
+    "jlpt": "N2",
+    "meaning": "row",
+    "radical": 12,
+    "strokes": 8
+  },
+  {
+    "ch": "従",
+    "code": "05f93",
+    "grade": 6,
+    "reading": "したがう",
+    "jlpt": "N1",
+    "meaning": "accompany",
+    "radical": 60,
+    "strokes": 10
+  },
+  {
+    "ch": "危",
+    "code": "05371",
+    "grade": 6,
+    "reading": "あぶない",
+    "jlpt": "N3",
+    "meaning": "dangerous",
+    "radical": 4,
+    "strokes": 6
+  },
+  {
+    "ch": "拡",
+    "code": "062e1",
+    "grade": 6,
+    "reading": "ひろがる",
+    "jlpt": "N2",
+    "meaning": "broaden",
+    "radical": 64,
+    "strokes": 8
+  },
+  {
+    "ch": "就",
+    "code": "05c31",
+    "grade": 6,
+    "reading": "つく",
+    "jlpt": "N1",
+    "meaning": "concerning",
+    "radical": 8,
+    "strokes": 12
+  },
+  {
+    "ch": "異",
+    "code": "07570",
+    "grade": 6,
+    "reading": "こと",
+    "jlpt": "N2",
+    "meaning": "uncommon",
+    "radical": 102,
+    "strokes": 11
+  },
+  {
+    "ch": "将",
+    "code": "05c06",
+    "grade": 6,
+    "reading": "まさに",
+    "jlpt": "N2",
+    "meaning": "leader",
+    "radical": 90,
+    "strokes": 10
+  },
+  {
+    "ch": "厳",
+    "code": "053b3",
+    "grade": 6,
+    "reading": "おごそか",
+    "jlpt": "N1",
+    "meaning": "stern",
+    "radical": 4,
+    "strokes": 17
+  },
+  {
+    "ch": "遺",
+    "code": "0907a",
+    "grade": 6,
+    "reading": "のこす",
+    "jlpt": "N1",
+    "meaning": "bequeath",
+    "radical": 162,
+    "strokes": 15
+  },
+  {
+    "ch": "装",
+    "code": "088c5",
+    "grade": 6,
+    "reading": "よそおう",
+    "jlpt": "N2",
+    "meaning": "attire",
+    "radical": 145,
+    "strokes": 12
+  },
+  {
+    "ch": "諸",
+    "code": "08af8",
+    "grade": 6,
+    "reading": "もろ",
+    "jlpt": "N2",
+    "meaning": "various",
+    "radical": 149,
+    "strokes": 15
+  },
+  {
+    "ch": "亡",
+    "code": "04ea1",
+    "grade": 6,
+    "reading": "ない",
+    "jlpt": "N3",
+    "meaning": "deceased",
+    "radical": 8,
+    "strokes": 3
+  },
+  {
+    "ch": "劇",
+    "code": "05287",
+    "grade": 6,
+    "reading": "げき",
+    "jlpt": "N2",
+    "meaning": "drama",
+    "radical": 4,
+    "strokes": 15
+  },
+  {
+    "ch": "模",
+    "code": "06a21",
+    "grade": 6,
+    "reading": "も",
+    "jlpt": "N1",
+    "meaning": "imitation",
+    "radical": 75,
+    "strokes": 14
+  },
+  {
+    "ch": "宣",
+    "code": "05ba3",
+    "grade": 6,
+    "reading": "のたまう",
+    "jlpt": "N1",
+    "meaning": "proclaim",
+    "radical": 40,
+    "strokes": 9
+  },
+  {
+    "ch": "背",
+    "code": "080cc",
+    "grade": 6,
+    "reading": "せ",
+    "jlpt": "N3",
+    "meaning": "stature",
+    "radical": 130,
+    "strokes": 9
+  },
+  {
+    "ch": "盛",
+    "code": "076db",
+    "grade": 6,
+    "reading": "もる",
+    "jlpt": "N1",
+    "meaning": "boom",
+    "radical": 108,
+    "strokes": 11
+  },
+  {
+    "ch": "皇",
+    "code": "07687",
+    "grade": 6,
+    "reading": "こう",
+    "jlpt": "N1",
+    "meaning": "emperor",
+    "radical": 106,
+    "strokes": 9
+  },
+  {
+    "ch": "臨",
+    "code": "081e8",
+    "grade": 6,
+    "reading": "のぞむ",
+    "jlpt": "N1",
+    "meaning": "look to",
+    "radical": 131,
+    "strokes": 18
+  },
+  {
+    "ch": "署",
+    "code": "07f72",
+    "grade": 6,
+    "reading": "しょ",
+    "jlpt": "N2",
+    "meaning": "signature",
+    "radical": 122,
+    "strokes": 13
+  },
+  {
+    "ch": "源",
+    "code": "06e90",
+    "grade": 6,
+    "reading": "みなもと",
+    "jlpt": "N1",
+    "meaning": "source",
+    "radical": 85,
+    "strokes": 13
+  },
+  {
+    "ch": "創",
+    "code": "05275",
+    "grade": 6,
+    "reading": "つくる",
+    "jlpt": "N1",
+    "meaning": "genesis",
+    "radical": 18,
+    "strokes": 12
+  },
+  {
+    "ch": "障",
+    "code": "0969c",
+    "grade": 6,
+    "reading": "さわる",
+    "jlpt": "N1",
+    "meaning": "hinder",
+    "radical": 170,
+    "strokes": 14
+  },
+  {
+    "ch": "筋",
+    "code": "07b4b",
+    "grade": 6,
+    "reading": "すじ",
+    "jlpt": "N1",
+    "meaning": "muscle",
+    "radical": 118,
+    "strokes": 12
+  },
+  {
+    "ch": "延",
+    "code": "05ef6",
+    "grade": 6,
+    "reading": "のびる",
+    "jlpt": "N2",
+    "meaning": "prolong",
+    "radical": 54,
+    "strokes": 8
+  },
+  {
+    "ch": "乱",
+    "code": "04e71",
+    "grade": 6,
+    "reading": "みだれる",
+    "jlpt": "N2",
+    "meaning": "riot",
+    "radical": 135,
+    "strokes": 7
+  },
+  {
+    "ch": "善",
+    "code": "05584",
+    "grade": 6,
+    "reading": "よい",
+    "jlpt": "N2",
+    "meaning": "virtuous",
+    "radical": 12,
+    "strokes": 12
+  },
+  {
+    "ch": "庁",
+    "code": "05e81",
+    "grade": 6,
+    "reading": "やくしょ",
+    "jlpt": "N2",
+    "meaning": "government office",
+    "radical": 53,
+    "strokes": 5
+  },
+  {
+    "ch": "城",
+    "code": "057ce",
+    "grade": 6,
+    "reading": "しろ",
+    "jlpt": "N2",
+    "meaning": "castle",
+    "radical": 32,
+    "strokes": 9
+  },
+  {
+    "ch": "層",
+    "code": "05c64",
+    "grade": 6,
+    "reading": "そう",
+    "jlpt": "N2",
+    "meaning": "stratum",
+    "radical": 44,
+    "strokes": 14
+  },
+  {
+    "ch": "裏",
+    "code": "088cf",
+    "grade": 6,
+    "reading": "うら",
+    "jlpt": "N2",
+    "meaning": "back",
+    "radical": 8,
+    "strokes": 13
+  },
+  {
+    "ch": "密",
+    "code": "05bc6",
+    "grade": 6,
+    "reading": "ひそか",
+    "jlpt": "N1",
+    "meaning": "secrecy",
+    "radical": 40,
+    "strokes": 11
+  },
+  {
+    "ch": "我",
+    "code": "06211",
+    "grade": 6,
+    "reading": "われ",
+    "jlpt": "N1",
+    "meaning": "ego",
+    "radical": 4,
+    "strokes": 7
+  },
+  {
+    "ch": "勤",
+    "code": "052e4",
+    "grade": 6,
+    "reading": "つとめる",
+    "jlpt": "N3",
+    "meaning": "diligence",
+    "radical": 19,
+    "strokes": 12
+  },
+  {
+    "ch": "幕",
+    "code": "05e55",
+    "grade": 6,
+    "reading": "とばり",
+    "jlpt": "N1",
+    "meaning": "curtain",
+    "radical": 140,
+    "strokes": 13
+  },
+  {
+    "ch": "染",
+    "code": "067d3",
+    "grade": 6,
+    "reading": "そめる",
+    "jlpt": "N1",
+    "meaning": "dye",
+    "radical": 75,
+    "strokes": 9
+  },
+  {
+    "ch": "困",
+    "code": "056f0",
+    "grade": 6,
+    "reading": "こまる",
+    "jlpt": "N3",
+    "meaning": "quandary",
+    "radical": 31,
+    "strokes": 7
+  },
+  {
+    "ch": "傷",
+    "code": "050b7",
+    "grade": 6,
+    "reading": "きず",
+    "jlpt": "N1",
+    "meaning": "wound",
+    "radical": 9,
+    "strokes": 13
+  },
+  {
+    "ch": "著",
+    "code": "08457",
+    "grade": 6,
+    "reading": "あらわす",
+    "jlpt": "N2",
+    "meaning": "renowned",
+    "radical": 140,
+    "strokes": 11
+  },
+  {
+    "ch": "誌",
+    "code": "08a8c",
+    "grade": 6,
+    "reading": "し",
+    "jlpt": "N2",
+    "meaning": "document",
+    "radical": 149,
+    "strokes": 14
+  },
+  {
+    "ch": "秘",
+    "code": "079d8",
+    "grade": 6,
+    "reading": "ひめる",
+    "jlpt": "N1",
+    "meaning": "secret",
+    "radical": 115,
+    "strokes": 10
+  },
+  {
+    "ch": "刻",
+    "code": "0523b",
+    "grade": 6,
+    "reading": "きざむ",
+    "jlpt": "N3",
+    "meaning": "engrave",
+    "radical": 18,
+    "strokes": 8
+  },
+  {
+    "ch": "宇",
+    "code": "05b87",
+    "grade": 6,
+    "reading": "う",
+    "jlpt": "N2",
+    "meaning": "eaves",
+    "radical": 40,
+    "strokes": 6
+  },
+  {
+    "ch": "欲",
+    "code": "06b32",
+    "grade": 6,
+    "reading": "ほっする",
+    "jlpt": "N3",
+    "meaning": "longing",
+    "radical": 150,
+    "strokes": 11
+  },
+  {
+    "ch": "痛",
+    "code": "075db",
+    "grade": 6,
+    "reading": "いたい",
+    "jlpt": "N3",
+    "meaning": "pain",
+    "radical": 104,
+    "strokes": 12
+  },
+  {
+    "ch": "縮",
+    "code": "07e2e",
+    "grade": 6,
+    "reading": "ちぢむ",
+    "jlpt": "N1",
+    "meaning": "shrink",
+    "radical": 120,
+    "strokes": 17
+  },
+  {
+    "ch": "枚",
+    "code": "0679a",
+    "grade": 6,
+    "reading": "まい",
+    "jlpt": "N2",
+    "meaning": "sheet of...",
+    "radical": 75,
+    "strokes": 8
+  },
+  {
+    "ch": "郵",
+    "code": "090f5",
+    "grade": 6,
+    "reading": "ゆう",
+    "jlpt": "N2",
+    "meaning": "mail",
+    "radical": 163,
+    "strokes": 11
+  },
+  {
+    "ch": "探",
+    "code": "063a2",
+    "grade": 6,
+    "reading": "さぐる",
+    "jlpt": "N3",
+    "meaning": "grope",
+    "radical": 64,
+    "strokes": 11
+  },
+  {
+    "ch": "骨",
+    "code": "09aa8",
+    "grade": 6,
+    "reading": "ほね",
+    "jlpt": "N2",
+    "meaning": "skeleton",
+    "radical": 188,
+    "strokes": 10
+  },
+  {
+    "ch": "射",
+    "code": "05c04",
+    "grade": 6,
+    "reading": "いる",
+    "jlpt": "N1",
+    "meaning": "shoot",
+    "radical": 158,
+    "strokes": 10
+  },
+  {
+    "ch": "届",
+    "code": "05c4a",
+    "grade": 6,
+    "reading": "とどける",
+    "jlpt": "N2",
+    "meaning": "deliver",
+    "radical": 44,
+    "strokes": 8
+  },
+  {
+    "ch": "巻",
+    "code": "05dfb",
+    "grade": 6,
+    "reading": "まく",
+    "jlpt": "N2",
+    "meaning": "scroll",
+    "radical": 49,
+    "strokes": 9
+  },
+  {
+    "ch": "揮",
+    "code": "063ee",
+    "grade": 6,
+    "reading": "ふるう",
+    "jlpt": "N1",
+    "meaning": "brandish",
+    "radical": 64,
+    "strokes": 12
+  },
+  {
+    "ch": "閉",
+    "code": "09589",
+    "grade": 6,
+    "reading": "とじる",
+    "jlpt": "N3",
+    "meaning": "closed",
+    "radical": 169,
+    "strokes": 11
+  },
+  {
+    "ch": "賃",
+    "code": "08cc3",
+    "grade": 6,
+    "reading": "ちん",
+    "jlpt": "N2",
+    "meaning": "fare",
+    "radical": 154,
+    "strokes": 13
+  },
+  {
+    "ch": "貴",
+    "code": "08cb4",
+    "grade": 6,
+    "reading": "たっとい",
+    "jlpt": "N1",
+    "meaning": "precious",
+    "radical": 154,
+    "strokes": 12
+  },
+  {
+    "ch": "暮",
+    "code": "066ae",
+    "grade": 6,
+    "reading": "くれる",
+    "jlpt": "N3",
+    "meaning": "evening",
+    "radical": 140,
+    "strokes": 14
+  },
+  {
+    "ch": "簡",
+    "code": "07c21",
+    "grade": 6,
+    "reading": "えらぶ",
+    "jlpt": "N2",
+    "meaning": "simplicity",
+    "radical": 118,
+    "strokes": 18
+  },
+  {
+    "ch": "納",
+    "code": "07d0d",
+    "grade": 6,
+    "reading": "おさめる",
+    "jlpt": "N1",
+    "meaning": "settlement",
+    "radical": 120,
+    "strokes": 10
+  },
+  {
+    "ch": "樹",
+    "code": "06a39",
+    "grade": 6,
+    "reading": "き",
+    "jlpt": "N1",
+    "meaning": "timber",
+    "radical": 75,
+    "strokes": 16
+  },
+  {
+    "ch": "臓",
+    "code": "081d3",
+    "grade": 6,
+    "reading": "はらわた",
+    "jlpt": "N2",
+    "meaning": "entrails",
+    "radical": 130,
+    "strokes": 19
+  },
+  {
+    "ch": "律",
+    "code": "05f8b",
+    "grade": 6,
+    "reading": "りつ",
+    "jlpt": "N2",
+    "meaning": "rhythm",
+    "radical": 60,
+    "strokes": 9
+  },
+  {
+    "ch": "至",
+    "code": "081f3",
+    "grade": 6,
+    "reading": "いたる",
+    "jlpt": "N1",
+    "meaning": "climax",
+    "radical": 133,
+    "strokes": 6
+  },
+  {
+    "ch": "宗",
+    "code": "05b97",
+    "grade": 6,
+    "reading": "むね",
+    "jlpt": "N1",
+    "meaning": "religion",
+    "radical": 40,
+    "strokes": 8
+  },
+  {
+    "ch": "宙",
+    "code": "05b99",
+    "grade": 6,
+    "reading": "ちゅう",
+    "jlpt": "N2",
+    "meaning": "mid-air",
+    "radical": 40,
+    "strokes": 8
+  },
+  {
+    "ch": "操",
+    "code": "064cd",
+    "grade": 6,
+    "reading": "みさお",
+    "jlpt": "N2",
+    "meaning": "maneuver",
+    "radical": 64,
+    "strokes": 16
+  },
+  {
+    "ch": "誕",
+    "code": "08a95",
+    "grade": 6,
+    "reading": "たん",
+    "jlpt": "N1",
+    "meaning": "nativity",
+    "radical": 149,
+    "strokes": 15
+  },
+  {
+    "ch": "孝",
+    "code": "05b5d",
+    "grade": 6,
+    "reading": "こう",
+    "jlpt": "N1",
+    "meaning": "filial piety",
+    "radical": 24,
+    "strokes": 7
+  },
+  {
+    "ch": "純",
+    "code": "07d14",
+    "grade": 6,
+    "reading": "じゅん",
+    "jlpt": "N2",
+    "meaning": "genuine",
+    "radical": 120,
+    "strokes": 10
+  },
+  {
+    "ch": "訳",
+    "code": "08a33",
+    "grade": 6,
+    "reading": "わけ",
+    "jlpt": "N1",
+    "meaning": "translate",
+    "radical": 149,
+    "strokes": 11
+  },
+  {
+    "ch": "吸",
+    "code": "05438",
+    "grade": 6,
+    "reading": "すう",
+    "jlpt": "N3",
+    "meaning": "suck",
+    "radical": 30,
+    "strokes": 6
+  },
+  {
+    "ch": "看",
+    "code": "0770b",
+    "grade": 6,
+    "reading": "みる",
+    "jlpt": "N2",
+    "meaning": "watch over",
+    "radical": 4,
+    "strokes": 9
+  },
+  {
+    "ch": "奏",
+    "code": "0594f",
+    "grade": 6,
+    "reading": "かなでる",
+    "jlpt": "N1",
+    "meaning": "play music",
+    "radical": 37,
+    "strokes": 9
+  },
+  {
+    "ch": "翌",
+    "code": "07fcc",
+    "grade": 6,
+    "reading": "よく",
+    "jlpt": "N2",
+    "meaning": "the following",
+    "radical": 124,
+    "strokes": 11
+  },
+  {
+    "ch": "片",
+    "code": "07247",
+    "grade": 6,
+    "reading": "かた",
+    "jlpt": "N2",
+    "meaning": "one-sided",
+    "radical": 91,
+    "strokes": 4
+  },
+  {
+    "ch": "郷",
+    "code": "090f7",
+    "grade": 6,
+    "reading": "さと",
+    "jlpt": "N1",
+    "meaning": "home town",
+    "radical": 163,
+    "strokes": 11
+  },
+  {
+    "ch": "敬",
+    "code": "0656c",
+    "grade": 6,
+    "reading": "うやまう",
+    "jlpt": "N2",
+    "meaning": "awe",
+    "radical": 66,
+    "strokes": 12
+  },
+  {
+    "ch": "泉",
+    "code": "06cc9",
+    "grade": 6,
+    "reading": "いずみ",
+    "jlpt": "N2",
+    "meaning": "spring",
+    "radical": 106,
+    "strokes": 9
+  },
+  {
+    "ch": "己",
+    "code": "05df1",
+    "grade": 6,
+    "reading": "おのれ",
+    "jlpt": "N1",
+    "meaning": "self",
+    "radical": 49,
+    "strokes": 3
+  },
+  {
+    "ch": "忠",
+    "code": "05fe0",
+    "grade": 6,
+    "reading": "ちゅう",
+    "jlpt": "N1",
+    "meaning": "loyalty",
+    "radical": 61,
+    "strokes": 8
+  },
+  {
+    "ch": "沿",
+    "code": "06cbf",
+    "grade": 6,
+    "reading": "そう",
+    "jlpt": "N1",
+    "meaning": "run alongside",
+    "radical": 85,
+    "strokes": 8
+  },
+  {
+    "ch": "誠",
+    "code": "08aa0",
+    "grade": 6,
+    "reading": "まこと",
+    "jlpt": "N1",
+    "meaning": "sincerity",
+    "radical": 149,
+    "strokes": 13
+  },
+  {
+    "ch": "忘",
+    "code": "05fd8",
+    "grade": 6,
+    "reading": "わすれる",
+    "jlpt": "N3",
+    "meaning": "forget",
+    "radical": 8,
+    "strokes": 7
+  },
+  {
+    "ch": "俳",
+    "code": "04ff3",
+    "grade": 6,
+    "reading": "はい",
+    "jlpt": "N1",
+    "meaning": "haiku",
+    "radical": 9,
+    "strokes": 10
+  },
+  {
+    "ch": "宝",
+    "code": "05b9d",
+    "grade": 6,
+    "reading": "たから",
+    "jlpt": "N2",
+    "meaning": "treasure",
+    "radical": 40,
+    "strokes": 8
+  },
+  {
+    "ch": "胸",
+    "code": "080f8",
+    "grade": 6,
+    "reading": "むね",
+    "jlpt": "N2",
+    "meaning": "bosom",
+    "radical": 130,
+    "strokes": 10
+  },
+  {
+    "ch": "砂",
+    "code": "07802",
+    "grade": 6,
+    "reading": "すな",
+    "jlpt": "N2",
+    "meaning": "sand",
+    "radical": 112,
+    "strokes": 9
+  },
+  {
+    "ch": "誤",
+    "code": "08aa4",
+    "grade": 6,
+    "reading": "あやまる",
+    "jlpt": "N3",
+    "meaning": "mistake",
+    "radical": 149,
+    "strokes": 14
+  },
+  {
+    "ch": "聖",
+    "code": "08056",
+    "grade": 6,
+    "reading": "ひじり",
+    "jlpt": "N1",
+    "meaning": "holy",
+    "radical": 96,
+    "strokes": 13
+  },
+  {
+    "ch": "洗",
+    "code": "06d17",
+    "grade": 6,
+    "reading": "あらう",
+    "jlpt": "N4",
+    "meaning": "wash",
+    "radical": 85,
+    "strokes": 9
+  },
+  {
+    "ch": "尊",
+    "code": "05c0a",
+    "grade": 6,
+    "reading": "たっとい",
+    "jlpt": "N2",
+    "meaning": "revered",
+    "radical": 12,
+    "strokes": 12
+  },
+  {
+    "ch": "窓",
+    "code": "07a93",
+    "grade": 6,
+    "reading": "まど",
+    "jlpt": "N3",
+    "meaning": "window",
+    "radical": 116,
+    "strokes": 11
+  },
+  {
+    "ch": "幼",
+    "code": "05e7c",
+    "grade": 6,
+    "reading": "おさない",
+    "jlpt": "N2",
+    "meaning": "infancy",
+    "radical": 52,
+    "strokes": 5
+  },
+  {
+    "ch": "潮",
+    "code": "06f6e",
+    "grade": 6,
+    "reading": "しお",
+    "jlpt": "N1",
+    "meaning": "tide",
+    "radical": 85,
+    "strokes": 15
+  },
+  {
+    "ch": "鋼",
+    "code": "092fc",
+    "grade": 6,
+    "reading": "はがね",
+    "jlpt": "N1",
+    "meaning": "steel",
+    "radical": 167,
+    "strokes": 16
+  },
+  {
+    "ch": "縦",
+    "code": "07e26",
+    "grade": 6,
+    "reading": "たて",
+    "jlpt": "N1",
+    "meaning": "vertical",
+    "radical": 120,
+    "strokes": 16
+  },
+  {
+    "ch": "捨",
+    "code": "06368",
+    "grade": 6,
+    "reading": "すてる",
+    "jlpt": "N2",
+    "meaning": "discard",
+    "radical": 64,
+    "strokes": 11
+  },
+  {
+    "ch": "腹",
+    "code": "08179",
+    "grade": 6,
+    "reading": "はら",
+    "jlpt": "N3",
+    "meaning": "abdomen",
+    "radical": 130,
+    "strokes": 13
+  },
+  {
+    "ch": "乳",
+    "code": "04e73",
+    "grade": 6,
+    "reading": "ちち",
+    "jlpt": "N2",
+    "meaning": "milk",
+    "radical": 5,
+    "strokes": 8
+  },
+  {
+    "ch": "紅",
+    "code": "07d05",
+    "grade": 6,
+    "reading": "べに",
+    "jlpt": "N2",
+    "meaning": "crimson",
+    "radical": 120,
+    "strokes": 9
+  },
+  {
+    "ch": "冊",
+    "code": "0518a",
+    "grade": 6,
+    "reading": "ふみ",
+    "jlpt": "N2",
+    "meaning": "tome",
+    "radical": 2,
+    "strokes": 5
+  },
+  {
+    "ch": "仁",
+    "code": "04ec1",
+    "grade": 6,
+    "reading": "じん",
+    "jlpt": "N1",
+    "meaning": "humanity",
+    "radical": 9,
+    "strokes": 4
+  },
+  {
+    "ch": "卵",
+    "code": "05375",
+    "grade": 6,
+    "reading": "たまご",
+    "jlpt": "N2",
+    "meaning": "egg",
+    "radical": 4,
+    "strokes": 7
+  },
+  {
+    "ch": "干",
+    "code": "05e72",
+    "grade": 6,
+    "reading": "ほす",
+    "jlpt": "N2",
+    "meaning": "dry",
+    "radical": 51,
+    "strokes": 3
+  },
+  {
+    "ch": "頂",
+    "code": "09802",
+    "grade": 6,
+    "reading": "いただく",
+    "jlpt": "N3",
+    "meaning": "place on the head",
+    "radical": 181,
+    "strokes": 11
+  },
+  {
+    "ch": "穴",
+    "code": "07a74",
+    "grade": 6,
+    "reading": "あな",
+    "jlpt": "N1",
+    "meaning": "hole",
+    "radical": 116,
+    "strokes": 5
+  },
+  {
+    "ch": "暖",
+    "code": "06696",
+    "grade": 6,
+    "reading": "あたたか",
+    "jlpt": "N2",
+    "meaning": "warmth",
+    "radical": 72,
+    "strokes": 13
+  },
+  {
+    "ch": "朗",
+    "code": "06717",
+    "grade": 6,
+    "reading": "ほがらか",
+    "jlpt": "N1",
+    "meaning": "melodious",
+    "radical": 130,
+    "strokes": 10
+  },
+  {
+    "ch": "肺",
+    "code": "080ba",
+    "grade": 6,
+    "reading": "はい",
+    "jlpt": "N1",
+    "meaning": "lungs",
+    "radical": 130,
+    "strokes": 9
+  },
+  {
+    "ch": "熟",
+    "code": "0719f",
+    "grade": 6,
+    "reading": "うれる",
+    "jlpt": "N1",
+    "meaning": "mellow",
+    "radical": 86,
+    "strokes": 15
+  },
+  {
+    "ch": "晩",
+    "code": "06669",
+    "grade": 6,
+    "reading": "ばん",
+    "jlpt": "N3",
+    "meaning": "nightfall",
+    "radical": 72,
+    "strokes": 12
+  },
+  {
+    "ch": "陛",
+    "code": "0965b",
+    "grade": 6,
+    "reading": "へい",
+    "jlpt": "N1",
+    "meaning": "highness",
+    "radical": 170,
+    "strokes": 10
+  },
+  {
+    "ch": "拝",
+    "code": "062dd",
+    "grade": 6,
+    "reading": "おがむ",
+    "jlpt": "N2",
+    "meaning": "worship",
+    "radical": 64,
+    "strokes": 8
+  },
+  {
+    "ch": "棒",
+    "code": "068d2",
+    "grade": 6,
+    "reading": "ぼう",
+    "jlpt": "N2",
+    "meaning": "rod",
+    "radical": 75,
+    "strokes": 12
+  },
+  {
+    "ch": "糖",
+    "code": "07cd6",
+    "grade": 6,
+    "reading": "とう",
+    "jlpt": "N1",
+    "meaning": "sugar",
+    "radical": 119,
+    "strokes": 16
+  },
+  {
+    "ch": "覧",
+    "code": "089a7",
+    "grade": 6,
+    "reading": "みる",
+    "jlpt": "N1",
+    "meaning": "perusal",
+    "radical": 147,
+    "strokes": 17
+  },
+  {
+    "ch": "奮",
+    "code": "0596e",
+    "grade": 6,
+    "reading": "ふるう",
+    "jlpt": "N1",
+    "meaning": "stirred up",
+    "radical": 37,
+    "strokes": 16
+  },
+  {
+    "ch": "蒸",
+    "code": "084b8",
+    "grade": 6,
+    "reading": "むす",
+    "jlpt": "N2",
+    "meaning": "steam",
+    "radical": 140,
+    "strokes": 13
+  },
+  {
+    "ch": "后",
+    "code": "0540e",
+    "grade": 6,
+    "reading": "きさき",
+    "jlpt": "N1",
+    "meaning": "empress",
+    "radical": 4,
+    "strokes": 6
+  },
+  {
+    "ch": "班",
+    "code": "073ed",
+    "grade": 6,
+    "reading": "はん",
+    "jlpt": "N1",
+    "meaning": "squad",
+    "radical": 96,
+    "strokes": 10
+  },
+  {
+    "ch": "詞",
+    "code": "08a5e",
+    "grade": 6,
+    "reading": "し",
+    "jlpt": "N2",
+    "meaning": "part of speech",
+    "radical": 149,
+    "strokes": 12
+  },
+  {
+    "ch": "寸",
+    "code": "05bf8",
+    "grade": 6,
+    "reading": "すん",
+    "jlpt": "N1",
+    "meaning": "measurement",
+    "radical": 41,
+    "strokes": 3
+  },
+  {
+    "ch": "机",
+    "code": "0673a",
+    "grade": 6,
+    "reading": "つくえ",
+    "jlpt": "N2",
+    "meaning": "desk",
+    "radical": 75,
+    "strokes": 6
+  },
+  {
+    "ch": "磁",
+    "code": "078c1",
+    "grade": 6,
+    "reading": "じ",
+    "jlpt": "N1",
+    "meaning": "magnet",
+    "radical": 112,
+    "strokes": 14
+  },
+  {
+    "ch": "灰",
+    "code": "07070",
+    "grade": 6,
+    "reading": "はい",
+    "jlpt": "N2",
+    "meaning": "ashes",
+    "radical": 27,
+    "strokes": 6
+  },
+  {
+    "ch": "垂",
+    "code": "05782",
+    "grade": 6,
+    "reading": "たれる",
+    "jlpt": "N1",
+    "meaning": "droop",
+    "radical": 4,
+    "strokes": 8
+  },
+  {
+    "ch": "穀",
+    "code": "07a40",
+    "grade": 6,
+    "reading": "こく",
+    "jlpt": "N1",
+    "meaning": "cereals",
+    "radical": 79,
+    "strokes": 14
+  },
+  {
+    "ch": "絹",
+    "code": "07d79",
+    "grade": 6,
+    "reading": "きぬ",
+    "jlpt": "N1",
+    "meaning": "silk",
+    "radical": 120,
+    "strokes": 13
+  },
+  {
+    "ch": "尺",
+    "code": "05c3a",
+    "grade": 6,
+    "reading": "しゃく",
+    "jlpt": "N1",
+    "meaning": "shaku",
+    "radical": 44,
+    "strokes": 4
+  },
+  {
+    "ch": "蚕",
+    "code": "08695",
+    "grade": 6,
+    "reading": "かいこ",
+    "jlpt": "N1",
+    "meaning": "silkworm",
+    "radical": 1,
+    "strokes": 10
+  }
+]
