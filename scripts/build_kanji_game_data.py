@@ -131,11 +131,29 @@ def parse_kanji(code):
     # element="冂"> group). In that case, present the kanji's own character
     # as the clickable button instead of a partial radical name.
     root_char = char_root.get(f"{{{KVG_NS}}}element")
-    if len(components) == 1 and root_char:
-        c = components[0]
-        if set(c["strokes"]) == set(all_sids) and c["element"] != root_char:
-            c["element"] = root_char
-            c["original"] = root_char
+    all_sids_set = set(all_sids)
+    if components and root_char:
+        # Case A: single component covering everything
+        if len(components) == 1:
+            c = components[0]
+            if set(c["strokes"]) == all_sids_set and c["element"] != root_char:
+                c["element"] = root_char
+                c["original"] = root_char
+        # Case B: multiple components but they all share the SAME element
+        # (and together cover all strokes), e.g. 母 = 毋 part1 + 毋 part2
+        # — collapse them to a single self-named component.
+        elif len({c["element"] for c in components}) == 1:
+            shared_elem = components[0]["element"]
+            covered = set()
+            for c in components:
+                covered.update(c["strokes"])
+            if covered == all_sids_set and shared_elem != root_char:
+                components = [{
+                    "element": root_char,
+                    "original": root_char,
+                    "position": "",
+                    "strokes": sorted(all_sids_set),
+                }]
 
     return {"strokes": strokes, "components": components}
 
