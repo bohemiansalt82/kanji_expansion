@@ -125,6 +125,18 @@ def parse_kanji(code):
         if best is not None:
             best["strokes"] = sorted(set(best["strokes"]) | {orphan_sid})
 
+    # If a kanji has exactly 1 component that covers ALL strokes AND the
+    # component's element isn't the kanji itself, this means KanjiVG didn't
+    # decompose it meaningfully (e.g. 円 — all 4 strokes inside one <g
+    # element="冂"> group). In that case, present the kanji's own character
+    # as the clickable button instead of a partial radical name.
+    root_char = char_root.get(f"{{{KVG_NS}}}element")
+    if len(components) == 1 and root_char:
+        c = components[0]
+        if set(c["strokes"]) == set(all_sids) and c["element"] != root_char:
+            c["element"] = root_char
+            c["original"] = root_char
+
     return {"strokes": strokes, "components": components}
 
 
