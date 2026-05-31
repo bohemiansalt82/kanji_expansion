@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>한자 부수 게임 — Kanji Radical Game</title>
+<style>
+  @font-face {
+    font-family: 'Noto Sans Mono CJK JP';
+    src: url('https://cdn.jsdelivr.net/gh/notofonts/noto-cjk@main/Sans/Mono/NotoSansMonoCJKjp-Regular.otf') format('opentype');
+    font-weight: 400; font-display: swap;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&display=swap');
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; height: 100%; }
+  body {
+    font-family: 'Noto Sans Mono CJK JP', 'Noto Sans JP', 'Apple SD Gothic Neo',
+                 'Malgun Gothic', sans-serif;
+    color: #1a1a1a;
+    background: linear-gradient(180deg, #faf9f7 0%, #efeee9 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 16px;
+  }
+
+  .app {
+    width: 100%;
+    max-width: 720px;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 18px;
+  }
+  .title {
+    font-size: 16pt;
+    font-weight: 800;
+    margin: 0;
+  }
+  .title a { color: #888; font-size: 9pt; font-weight: 400; text-decoration: none; }
+  .title a:hover { color: #b00020; }
+
+  /* Level selector */
+  .levels {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 18px;
+  }
+  .level-btn {
+    flex: 1;
+    padding: 10px 0;
+    border: 2px solid #ccc;
+    background: #fff;
+    border-radius: 8px;
+    font-size: 12pt;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: inherit;
+    color: #555;
+    transition: all .12s;
+  }
+  .level-btn:hover { border-color: #888; }
+  .level-btn.active { color: #fff; }
+  .level-btn.n5.active { background: #2e7d32; border-color: #2e7d32; }
+  .level-btn.n4.active { background: #558b2f; border-color: #558b2f; }
+  .level-btn.n3.active { background: #ef6c00; border-color: #ef6c00; }
+  .level-btn.n2.active { background: #c62828; border-color: #c62828; }
+  .level-btn.n1.active { background: #6a1b9a; border-color: #6a1b9a; }
+
+  /* Stats bar */
+  .stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 8px 14px;
+    margin-bottom: 16px;
+    font-size: 11pt;
+  }
+  .stat-correct { color: #2e7d32; font-weight: 700; }
+  .stat-wrong   { color: #c62828; font-weight: 700; }
+  .stat-progress { color: #555; }
+
+  /* Kanji display card */
+  .kanji-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 18px 18px 12px;
+    text-align: center;
+    margin-bottom: 14px;
+  }
+  .kanji-wrap {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 8px;
+    background: #fafafa;
+    border: 1.5px solid #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .kanji-svg { width: 100%; height: 100%; display: block; }
+
+  .cross { stroke: #ccc; stroke-width: 0.5; stroke-dasharray: 2,2; fill: none; }
+  .stroke {
+    stroke: #c4c4c4;
+    stroke-width: 4;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: stroke .25s, opacity .25s;
+  }
+  .stroke.revealed {
+    stroke: #000;
+    stroke-width: 4.2;
+  }
+  .kanji-meta {
+    font-size: 10.5pt;
+    color: #555;
+    margin: 6px 0 0 0;
+  }
+  .km-hidden { color: #bbb; }
+  .km-reading { font-weight: 700; color: #222; }
+  .km-meaning { text-transform: capitalize; }
+  .km-korean { color: #b00020; }
+  .km-sep { color: #ccc; margin: 0 4px; }
+
+  /* Emoji buttons */
+  .options {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  .opt {
+    position: relative;
+    aspect-ratio: 1 / 1;
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    font-size: 30px;
+    font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji',
+                 'Noto Sans Mono CJK JP', sans-serif;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .12s;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .opt:hover { border-color: #999; transform: translateY(-1px); }
+  .opt.correct {
+    border-color: #2e7d32;
+    background: #e8f5e9;
+  }
+  .opt.wrong {
+    border-color: #c62828;
+    background: #ffebee;
+  }
+  .opt:disabled { cursor: default; transform: none; }
+  /* Speech bubble */
+  .bubble {
+    position: absolute;
+    bottom: calc(100% + 6px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    color: #111;
+    border: 1.5px solid #333;
+    border-radius: 6px;
+    padding: 3px 8px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Noto Sans Mono CJK JP', 'Noto Sans JP', sans-serif;
+    white-space: nowrap;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    pointer-events: none;
+    z-index: 10;
+  }
+  .bubble::after {
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 7px solid #333;
+  }
+  .bubble::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #fff;
+    z-index: 1;
+  }
+  /* Text-only option (no emoji) */
+  .opt.text-only { font-size: 22px; font-weight: 700; }
+
+  /* Controls */
+  .controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px 14px;
+  }
+  .next-btn {
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 12pt;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .next-btn:hover { background: #1565c0; }
+  .next-btn:disabled { background: #ccc; cursor: not-allowed; }
+  .auto-label {
+    font-size: 10.5pt;
+    color: #555;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .auto-label input { transform: scale(1.15); }
+
+  /* Loading / start */
+  .loading, .start-msg {
+    text-align: center;
+    padding: 40px 20px;
+    color: #888;
+    font-size: 11pt;
+  }
+  .start-msg { font-size: 12pt; color: #555; }
+  .start-msg b { color: #111; }
+
+  /* Level complete dialog */
+  .complete {
+    background: #fff;
+    border: 2px solid #b00020;
+    border-radius: 12px;
+    padding: 24px;
+    text-align: center;
+    margin: 16px 0;
+  }
+  .complete h2 { margin: 0 0 12px 0; color: #b00020; font-size: 18pt; }
+  .complete .summary { font-size: 13pt; color: #333; margin-bottom: 16px; }
+  .complete .pct { font-size: 32pt; font-weight: 800; color: #2e7d32; }
+  .restart-btn {
+    background: #555;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 12pt;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: inherit;
+    margin-top: 4px;
+  }
+
+  footer {
+    margin-top: 20px;
+    font-size: 9pt;
+    color: #999;
+    text-align: center;
+  }
+  footer a { color: #888; }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <header>
+    <h1 class="title">漢字 부수 게임 <a href="./">← 워크북 목록</a></h1>
+  </header>
+
+  <div class="levels" id="levels">
+    <button class="level-btn n5" data-lv="N5">N5</button>
+    <button class="level-btn n4" data-lv="N4">N4</button>
+    <button class="level-btn n3" data-lv="N3">N3</button>
+    <button class="level-btn n2" data-lv="N2">N2</button>
+    <button class="level-btn n1" data-lv="N1">N1</button>
+  </div>
+
+  <div id="board">
+    <div class="start-msg">
+      위에서 <b>JLPT 레벨</b>을 선택해 시작하세요.<br><br>
+      한자를 보고 <b>구성 부수에 해당하는 이모티콘</b>을 클릭하세요.<br>
+      클릭하면 한자의 해당 부분이 진해지고, 그 이모티콘이 가리키는 부수가 말풍선으로 표시됩니다.
+    </div>
+  </div>
+
+  <footer>
+    획 데이터: <a href="https://kanjivg.tagaini.net/" target="_blank">KanjiVG</a> (CC BY-SA 3.0)
+  </footer>
+
+</div>
+
+<script>
+// ============================================================
+// EMOJI MAP: kanji-element (radical/component) → emoji
+// ============================================================
+const EMOJI = {
+  // People & body
+  "人":"🧍", "亻":"🧍", "⺅":"🧍",
+  "女":"👩",
+  "子":"👶",
+  "父":"👨",
+  "心":"❤️", "忄":"❤️", "⺗":"❤️",
+  "目":"👁",
+  "口":"👄",
+  "耳":"👂",
+  "鼻":"👃",
+  "手":"✋", "扌":"✋",
+  "足":"🦶",
+  "齒":"🦷", "歯":"🦷",
+  "骨":"🦴",
+  "髟":"💇",
+  "頁":"🗣",
+  "首":"🧠",
+  "舌":"👅",
+  "毛":"🪶",
+  "肉":"🍖", "⺝":"🍖",
+
+  // Nature
+  "木":"🌳",
+  "竹":"🎋", "⺮":"🎋",
+  "米":"🍚",
+  "禾":"🌾",
+  "麥":"🌾", "麦":"🌾",
+  "艸":"🌿", "艹":"🌿", "⺾":"🌿",
+  "水":"💧", "氵":"💧", "氺":"💧",
+  "火":"🔥", "灬":"🔥",
+  "日":"☀️",
+  "月":"🌙",
+  "雨":"☔",
+  "風":"🌬️",
+  "山":"⛰️",
+  "巛":"🌊", "川":"🌊",
+  "石":"🪨",
+  "土":"🟫",
+  "田":"🟩",
+  "气":"💨",
+  "玉":"💎", "王":"👑",
+  "金":"🪙", "釒":"🪙",
+  "夕":"🌆",
+  "花":"🌸",
+
+  // Animals
+  "馬":"🐴",
+  "牛":"🐂",
+  "羊":"🐑",
+  "犬":"🐶", "犭":"🐶",
+  "虫":"🐛",
+  "鳥":"🐦", "隹":"🐦",
+  "魚":"🐟",
+  "鹿":"🦌",
+  "龍":"🐉", "竜":"🐉",
+  "龜":"🐢",
+  "豕":"🐷",
+  "羽":"🪶",
+  "貝":"🐚",
+
+  // Actions / tools
+  "言":"💬", "讠":"💬",
+  "走":"🏃",
+  "行":"🚶", "彳":"🚶",
+  "食":"🍱", "飠":"🍱",
+  "見":"👀",
+  "立":"📏",
+  "力":"💪",
+  "刀":"🔪", "刂":"🔪",
+  "弓":"🏹",
+  "矢":"🎯",
+  "戈":"⚔️",
+  "斤":"🪓",
+  "飛":"✈️",
+  "用":"🔧",
+
+  // Things / culture
+  "車":"🚗",
+  "舟":"⛵",
+  "衣":"👕", "衤":"👕",
+  "糸":"🧵", "纟":"🧵",
+  "巾":"🧣",
+  "皿":"🍽",
+  "酉":"🍶",
+  "缶":"🥫",
+  "示":"⛩", "礻":"⛩",
+
+  // Places / buildings
+  "宀":"🏠",
+  "广":"🏛",
+  "門":"🚪",
+  "穴":"🕳",
+  "里":"🏘",
+  "阝":"🏘",
+};
+
+// ============================================================
+// GAME STATE
+// ============================================================
+const state = {
+  data: null,                    // full data array
+  level: null,                   // current JLPT level
+  pool: [],                      // kanji array for level
+  order: [],                     // shuffled indices
+  idx: 0,                        // current index in order
+  current: null,                 // current kanji object
+  currentComponents: [],         // unique components (after dedup)
+  options: [],                   // 10 button options
+  optionState: [],               // 'unclicked' | 'correct' | 'wrong'
+  revealedStrokes: new Set(),
+  remainingCorrect: 0,
+  correct: 0,
+  wrong: 0,
+  autoSkip: false,
+  autoSkipTimer: null,
+};
+
+// ============================================================
+// HELPERS
+// ============================================================
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+function randomFrom(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+
+// Build a distractor pool of all known elements that appear across kanji
+let DISTRACTOR_POOL = [];
+function buildDistractorPool() {
+  const set = new Set();
+  for (const k of state.data) {
+    for (const c of k.components) {
+      set.add(c.element);
+      if (c.original && c.original !== c.element) set.add(c.original);
+    }
+  }
+  DISTRACTOR_POOL = [...set];
+}
+
+// Normalize an element string (so 人 and 亻 are treated as same answer)
+function normalizeElement(el) {
+  // If emoji map treats variants as same, we still need the visual char.
+  // For answer matching, we use the literal kvg:element string from the kanji.
+  return el;
+}
+
+// Pick 10 unique element strings: include the kanji's components + distractors
+function pickOptions(kanji) {
+  // De-dup kanji's components by element string
+  const seen = new Set();
+  const required = [];
+  for (const c of kanji.components) {
+    if (!seen.has(c.element)) {
+      seen.add(c.element);
+      required.push(c.element);
+    }
+  }
+  const banned = new Set(required);
+  // Add distractors until 10
+  const pool = DISTRACTOR_POOL.filter(e => !banned.has(e));
+  const distractors = shuffle(pool).slice(0, Math.max(0, 10 - required.length));
+  const all = shuffle([...required, ...distractors]).slice(0, 10);
+  return all;
+}
+
+// ============================================================
+// RENDER
+// ============================================================
+function renderKanji() {
+  const k = state.current;
+  const w = 109;
+  let svgPaths = '';
+  for (const s of k.strokes) {
+    const cls = state.revealedStrokes.has(s.id) ? 'stroke revealed' : 'stroke';
+    svgPaths += `<path class="${cls}" data-sid="${s.id}" d="${s.d}"/>`;
+  }
+  return `
+    <div class="kanji-card">
+      <div class="kanji-wrap">
+        <svg class="kanji-svg" viewBox="0 0 ${w} ${w}" preserveAspectRatio="xMidYMid meet">
+          <line class="cross" x1="${w/2}" y1="2" x2="${w/2}" y2="${w-2}"/>
+          <line class="cross" x1="2" y1="${w/2}" x2="${w-2}" y2="${w/2}"/>
+          ${svgPaths}
+        </svg>
+      </div>
+      <div class="kanji-meta" id="meta">
+        <span class="km-hidden">— 부수를 모두 맞추면 정보가 표시됩니다 —</span>
+      </div>
+    </div>
+  `;
+}
+
+function renderMeta(revealed) {
+  const k = state.current;
+  const el = document.getElementById('meta');
+  if (!el) return;
+  if (!revealed) {
+    el.innerHTML = `<span class="km-hidden">— 부수를 모두 맞추면 정보가 표시됩니다 —</span>`;
+    return;
+  }
+  el.innerHTML = `
+    <span class="km-reading">${k.reading || '—'}</span>
+    <span class="km-sep">·</span>
+    <span class="km-meaning">${k.meaning || ''}</span>
+    ${k.korean ? `<span class="km-sep">·</span><span class="km-korean">${k.korean}</span>` : ''}
+  `;
+}
+
+function renderOptions() {
+  let html = '<div class="options" id="options">';
+  state.options.forEach((el, i) => {
+    const emoji = EMOJI[el];
+    const cls = state.optionState[i];
+    const body = emoji
+      ? emoji
+      : `<span>${el}</span>`;
+    const isText = !emoji;
+    let bubbleHtml = '';
+    if (cls === 'correct' || cls === 'wrong') {
+      bubbleHtml = `<span class="bubble">${el}</span>`;
+    }
+    html += `
+      <button class="opt ${cls} ${isText?'text-only':''}" data-idx="${i}" ${cls!=='unclicked'?'disabled':''}>
+        ${bubbleHtml}
+        ${body}
+      </button>
+    `;
+  });
+  html += '</div>';
+  return html;
+}
+
+function renderStats() {
+  return `
+    <div class="stats">
+      <span class="stat-correct">정답 ${state.correct}</span>
+      <span class="stat-wrong">오답 ${state.wrong}</span>
+      <span class="stat-progress">${state.idx + 1} / ${state.pool.length} (${state.level})</span>
+    </div>
+  `;
+}
+
+function renderControls() {
+  return `
+    <div class="controls">
+      <button class="next-btn" id="nextBtn">다음 →</button>
+      <label class="auto-label">
+        <input type="checkbox" id="autoSkip" ${state.autoSkip ? 'checked' : ''}>
+        Auto-skip (정답 다 맞추면 자동 진행)
+      </label>
+    </div>
+  `;
+}
+
+function renderBoard() {
+  const board = document.getElementById('board');
+  board.innerHTML = renderStats() + renderKanji() + renderOptions() + renderControls();
+  attachListeners();
+}
+
+// ============================================================
+// EVENT HANDLERS
+// ============================================================
+function attachListeners() {
+  document.getElementById('options').addEventListener('click', onOptionClick);
+  document.getElementById('nextBtn').addEventListener('click', nextRound);
+  document.getElementById('autoSkip').addEventListener('change', e => {
+    state.autoSkip = e.target.checked;
+  });
+}
+
+function onOptionClick(e) {
+  const btn = e.target.closest('.opt');
+  if (!btn) return;
+  const idx = parseInt(btn.dataset.idx);
+  if (state.optionState[idx] !== 'unclicked') return;
+  const elementChar = state.options[idx];
+
+  // Find matching component(s) in current kanji
+  const matches = state.current.components.filter(c => c.element === elementChar);
+  if (matches.length > 0) {
+    // Correct!
+    state.optionState[idx] = 'correct';
+    state.correct++;
+    let anyNew = false;
+    for (const c of matches) {
+      for (const sid of c.strokes) {
+        if (!state.revealedStrokes.has(sid)) {
+          state.revealedStrokes.add(sid);
+          anyNew = true;
+        }
+      }
+    }
+    if (anyNew) state.remainingCorrect = Math.max(0, state.remainingCorrect - 1);
+    updateKanjiSvg();
+  } else {
+    // Wrong
+    state.optionState[idx] = 'wrong';
+    state.wrong++;
+  }
+  // Re-render options + stats
+  document.getElementById('options').outerHTML = renderOptions();
+  document.querySelector('.stats').outerHTML = renderStats();
+  document.getElementById('options').addEventListener('click', onOptionClick);
+
+  // Check round completion
+  if (allCorrectClicked()) {
+    renderMeta(true);
+    if (state.autoSkip) {
+      clearTimeout(state.autoSkipTimer);
+      state.autoSkipTimer = setTimeout(nextRound, 1500);
+    }
+  }
+}
+
+function allCorrectClicked() {
+  // Round is complete when all unique kanji components have been clicked correctly
+  const uniqueComponents = new Set();
+  for (const c of state.current.components) uniqueComponents.add(c.element);
+  // Count distinct correctly-clicked elements that are in the kanji
+  const clicked = new Set();
+  state.options.forEach((el, i) => {
+    if (state.optionState[i] === 'correct') clicked.add(el);
+  });
+  for (const el of uniqueComponents) {
+    if (!clicked.has(el)) return false;
+  }
+  return uniqueComponents.size > 0;
+}
+
+function updateKanjiSvg() {
+  const paths = document.querySelectorAll('.kanji-svg path[data-sid]');
+  paths.forEach(p => {
+    const sid = parseInt(p.dataset.sid);
+    if (state.revealedStrokes.has(sid)) p.classList.add('revealed');
+  });
+}
+
+function nextRound() {
+  clearTimeout(state.autoSkipTimer);
+  state.idx++;
+  if (state.idx >= state.pool.length) {
+    showComplete();
+    return;
+  }
+  startRound();
+}
+
+function startRound() {
+  state.current = state.pool[state.order[state.idx]];
+  state.revealedStrokes = new Set();
+  const uniqueElems = new Set();
+  for (const c of state.current.components) uniqueElems.add(c.element);
+  state.remainingCorrect = uniqueElems.size;
+  state.options = pickOptions(state.current);
+  state.optionState = state.options.map(() => 'unclicked');
+  renderBoard();
+}
+
+function showComplete() {
+  const board = document.getElementById('board');
+  const total = state.correct + state.wrong;
+  const pct = total > 0 ? Math.round((state.correct / total) * 100) : 0;
+  board.innerHTML = `
+    <div class="complete">
+      <h2>${state.level} 완료!</h2>
+      <div class="pct">${pct}%</div>
+      <div class="summary">
+        총 ${state.pool.length}자 · 정답 ${state.correct} · 오답 ${state.wrong}
+      </div>
+      <button class="restart-btn" onclick="restartLevel()">다시 도전</button>
+    </div>
+  `;
+}
+window.restartLevel = function() {
+  startLevel(state.level);
+};
+
+// ============================================================
+// LEVEL SELECT
+// ============================================================
+function setActiveLevelBtn(level) {
+  document.querySelectorAll('.level-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.lv === level);
+  });
+}
+
+async function startLevel(level) {
+  state.level = level;
+  state.correct = 0;
+  state.wrong = 0;
+  state.idx = 0;
+  state.pool = state.data.filter(k => k.jlpt === level);
+  state.order = shuffle(state.pool.map((_, i) => i));
+  setActiveLevelBtn(level);
+  if (state.pool.length === 0) {
+    document.getElementById('board').innerHTML =
+      '<div class="loading">이 레벨에 데이터가 없습니다.</div>';
+    return;
+  }
+  startRound();
+}
+
+async function loadData() {
+  document.getElementById('board').innerHTML =
+    '<div class="loading">데이터 로딩 중… (한 번만 받아옵니다)</div>';
+  const res = await fetch('./kanji-game-data.json');
+  state.data = await res.json();
+  buildDistractorPool();
+  document.getElementById('board').innerHTML = `
+    <div class="start-msg">
+      <b>준비 완료</b> · ${state.data.length}자 로드됨<br><br>
+      위에서 <b>JLPT 레벨</b>을 선택해 시작하세요.
+    </div>
+  `;
+}
+
+document.getElementById('levels').addEventListener('click', e => {
+  const btn = e.target.closest('.level-btn');
+  if (!btn) return;
+  if (!state.data) return;
+  startLevel(btn.dataset.lv);
+});
+
+loadData();
+</script>
+</body>
+</html>
