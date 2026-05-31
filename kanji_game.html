@@ -171,26 +171,19 @@
     text-transform: capitalize; margin-top: 2px; line-height: 1.2;
   }
 
-  /* Controls — two big buttons, full width split 50/50 */
-  .controls {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8px;
-  }
-  .check-btn, .next-btn {
-    border: none; border-radius: 10px; padding: 14px 0;
-    font-size: 13pt; font-weight: 800; cursor: pointer; font-family: inherit;
-    color: #fff; transition: background .12s, transform .08s;
+  /* Controls — single full-width action button that morphs between 확인 ↔ 다음 */
+  .action-btn {
+    width: 100%;
+    border: none; border-radius: 10px; padding: 16px 0;
+    font-size: 14pt; font-weight: 800; cursor: pointer; font-family: inherit;
+    color: #fff; transition: background .15s, transform .08s;
     letter-spacing: 0.5px;
   }
-  .check-btn { background: #2e7d32; }
-  .check-btn:hover:not(:disabled) { background: #1b5e20; }
-  .check-btn:active:not(:disabled) { transform: scale(0.98); }
-  .check-btn:disabled { background: #cdd5cd; cursor: not-allowed; color: #888; }
-  .next-btn { background: #1976d2; }
-  .next-btn:hover:not(:disabled) { background: #1565c0; }
-  .next-btn:active:not(:disabled) { transform: scale(0.98); }
-  .next-btn:disabled { background: #cdd0d5; cursor: not-allowed; color: #888; }
+  .action-btn.check { background: #2e7d32; }
+  .action-btn.check:hover { background: #1b5e20; }
+  .action-btn.next  { background: #1a1a1a; }
+  .action-btn.next:hover { background: #000; }
+  .action-btn:active { transform: scale(0.98); }
 
   /* Loading / start */
   .loading, .start-msg {
@@ -519,14 +512,10 @@ function renderStats() {
 }
 
 function renderControls() {
-  const checkDisabled = (state.phase === 'graded') ? 'disabled' : '';
-  const nextDisabled  = (state.phase === 'graded') ? '' : 'disabled';
-  return `
-    <div class="controls">
-      <button class="check-btn" id="checkBtn" ${checkDisabled}>확인</button>
-      <button class="next-btn"  id="nextBtn"  ${nextDisabled}>다음 →</button>
-    </div>
-  `;
+  if (state.phase === 'select') {
+    return `<button class="action-btn check" id="actionBtn">확인</button>`;
+  }
+  return `<button class="action-btn next" id="actionBtn">다음 →</button>`;
 }
 
 function renderBoard() {
@@ -537,8 +526,10 @@ function renderBoard() {
 
 function attachListeners() {
   document.getElementById('options').addEventListener('click', onOptionClick);
-  document.getElementById('checkBtn').addEventListener('click', onCheckClick);
-  document.getElementById('nextBtn').addEventListener('click', nextRound);
+  document.getElementById('actionBtn').addEventListener('click', () => {
+    if (state.phase === 'select') onCheckClick();
+    else nextRound();
+  });
 }
 
 // ============================================================
