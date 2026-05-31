@@ -1,8 +1,9 @@
-// Extract all JLPT kanji (N5→N1) with reading, meaning
+// Extract all JLPT kanji (N5→N1) with reading, meaning, Korean (Hangul)
 const fs = require('fs');
 const path = require('path');
 const kanji = require('kanji');
 const kanjidic = require('kanjidic');
+const { default: hanja } = require('hanja');
 
 function toHiragana(s) {
   if (!s) return '';
@@ -32,12 +33,19 @@ for (const lvl of ['n5','n4','n3','n2','n1']) {
     else if (on.length) reading = toHiragana(on[0]);
     const meanings = dic.meaning || [];
     const meaning = meanings.length ? meanings[0] : '';
+    let korean = '';
+    try {
+      const h = hanja.translate(ch, 'SUBSTITUTION');
+      // If translation returned a hangul syllable (not original kanji), use it
+      if (h && h !== ch) korean = h;
+    } catch (e) {}
     result.push({
       ch,
       code: unicodeHex(ch),
       jlpt: lvl.toUpperCase(),
       reading,
       meaning,
+      korean,
     });
   }
 }

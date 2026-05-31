@@ -53,26 +53,29 @@ def build_cell_svg(code):
     )
 
 
-def build_cell(code, with_label=False, reading="", meaning=""):
+def build_cell(code):
     svg = build_cell_svg(code)
-    if with_label:
-        return (
-            f'<div class="cell first">'
-            f'<div class="label-top">{reading}</div>'
-            f'<div class="svg-wrap">{svg}</div>'
-            f'<div class="label-bot">{meaning}</div>'
-            f'</div>'
-        )
     return f'<div class="cell"><div class="svg-wrap">{svg}</div></div>'
 
 
 def build_row(k):
-    cells = [build_cell(k["code"], with_label=True,
-                        reading=k.get("reading") or "—",
-                        meaning=k.get("meaning") or "")]
-    for _ in range(CELLS_PER_ROW - 1):
-        cells.append(build_cell(k["code"]))
-    return f'<div class="row">{"".join(cells)}</div>'
+    reading = k.get("reading") or "—"
+    meaning = k.get("meaning") or ""
+    korean = k.get("korean") or ""
+    label = (
+        f'<div class="row-label">'
+        f'<span class="rl-reading">{reading}</span>'
+        f'<span class="rl-sep">·</span>'
+        f'<span class="rl-meaning">{meaning}</span>'
+    )
+    if korean:
+        label += (
+            f'<span class="rl-sep">·</span>'
+            f'<span class="rl-korean">{korean}</span>'
+        )
+    label += '</div>'
+    cells = "".join(build_cell(k["code"]) for _ in range(CELLS_PER_ROW))
+    return f'<div class="row">{label}<div class="cells">{cells}</div></div>'
 
 
 def chunk(seq, n):
@@ -183,41 +186,37 @@ HTML = f"""<!DOCTYPE html>
   .jlpt-n1 {{ background: #6a1b9a; }}
   .subtitle {{ font-size: 11pt; color: #555; }}
 
-  .rows {{ display: flex; flex-direction: column; gap: 6mm; }}
+  .rows {{ display: flex; flex-direction: column; gap: 5mm; }}
 
   .row {{
+    page-break-inside: avoid;
+  }}
+  .row-label {{
+    display: flex;
+    align-items: baseline;
+    gap: 5pt;
+    margin-bottom: 1.5mm;
+    font-size: 10pt;
+    line-height: 1.3;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }}
+  .rl-reading {{ font-weight: 700; color: #111; }}
+  .rl-meaning {{ color: #555; text-transform: capitalize; }}
+  .rl-korean  {{ color: #b00020; font-weight: 600; }}
+  .rl-sep     {{ color: #bbb; }}
+
+  .cells {{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     gap: 1.5mm;
-    page-break-inside: avoid;
   }}
   .cell {{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1mm;
-  }}
-  .cell.first .label-top,
-  .cell.first .label-bot {{ display: block; }}
-  .label-top, .label-bot {{ display: none; }}
-  .label-top {{
-    font-size: 9pt;
-    font-weight: 600;
-    color: #333;
-    height: 4mm;
-    line-height: 4mm;
-  }}
-  .label-bot {{
-    font-size: 8pt;
-    color: #666;
-    height: 4mm;
-    line-height: 4mm;
-    text-transform: capitalize;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    max-width: 100%;
   }}
   .svg-wrap {{
     width: 100%;
@@ -226,11 +225,6 @@ HTML = f"""<!DOCTYPE html>
     background: #fff;
     padding: 1mm;
     overflow: hidden;
-  }}
-  /* Non-first cells need the same vertical alignment as first cells */
-  .cell:not(.first) .svg-wrap {{
-    margin-top: 5mm;  /* matches label-top height */
-    margin-bottom: 5mm; /* matches label-bot height */
   }}
   svg {{ width: 100%; height: 100%; display: block; }}
 
