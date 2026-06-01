@@ -66,7 +66,7 @@ for (const lvl of ['n5','n4','n3','n2','n1']) {
     const onPart  = on.length  ? toHiragana(on[0])     : '';
     const readingFull = [kunPart, onPart].filter(Boolean).join('・');
     // Multiple English meanings (top 3) joined by ', '
-    const meaningFull = (dic.meaning || []).slice(0, 5).join(', ');
+    const meaningFull = (dic.meaning || []).slice(0, 2).join(', ');
     result.push({
       ch,
       code: unicodeHex(ch),
