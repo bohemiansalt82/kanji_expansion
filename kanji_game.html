@@ -474,9 +474,9 @@ function renderMetaHtml() {
   const huneum = state.huneum[k.ch] || '';
   return `
     <span class="km-reading">${k.reading || '—'}</span>
+    ${huneum ? `<span class="km-sep">·</span><span class="km-korean">${huneum}</span>` : ''}
     <span class="km-sep">·</span>
     <span class="km-meaning">${k.meaning || ''}</span>
-    ${huneum ? `<span class="km-sep">·</span><span class="km-korean">${huneum}</span>` : ''}
   `;
 }
 

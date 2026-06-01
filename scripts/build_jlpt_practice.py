@@ -58,15 +58,17 @@ def build_row(k):
     label = (
         f'<div class="row-label">'
         f'<span class="rl-reading">{reading}</span>'
-        f'<span class="rl-sep">·</span>'
-        f'<span class="rl-meaning">{meaning}</span>'
     )
     if korean:
         label += (
             f'<span class="rl-sep">·</span>'
             f'<span class="rl-korean">{korean}</span>'
         )
-    label += '</div>'
+    label += (
+        f'<span class="rl-sep">·</span>'
+        f'<span class="rl-meaning">{meaning}</span>'
+        f'</div>'
+    )
     cells = "".join(build_cell(k["code"]) for _ in range(CELLS_PER_ROW))
     return f'<div class="row">{label}<div class="cells">{cells}</div></div>'
 
